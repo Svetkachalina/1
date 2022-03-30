@@ -135,7 +135,7 @@ h1 {
 .menu-select option {
     color: #000;
 }
-.drop-down::after {
+.drop-down._after::after {
     content: '';
     display: block;
     border-bottom: 2px solid #D4D626;
@@ -1246,18 +1246,17 @@ li {
     display: block;
     border: 1px solid #000;
     border-radius: 10px;
-    box-sizing: border-box;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
 .img-cert-right-border {
-    background: url('./img/certificate.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 700px;
-    height: 500px;
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+    max-width: 650px;
+    height: 100%;
 }    
 
 .certificate-form .online-reg-title {
