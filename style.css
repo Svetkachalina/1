@@ -92,33 +92,13 @@ h1 {
     align-items: center;
     margin-top: 23px;
 }
-.drop-down-big .drop-down_pin .pin{
-    
-}
-/* .drop-down_location {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    color: #fff;
-    padding-left: 7px;
-    padding-right: 6px;
-    border-bottom: 2px solid #9E9D52;
-} */
 
-/* .drop-down_location-big {
-    font-family: 'Raleway';
-    color: #fff;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 136.8%;
-    margin-right: 10px;
-    border-bottom: 2px solid #9E9D52;
-} */
 
 .menu-select {
     margin-left: 10px;
     border: none;
     color: #fff;
+    width: 190px;
     font-family: 'Noto Sans';
     font-weight: 400;
     font-size: 13px;
@@ -135,21 +115,22 @@ h1 {
 .menu-select option {
     color: #000;
 }
-.drop-down._after::after {
+.select-big::after {
     content: '';
     display: block;
-    border-bottom: 2px solid #D4D626;
+    border-bottom: 1px solid #fff;
     width: 350px;
     position: absolute;
-    right: 17%;
-    top: 320px;
+    right: 18%;
+    top: 63%;
 }
 .menu-select-big {
+    width: 373px;
     font-weight: 500;
     font-size: 27px;
     line-height: 136.8%;
 }
-.drop-down-big::after {
+.drop-down::after {
     content: '';
     display: block;
     border-bottom: 2px solid #D4D626;
@@ -158,13 +139,18 @@ h1 {
     left: 32%;
     top: 95px;
 }
+.contact-select-big {
+    margin-left: 75px;
+}
+.contact-select-big::after{
+    top: 13.2%;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    padding-left: 112px;
-    
+    padding-left: 112px; 
 }
 .header-nav {
     display: flex;
@@ -189,11 +175,52 @@ h1 {
 .header-nav_link:hover {
     color: #D4D626;
 }
-
-i {
+.navbar.on-search .header-nav {
+    display: none;
+  }
+.navbar.on-search .search-txt {
+    display: inline-block;
+  }
+.search-txt {
+    border: none;
+    border-bottom: 1px solid #D4D626;
+    background: none;
+    outline: none;
     color: #fff;
+    line-height: 30px;
+    position: absolute;
+    float: left;
+    /* width: 0;
+    opacity: 0; */
+    width: 554px;
+    right: 10%;
+    top: 1%;
+    transition: 0.4s;
+    display: none;
 }
 
+.search-btn {
+    display: block;
+    border: none;
+    background: url('./img/search.svg');
+    background-repeat: no-repeat;
+    width: 16.6px;
+    height: 16px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    position: relative;
+}
+.search-btn:hover::after {
+    content: '';
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
 .title-hero {
     font-size: 64.9171px;
     line-height: 113%;

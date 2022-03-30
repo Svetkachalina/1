@@ -7,7 +7,6 @@
     <title>Thai Smile SPA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -37,7 +36,11 @@
                             <li class="header-nav_list"><a class="header-nav_link" href="certificate.html">Сертификаты</a></li>
                             <li class="header-nav_list"><a class="header-nav_link" href="contacts.html">Контакты</a></li>
                         </ul>
-                        <i class="fas fa-search" id="search-icon"></i>
+                        <form class="search-box" action="" method="get">
+                            <input class="search-txt" name="" placeholder="" type="search">
+                            
+                          </form>
+                          <button class="search-btn" type="submit"></button>
                     </nav>
                 </div>
             </div>
@@ -138,7 +141,6 @@
                             <img src="./img/phone-green.svg" class="phone-green">
                         </div>
                     </div>
-                   
                     <div class="offers-grid_item4">
                         <span class="discount-10">10%</span>
                         <div class="grid_item4-pic"></div> 
@@ -226,16 +228,7 @@
       <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper("#Swiper2", {
-        slidesPerView: "auto",
-        spaceBetween: 80,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
+   
+    <script src="script.js"></script>
 </body>
 </html>
