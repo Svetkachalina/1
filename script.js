@@ -14,7 +14,7 @@ searchBtn.addEventListener('click', (e) => {
 
 
 
-// Initialize Swiper
+// Initialize Swiper2
 
   var swiper = new Swiper("#Swiper2", {
     slidesPerView: "auto",
@@ -24,3 +24,20 @@ searchBtn.addEventListener('click', (e) => {
       clickable: true,
     },
   });
+
+  // Initialize Swiper3
+ 
+    var swiper = new Swiper("#Swiper3", {
+      slidesPerView: "2",
+      spaceBetween: 80,
+      slidesPerGroup: 2,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    });
+ 

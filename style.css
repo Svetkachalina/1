@@ -176,25 +176,27 @@ h1 {
     color: #D4D626;
 }
 .navbar.on-search .header-nav {
-    display: none;
-  }
+    opacity: 0;
+}
 .navbar.on-search .search-txt {
     display: inline-block;
-  }
+    
+}
+.search-box {
+    position: relative;
+}
 .search-txt {
     border: none;
-    border-bottom: 1px solid #D4D626;
+    border-bottom: 1px solid #fff;
     background: none;
     outline: none;
     color: #fff;
     line-height: 30px;
     position: absolute;
     float: left;
-    /* width: 0;
-    opacity: 0; */
-    width: 554px;
-    right: 10%;
-    top: 1%;
+    width: 580px;
+    right: 40px;
+    top: -30px;
     transition: 0.4s;
     display: none;
 }

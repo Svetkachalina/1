@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -35,7 +34,11 @@
                             <li class="header-nav_list"><a class="header-nav_link" href="certificate.html">Сертификаты</a></li>
                             <li class="header-nav_list"><a class="header-nav_link" href="contacts.html">Контакты</a></li>
                         </ul>
-                        <i class="fas fa-search" id="search-icon"></i>
+                        <form class="search-box" action="" method="get">
+                          <input class="search-txt" name="" placeholder="" type="search">
+                          
+                        </form>
+                        <button class="search-btn" type="submit"></button>
                     </nav>
                 </div>
                 <div class="service-flex">
@@ -88,21 +91,7 @@
       <!-- Swiper JS -->
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper("#Swiper3", {
-          slidesPerView: "2",
-          spaceBetween: 80,
-          slidesPerGroup: 2,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        });
-      </script>
+     
+       <script src="script.js"></script>
 </body>
 </html>
