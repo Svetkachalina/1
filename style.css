@@ -6,9 +6,9 @@
     box-sizing: border-box;
     font-family: 'Raleway';
 }
-/* :root {
+:root {
     --swiper-theme-color: #D4D626;
-} */
+}
 html {
     overflow-x: hidden;
 }
@@ -84,7 +84,7 @@ h1 {
     display: block;
     width: 313px;
     height: 66px;
-    
+    margin-right: 20px;
 }
 .drop-down {
     display: flex;
@@ -92,7 +92,10 @@ h1 {
     align-items: center;
     margin-top: 23px;
 }
-.drop-down_location {
+.drop-down-big .drop-down_pin .pin{
+    
+}
+/* .drop-down_location {
     font-family: 'Noto Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -100,9 +103,9 @@ h1 {
     padding-left: 7px;
     padding-right: 6px;
     border-bottom: 2px solid #9E9D52;
-}
+} */
 
-.drop-down_location-big {
+/* .drop-down_location-big {
     font-family: 'Raleway';
     color: #fff;
     font-weight: 500;
@@ -110,26 +113,51 @@ h1 {
     line-height: 136.8%;
     margin-right: 10px;
     border-bottom: 2px solid #9E9D52;
-}
+} */
 
-.drop-down_arrow {
-    display: block;
+.menu-select {
+    margin-left: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 136.8%;
+    outline: none;
     background: url('./img/drop-down.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 7.88px;
-    height: 7.88px;
-}
-.drop-down_arrow-big {
-    display: block;
-    background: url('./img/drop-down.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 11px;
-    height: 11px;
+    background-size: 9px 7.75px;
+    background-position: 98% center;
+    appearance: none;
+    position: relative;
     
 }
-
+.menu-select option {
+    color: #000;
+}
+.drop-down::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #D4D626;
+    width: 350px;
+    position: absolute;
+    right: 17%;
+    top: 320px;
+}
+.menu-select-big {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 136.8%;
+}
+.drop-down-big::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #D4D626;
+    width: 176px;
+    position: absolute;
+    left: 32%;
+    top: 95px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -327,6 +355,9 @@ i {
     font-size: 56px;
     line-height: 129.8%;
     text-transform: uppercase;
+    left: 50px;
+    position: absolute;
+    display: none;
 }
 
 
@@ -630,6 +661,7 @@ i {
     display: flex;
     max-width: 1360px;
     margin: 0 auto;
+    
 }
 .online-reg-left {
     flex-basis: 50.5%;
@@ -948,6 +980,7 @@ li {
     display: flex;
     gap: 40px;
     transition: 0.4s ease;
+    position: relative;
 }
 .card-item:hover {
     background: #F9F8F6;
@@ -968,6 +1001,9 @@ li {
     border: none;
     border-radius: 40px;
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     justify-content: center;
     align-items: center;
     opacity: 0;
@@ -1193,6 +1229,7 @@ li {
 }
 .certificate-form {
     padding-top: 40px;
+   
     /* background-color: #31311F; */
 }
 .certificate-form .online-reg-title {
@@ -1204,22 +1241,25 @@ li {
 }
 .online-reg-left-gray-bg {
     background-color: #e5e5e5;
-    
+}
+.online-reg-border {
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 .img-cert-right-border {
     background: url('./img/certificate.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1300px;
+    max-width: 700px;
     height: 500px;
 }    
-.online-reg-border {
-    border: 1px solid #000;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1300px;
-}
+
 .certificate-form .online-reg-title {
     color: #000;
 }
@@ -1279,7 +1319,6 @@ li {
 }
 .checkbox-button__label2 {
     text-transform: uppercase;
-    
 }
 .checkbox-button {
     cursor: pointer;
@@ -1444,7 +1483,7 @@ input {
     display: flex;
     position: absolute;
     max-width: 900px;
-    height: 100%;
+    /* height: 100%; */
     margin-left: 220px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1518,6 +1557,8 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    left: 80%;
+    top: 600px;
     width: 58px;
     height: 58px;
 }
@@ -1526,6 +1567,8 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    right: 10%;
+    top: 600px;
     width: 58px;
     height: 58px;
 }

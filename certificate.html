@@ -22,10 +22,10 @@
                         <div class="drop-down_pin">
                             <img src="./img/pin.svg" class="pin">
                         </div>
-                        <p class="drop-down_location">в Павшинской пойме</p>
-                        <div class="drop-down_arrow">
-                
-                        </div>
+                        <select class="menu-select">
+                            <option value="">в Павшинской пойме</option>
+                            <option value="down">Проспект Маршала Жукова</option>
+                        </select>
                     </div>
                     <nav class="navbar">
                         <ul class="header-nav">
@@ -46,51 +46,52 @@
         </header> 
     </div>
     <div class="gray-bg">
-        <section class="registration certificate-form">
-            <div class="online-reg online-reg-border">
-                <div class="online-reg-left-gray-bg">
-                   <div class="reg-left-wrapper">
-                        <h2 class="online-reg-title">Заказать сертификат</h2>
-                        <form class="online-reg-form">
-                            <input type="text" class="form-input form-input-name" placeholder="ваше имя" required>
-                            <input type="email" class="form-input form-input-email" placeholder="почта" required>
-                            
-                            <div class="checkbox-square">
-                                <label class="checkbox-button">
-                                  <input type="checkbox" class="checkbox-button__input" id="choice1-1" name="choice1">
-                                  <span class="checkbox-button__control"></span>
-                                  <span class="checkbox-button__label1">Сумму</span>
-                                </label>
-                                <label class="checkbox-button">
-                                    <input type="checkbox" class="checkbox-button__input" id="choice2-2" name="choice2">
-                                    <span class="checkbox-button__control"></span>
-                                    <span class="checkbox-button__label2">Услугу</span>
-                                  </label>
-                            </div>
-    
-                            <input type="tel" class="form-input form-input-phone" placeholder="на какую сумму/услугу">
-                            
-                            <div class="certificate-form_radio">
-                                <label class="radio-button">
-                                    <input type="radio" class="radio-button__input" id="choice-agree" name="choice-agree">
-                                    <span class="radio-button__control"></span>
-                                    <span class="radio-button__label">Даю согласие на обработку персональных данных</span>
-                                  </label>
-                                  <label class="radio-button">
-                                    <input type="radio" class="radio-button__input" 
-                            </div>
-                            <div class="btn-flex">
-                                <button class="online-reg-btn" type="submit">Отправить&nbsp;сообщение</button>
-                                <p class="online-reg-confirm">Наш оператор перезвонит вам в&nbsp;течение часа</p>
-                            </div>
-                        </form>
-                   </div>
+        <div class="container">
+            <section class="registration certificate-form">
+                <div class="online-reg-border">
+                    <div class="online-reg-left-gray-bg">
+                        <div class="reg-left-wrapper">
+                            <h2 class="online-reg-title">Заказать сертификат</h2>
+                            <form class="online-reg-form">
+                                <input type="text" class="form-input form-input-name" placeholder="ваше имя" required>
+                                <input type="email" class="form-input form-input-email" placeholder="почта" required>
+                                
+                                <div class="checkbox-square">
+                                    <label class="checkbox-button">
+                                      <input type="checkbox" class="checkbox-button__input" id="choice1-1" name="choice1">
+                                      <span class="checkbox-button__control"></span>
+                                      <span class="checkbox-button__label1">Сумму</span>
+                                    </label>
+                                    <label class="checkbox-button">
+                                        <input type="checkbox" class="checkbox-button__input" id="choice2-2" name="choice2">
+                                        <span class="checkbox-button__control"></span>
+                                        <span class="checkbox-button__label2">Услугу</span>
+                                      </label>
+                                </div>
+        
+                                <input type="tel" class="form-input form-input-phone" placeholder="на какую сумму/услугу">
+                                
+                                <div class="certificate-form_radio">
+                                    <label class="radio-button">
+                                        <input type="radio" class="radio-button__input" id="choice-agree" name="choice-agree">
+                                        <span class="radio-button__control"></span>
+                                        <span class="radio-button__label">Даю согласие на обработку персональных данных</span>
+                                      </label>
+                                      <label class="radio-button">
+                                        <input type="radio" class="radio-button__input" 
+                                </div>
+                                <div class="btn-flex">
+                                    <button class="online-reg-btn" type="submit">Отправить&nbsp;сообщение</button>
+                                    <p class="online-reg-confirm">Наш оператор перезвонит вам в&nbsp;течение часа</p>
+                                </div>
+                            </form>
+                        </div>  
+                    </div>
                    
+                    <div class="img-cert-right-border"></div>
                 </div>
-                <div class="img-cert-right-border"></div>
-            </div>
-            
-        </section>
+            </section>
+        </div>
         <footer class="footer">
             <div class="container">
                 <div class="footer-flex">
