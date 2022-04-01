@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: 'Raleway';
 }
+input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+}
 :root {
     --swiper-theme-color: #D4D626;
 }
@@ -657,11 +663,15 @@ h1 {
     border-radius: 10px;
 }
 .registration-contacts._gallery .online-reg-title{
-    color: #000;
-    
+    color: #000;  
 }
-
-input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"] { 
+.form-input-name_black {
+    color: #000;
+}
+.form-input input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea[type="text"] { 
     color: #000;
     
    }
@@ -711,8 +721,8 @@ input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"
     
 }
 .online-reg-left {
-    flex-basis: 50.5%;
-    height: 670px;
+    flex-basis: 51%;
+    height: 100%;
     background-color: #9E9D52;
     border-radius: 10px 0 0 10px;
 }
@@ -721,8 +731,8 @@ input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"
     margin-top: 65px;
 }
 .online-reg-form {
-    max-width: 515px;
-    height: 420px;
+    /* max-width: 515px; */
+    max-width: 462px;
     display: flex;
     flex-direction: column;
 }
@@ -735,6 +745,9 @@ input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 32px;
+}
+.online-reg-title_cert {
+    color: #000;
 }
 .online-reg-pic {
     border-radius: 0 10px 10px 0;
@@ -750,32 +763,35 @@ input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"
     border-bottom: 1px solid #D4D626;
 }
 
-input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"] { 
-    color: #fff;
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea[type="text"] { 
+    
     padding: 26px 0 12px;
    }
-   input[type="text"]::-webkit-input-placeholder {
+   .online-reg-form input[type="text"]::-webkit-input-placeholder {
     color: #fff;
    } 
-   input[type="text"]::-moz-placeholder {
+   .online-reg-form input[type="text"]::-moz-placeholder {
     color: #fff;
    } 
-   input[type="email"]::-webkit-input-placeholder {
+   .online-reg-form input[type="email"]::-webkit-input-placeholder {
     color: #fff;
    } 
-   input[type="email"]::-moz-placeholder {
+   .online-reg-form input[type="email"]::-moz-placeholder {
     color: #fff;
    } 
-   input[type="tel"]::-webkit-input-placeholder {
+   .online-reg-form input[type="tel"]::-webkit-input-placeholder {
     color: #fff;
    } 
-   input[type="tel"]::-moz-placeholder {
+   .online-reg-form input[type="tel"]::-moz-placeholder {
     color: #fff;
    } 
-   textarea[type="text"]::-webkit-input-placeholder {
+   .online-reg-form textarea[type="text"]::-webkit-input-placeholder {
     color: #fff;
    } 
-   textarea[type="text"]::-moz-placeholder {
+   .online-reg-form textarea[type="text"]::-moz-placeholder {
     color: #fff;
    } 
 .form-input-text {
@@ -858,9 +874,14 @@ input[type="radio"]:checked + label::after
     font-size: 17px;
     line-height: 139.8%;
     color: #fff;
-    padding: 12px 25px;
+    padding: 12px 30px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.online-reg-btn:hover {
+    transform: scale(1.1);
 }
 .online-reg-confirm {
     font-family: 'Raleway';
@@ -868,8 +889,9 @@ input[type="radio"]:checked + label::after
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
-    margin-top: 15px;
+    margin-top: 0;
 }
+
 .contact {
     background: #e5e5e5;
 }
@@ -1176,14 +1198,17 @@ li {
 }
 .slider3__item {
     text-align: center;
-    width: 780px;
+    width: 790px;
     transition: all 0.3s ease 0s;
 }
 .slider3__item.slick-center {
     
 }
 .slider3__item.slick-slider {
-    width: 100%;
+    /* width: 100%; */
+}
+.slider3__item.slick-active {
+    /* transform: scale(1.1); */
 }
 .slick-list {
     overflow: hidden;
@@ -1214,6 +1239,105 @@ li {
 .slider3 .slick-dots li{}
 .slider3 .slick-dots button{}
 
+
+/* ONLINE-REGISTRATION FORM */
+
+
+.certificate-form {
+    padding-top: 40px;
+   
+}
+.certificate-form .online-reg-title {
+    margin-bottom: 33px;
+}
+.certificate-form .online-reg-left {
+    background-color: #D4D626;
+}
+.online-reg-left-gray-bg {
+    background-color: #e5e5e5;
+    flex-basis: 52%;
+}
+.online-reg-border {
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-cert-right-border {
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+    
+    max-width: 708px;
+    height: 100%;
+}    
+.online-reg-form {
+    display: flex;
+    flex-direction: column;
+}
+.certificate-form.online-reg-title {
+    color: #000;
+}
+.online-enroll-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 515px;
+    
+}
+.online-enroll-form input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"] { 
+    color: #000;
+    padding: 26px 0 12px;
+   }
+   .certificate-form input[type="text"]::-webkit-input-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form input[type="text"]::-moz-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form input[type="email"]::-webkit-input-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form input[type="email"]::-moz-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form input[type="tel"]::-webkit-input-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form input[type="tel"]::-moz-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form textarea[type="text"]::-webkit-input-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+   .certificate-form textarea[type="text"]::-moz-placeholder {
+    color: #000;
+    padding: 26px 0 12px;
+   } 
+.certificate-form_radio {
+    color: #000;
+}
+   .certificate-form .form-input {
+    border-bottom: 1px solid #000;
+   }
+   .certificate-form .online-reg-btn {
+       color: #000;
+       border: 1px solid #000;
+   }
+   .certificate-form .online-reg-confirm {
+    color: #000;
+}
+.gallery-label {
+    color: #000;
+}
 
 
 
@@ -1324,84 +1448,7 @@ li {
     color: #fff;
     max-width: 339px;
 }
-.certificate-form {
-    padding-top: 40px;
-   
-    /* background-color: #31311F; */
-}
-.certificate-form .online-reg-title {
-    margin-bottom: 33px;
-}
 
-.certificate-form .online-reg-left {
-    background-color: #D4D626;
-}
-.online-reg-left-gray-bg {
-    background-color: #e5e5e5;
-}
-.online-reg-border {
-    display: block;
-    border: 1px solid #000;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-.img-cert-right-border {
-    border-radius: 0 10px 10px 0;
-    width: 100%;
-    max-width: 650px;
-    height: 100%;
-}    
-
-.certificate-form .online-reg-title {
-    color: #000;
-}
-.certificate-form input[type="text"] {
-    color: #000;
-}
-.certificate-form input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"] { 
-    color: #000;
-   }
-   .certificate-form input[type="text"]::-webkit-input-placeholder {
-    color: #000;
-   } 
-   .certificate-form input[type="text"]::-moz-placeholder {
-    color: #000;
-   } 
-   .certificate-form input[type="email"]::-webkit-input-placeholder {
-    color: #000;
-   } 
-   .certificate-form input[type="email"]::-moz-placeholder {
-    color: #000;
-   } 
-   .certificate-form input[type="tel"]::-webkit-input-placeholder {
-    color: #000;
-   } 
-   .certificate-form input[type="tel"]::-moz-placeholder {
-    color: #000;
-   } 
-   .certificate-form textarea[type="text"]::-webkit-input-placeholder {
-    color: #000;
-   } 
-   .certificate-form textarea[type="text"]::-moz-placeholder {
-    color: #000;
-   } 
-.certificate-form_radio {
-    color: #000;
-}
-   .certificate-form .form-input {
-    border-bottom: 1px solid #000;
-   }
-   .certificate-form .online-reg-btn {
-       color: #000;
-       border: 1px solid #000;
-   }
-   .certificate-form .online-reg-confirm {
-    color: #000;
-}
 
 
 /* SQUARE CHECKBOX */
