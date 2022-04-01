@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thai Smile SPA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -63,7 +63,7 @@
             </div>
         </section>
         <section class="services">
-            <div class="flex-services">
+            <div class="wrap-services">
                 <div class="services-text">
                     <h2 class="title-services">Наши услуги</h2>
                     <p class="descr-services">Thai Smile SPA&nbsp;&mdash; оазис спокойствия и&nbsp;красоты. Заботливые руки спа-терапевтов вернут Вас к&nbsp;жизни и&nbsp;избавят от&nbsp;стресса, вернув бодрость и&nbsp;отличное самочувствие</p>
@@ -74,48 +74,47 @@
             </div>
                
             
-    <!-- Swiper -->
-                <div class="swiper" id="Swiper2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="swiper-text">
-                                <h3 class="swiper-title">Тайские уходы</h3>
-                                <span class="swiper-no">01</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-text">
-                            <h3 class="swiper-title">Хамам</h3>
-                            <span class="swiper-no">02</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-text">
-                            <h3 class="swiper-title">СПА-процедуры</h3>
-                            <span class="swiper-no">03</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-text">
-                            <h3 class="swiper-title">Тайские уходы</h3>
-                            <span class="swiper-no">01</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                    <div class="swiper-text">
-                        <h3 class="swiper-title">Хамам</h3>
-                        <span class="swiper-no">02</span>
-                    </div>
-                    </div>
-                <div class="swiper-slide">
-                    <div class="swiper-text">
-                        <h3 class="swiper-title">СПА-процедуры</h3>
-                        <span class="swiper-no">03</span>
-                    </div>
-                </div>
-                </div>
-                <div class="swiper-pagination"></div>
-     
+    <!-- Swiper2 -->
+  
+    <div class="slider2">
+        <div class="slider2__item">
+            <img src="./img/thai-1.png" alt="">
+            <div class="swiper-text">
+                <h3 class="swiper-title">Тайские уходы</h3>
+                <span class="swiper-no">01</span>
+            </div>
+        </div>
+        <div class="slider2__item">
+            <img src="./img/hamam-2.png" alt="">
+            <div class="swiper-text">
+                <h3 class="swiper-title">Хамам</h3>
+                <span class="swiper-no">02</span>
+            </div>
+        </div>
+        <div class="slider2__item">
+            <img src="./img/thai-1.png" alt="">
+            <div class="swiper-text">
+                <h3 class="swiper-title">СПА-процедуры</h3>
+                <span class="swiper-no">03</span>
+            </div>
+        </div>
+        <div class="slider2__item">
+            <img src="./img/hamam-2.png" alt="">
+            <div class="swiper-text">
+                <h3 class="swiper-title">Хамам</h3>
+                <span class="swiper-no">04</span>
+            </div>
+        </div>
+        <div class="slider2__item">
+            <img src="./img/thai-1.png" alt="">
+            <div class="swiper-text">
+                <h3 class="swiper-title">Хамам</h3>
+                <span class="swiper-no">05</span>
+            </div>
+        </div>
+    </div>
+    
+   
         </section>
     </div>
     <div class="gray-bg">
@@ -127,7 +126,7 @@
                         <p class="offers-description">Thai Smile SPA&nbsp;&mdash; оазис спокойствия и&nbsp;красоты. Заботливые руки спа-терапевтов вернут Вас к&nbsp;жизни и&nbsp;избавят от&nbsp;стресса, вернув бодрость и&nbsp;отличное самочувствие</p>
                         <div class="btn btn-offers">
                             <div class="btn-bg btn-bg_offers"></div>
-                            <a href="#" class="btn-text btn-text_offers">Все акции</a>
+                            <a href="offers.html" class="btn-text btn-text_offers">Все акции</a>
                         </div>
                     </div>
                     <div class="offers-grid_item2">
@@ -226,9 +225,9 @@
 
  
       <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-   
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>			
+    <script src="./js/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

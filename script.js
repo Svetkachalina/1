@@ -16,28 +16,85 @@ searchBtn.addEventListener('click', (e) => {
 
 // Initialize Swiper2
 
-  var swiper = new Swiper("#Swiper2", {
-    slidesPerView: "auto",
-    spaceBetween: 80,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+
+$(document).ready(function(){
+  $('.slider2').slick({
+    arrows:false,
+    dots:false,
+    adaptiveHeight:true,
+    slidesToShow:3,
+    slidesToScroll:1,
+    speed:500,
+    easing:'ease',
+    infinite:true,
+    initialSlide:0,
+    autoplay:false,
+    autoplaySpeed:2000,
+    pauseOnFocus:true,
+    pauseOnHover:true,
+    pauseOnDotsHover:true,
+    draggable:true,
+    swipe:true,
+    touchThreshold:10,
+    touchMove:true,
+    variableWidth:true,
+    waitForAnimate:false,
+    responsive:[
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow:2
+        }
+      },{
+        breakpoint: 500,
+        settings: {
+          slidesToShow:1
+        }
+      }
+    ],
+    mobileFirst:false,
+    appendArrows:$('.arrows')
   });
+
+});
+
 
   // Initialize Swiper3
  
-    var swiper = new Swiper("#Swiper3", {
-      slidesPerView: "2",
-      spaceBetween: 80,
-      slidesPerGroup: 2,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+  $(document).ready(function(){
+    $('.slider3').slick({
+      arrows:true,
+      dots:false,
+      fade:false,
+      adaptiveHeight:true,
+      slidesToShow:2,
+      slidesToScroll:1,
+      speed:500,
+      easing:'ease',
+      infinite:true,
+      initialSlide:0,
+      autoplay:false,
+      autoplaySpeed:2000,
+      pauseOnFocus:true,
+      pauseOnHover:true,
+      pauseOnDotsHover:true,
+      draggable:true,
+      swipe:true,
+      touchThreshold:10,
+      touchMove:true,
+      variableWidth:true,
+      centerMode:false,
+      // centerPadding: '60px',
+      waitForAnimate:false,
+      responsive:[
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow:1
+          }
+        }
+      ]
     });
+  
+  });
  

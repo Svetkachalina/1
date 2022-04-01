@@ -114,6 +114,10 @@ h1 {
 }
 .menu-select option {
     color: #000;
+    background: #fff;
+}
+.select-big {
+    position: relative;
 }
 .select-big::after {
     content: '';
@@ -121,8 +125,8 @@ h1 {
     border-bottom: 1px solid #fff;
     width: 350px;
     position: absolute;
-    right: 18%;
-    top: 63%;
+    right: 6%;
+    top: 89%;
 }
 .menu-select-big {
     width: 373px;
@@ -142,9 +146,7 @@ h1 {
 .contact-select-big {
     margin-left: 75px;
 }
-.contact-select-big::after{
-    top: 13.2%;
-}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -308,63 +310,53 @@ h1 {
     z-index: 0;
 }
 
-.swiper {
-    width: 990px;
-    height: 568px;
-    /* overflow: hidden;   */
-  }
-#Swiper2 {
-    /* overflow-x: hidden; */
+/* SLIDER2 - Index Page*/
+
+.slider2 {
+    position: absolute;
+    margin-left: 547px;
+    top: 55px;
 }
-.swiper-slide {
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+.slick-slider {
+
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
     display: flex;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: end;
-    justify-content: end;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    -webkit-align-items: end;
-    align-items: start;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-   
-    border-radius: 10px;
-    object-fit: cover;
-    
-  }
-
-  .swiper-slide {
-    background: url('./img/thai-1.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 500px;
-  }
-
-  .swiper-slide:nth-child(2n) {
-    background: url('./img/hamam-2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 30%;
-    height: 500px;
-  }
-
-  .swiper-slide:nth-child(3n) {
-    width: 30%;
-  }
-
-.swiper-text {
-  
+    align-items: flex-start;
 }
+.slider2 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    z-index: 10;
+    font-size: 0;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border: 0;
+}
+.slider2 .slick-arrow.slick-prev {
+    left: 0;
+    background: url('./img/arrow-left-green.svg') 0 0 / 100% no-repeat;
+}
+.slider2 .slick-arrow.slick-next {
+    right: 0;
+    background: url('./img/arrow-right-green.svg') 0 0 / 100% no-repeat; 
+}
+.slider2 .slick-dots{}
+.slider2 .slick-dots li{}
+.slider2 .slick-dots button{}
+
+.slider2__item {
+   width: 420px;
+}
+
+/*END of SLICK SLIDER2 */
+
+
 .swiper-title {
     font-family: 'Philosopher';
     font-weight: 400;
@@ -384,17 +376,13 @@ h1 {
     font-size: 56px;
     line-height: 129.8%;
     text-transform: uppercase;
-    left: 50px;
-    position: absolute;
-    display: none;
 }
 
 
 
 
-
-.flex-services {
-    display: flex;
+.wrap-services {
+    
     position: absolute;
     top: 320px;
 }
@@ -403,7 +391,7 @@ h1 {
     flex-direction: column;
     max-width: 304px;
     margin-left: 95px;
-    margin-right: 122px;
+    /* margin-right: 122px; */
 }
 .title-services {
     font-family: 'Philosopher', sans-serif;
@@ -417,26 +405,9 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin-bottom: 120px;
-    line-height: 21px;
-    
-    
+    line-height: 21px; 
 }
-/* .services-gradient {
-    position: absolute;
-    background: linear-gradient(360deg, #D2D285 11.43%, rgba(210, 210, 133, 0) 100%);
-    width: 100%;
-    height: 814px;
-    left: 0px;
-    bottom: 0;
-    z-index: -1;
-} */
 
-#Swiper2 {
-    overflow: hidden;
-    display: flex;
-    position: absolute;
-    margin-left: 625px;
-}
 .service-card {
     max-width: 302px;
     margin-right: 100px;
@@ -446,8 +417,9 @@ h1 {
 .img-service_card {
     background: url('./img/spa-3.png');
     border-radius: 10px;
-    width: 303px;
-    height: 376px;
+    width: 100%;
+    max-width: 303px;
+    height: 100%;
 }
 .heading-service_card {
     font-family: 'Philosopher', sans-serif;
@@ -540,8 +512,6 @@ h1 {
     margin-top: 113px;
 }
 
-
-
 .offers-title {
     font-family: 'Philosopher', sans-serif;
     text-transform: uppercase;
@@ -567,7 +537,6 @@ h1 {
     width: 406px;
     height: 510px;
     margin-bottom: 30px;
-    
 }
 .discount-15 {
     font-family: 'Raleway';
@@ -594,7 +563,6 @@ h1 {
 .phone-green {
     width: 75px;
     height: 75px;
-
 }
 .item-title {
     font-family: 'Philosopher', sans-serif;
@@ -603,9 +571,7 @@ h1 {
     margin-bottom: 15px;
 }
 .item2-title {
-   
     max-width: 320px;
-   
 }
 .item-text {
     font-family: 'Raleway', sans-serif;
@@ -647,7 +613,6 @@ h1 {
 }
 .item4-title {
     max-width: 400px;
-    
 }
 .item4-text {
     max-width: 350px;
@@ -656,6 +621,7 @@ h1 {
     background: url('./img/massage.png');
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
     width: 301px;
     height: 377px;
     margin-bottom: 30px;
@@ -668,23 +634,75 @@ h1 {
     height: 148px;
     position: relative;
     top: 210px;
-    left: -76px;
-    
+    left: -76px; 
 }
 .item5-title {
-    max-width: 245px;
-    
+    max-width: 245px; 
 }
 .item5-text {
     max-width: 288px;
 }
 .registration {
-    /* background: #e5e5e5; */
     padding-bottom: 100px;
 }
 .registration-contacts {
-    margin-top: 46px;
-    margin-bottom: 55px;
+    padding-top: 46px;
+    padding-bottom: 55px;
+}
+.registration-contacts._gallery {
+    padding-top: 140px;
+}
+.registration-contacts._gallery .online-reg{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.registration-contacts._gallery .online-reg-title{
+    color: #000;
+    
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea[type="text"] { 
+    color: #000;
+    
+   }
+   input[type="text"]::-webkit-input-placeholder {
+    color: #000;
+   } 
+   input[type="text"]::-moz-placeholder {
+    color: #000;
+   } 
+   input[type="email"]::-webkit-input-placeholder {
+    color: #000;
+   } 
+   input[type="email"]::-moz-placeholder {
+    color: #000;
+   } 
+   input[type="tel"]::-webkit-input-placeholder {
+    color: #000;
+   } 
+   input[type="tel"]::-moz-placeholder {
+    color: #000;
+   } 
+   textarea[type="text"]::-webkit-input-placeholder {
+    color: #000;
+   } 
+   textarea[type="text"]::-moz-placeholder {
+    color: #000;
+   } 
+.registration-contacts._gallery .form-input {
+    border-bottom: 1px solid #000;
+}
+
+.registration-contacts._gallery .online-reg-left{
+    background-color: #e5e5e5;
+
+}
+.btn-flex._gallery .online-reg-btn {
+    color: #000;
+    border: 1px solid #000;
+}
+.btn-flex._gallery .online-reg-confirm {
+    color: #000;
 }
 .online-reg {
     display: flex;
@@ -720,8 +738,9 @@ h1 {
 }
 .online-reg-pic {
     border-radius: 0 10px 10px 0;
+    width: 100%;
     max-width: 650px;
-    height: 670px;
+    height: 100%;
 }
 .form-input {
     background: transparent;
@@ -947,8 +966,6 @@ li {
 
 
 
-
-
 /* Services and Prices Page */
 
 .service-flex {
@@ -997,13 +1014,11 @@ li {
     border-radius: 40px;  
 }
 
-
 .cards-list-grid {
     display: grid;
     grid-template-columns: 49% 50%;
     grid-auto-rows: repeat(4, 311px);
     row-gap: 90px;
-    
 }
 .card-item {
     display: flex;
@@ -1016,7 +1031,6 @@ li {
     opacity: 0.7;
     width: 90%; 
 }
-
 .btn-reg {  
     display: block;
     text-decoration: none;
@@ -1039,16 +1053,12 @@ li {
     cursor: pointer;
     transition: 0.4s;
 }
-
 .card-item:hover .btn-reg {
     opacity: 1;
 }
-
 .col-right {
     flex-basis: 55.5%;
 }
-
-
 .card-title {
     font-family: 'Philosopher';
     font-weight: 700;
@@ -1097,7 +1107,6 @@ li {
     height: 311px;
     flex-basis: 27%;
 }
-
 .card-item-pic2 {
     background: url('./img/classical.png');
     background-repeat: no-repeat;
@@ -1159,6 +1168,65 @@ li {
     margin-top: 156px;
 
 }
+/* GALLERY PAGE  */
+
+.slider3 {
+    padding-top: 120px;
+    position: relative;
+}
+.slider3__item {
+    text-align: center;
+    width: 780px;
+    transition: all 0.3s ease 0s;
+}
+.slider3__item.slick-center {
+    
+}
+.slider3__item.slick-slider {
+    width: 100%;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+.slider3 .slick-arrow {
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+    font-size: 0;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border: 0;
+}
+.slider3 .slick-arrow.slick-prev {
+    right: 17%;
+    background: url('./img/arrow-left-green.svg') 0 0 / 100% no-repeat;
+}
+.slider3 .slick-arrow.slick-next {
+    right: 11%;
+    background: url('./img/arrow-right-green.svg') 0 0 / 100% no-repeat; 
+}
+.slider3 .slick-dots{}
+.slider3 .slick-dots li{}
+.slider3 .slick-dots button{}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END of GALLERY PAGE  */
+
 
 /* OFFERS PAGE  */
 
