@@ -86,6 +86,8 @@ h1 {
 }
 .logo {
     background: url('./img/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     display: block;
     width: 313px;
     height: 66px;
@@ -96,12 +98,18 @@ h1 {
     justify-content: start;
     align-items: center;
     margin-top: 23px;
+    position: relative;
+}
+.drop-down::after {
+    left: 24px;
+    top: 31px;
+    width: 140px;
 }
 .menu-select {
     margin-left: 10px;
     border: none;
     color: #fff;
-    width: 190px;
+    width: 156px;
     font-family: 'Noto Sans';
     font-weight: 400;
     font-size: 13px;
@@ -155,18 +163,28 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    padding-left: 112px; 
+    padding-left: 2px; 
+}
+.header {
+    padding-top: 40px;
+    padding-right: 7%;
+    padding-left: 6%;
+} 
+
+.header-box {
+    display: flex;
 }
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 50px;
+    gap: 30px;
 }
 .header-nav_list {
     list-style: none;
     padding: 0;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .header-nav_link {
     text-decoration: none;
@@ -1768,3 +1786,28 @@ input {
 
 
 /* END of SPA for TWO PAGE */
+
+
+
+
+/* MEDIA  */
+
+@media (max-width: 1360px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .logo {
+        width: 209.26px;
+        height: 44.11px;
+        margin-right: 20px;
+    }
+
+    .header {
+        padding-top: 40px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
