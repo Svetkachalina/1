@@ -101,9 +101,13 @@ h1 {
     position: relative;
 }
 .drop-down::after {
-    left: 24px;
-    top: 31px;
-    width: 140px;
+    content: '';
+    display: block;
+    border-bottom: 2px solid #D4D626;
+    width: 176px;
+    position: absolute;
+    left: 13%;
+    top: 75%;
 }
 .menu-select {
     margin-left: 10px;
@@ -145,7 +149,7 @@ h1 {
     font-size: 27px;
     line-height: 136.8%;
 }
-.drop-down::after {
+/* .drop-down::after {
     content: '';
     display: block;
     border-bottom: 2px solid #D4D626;
@@ -153,7 +157,7 @@ h1 {
     position: absolute;
     left: 32%;
     top: 95px;
-}
+} */
 .contact-select-big {
     margin-left: 75px;
 }
@@ -472,14 +476,13 @@ h1 {
     background: url('./img/button.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     width: 165px;
     height: 66px;
-    
+    position: absolute;
 }
 .btn-bg_services {
-    top: 350px;
-    left: 130px;
+    position: absolute;
+    top: 96%;
 }
 .btn-text {
     position: absolute;
@@ -491,9 +494,8 @@ h1 {
     margin-left: 47px; 
 }
 .btn-text_services {
-    top: 370px;
-    left: 130px;
-    
+    position: absolute;
+    top: 370px; 
 }
 .offers {
     background: #e5e5e5;
@@ -549,10 +551,10 @@ h1 {
     max-width: 295px;
 }
 .btn-bg_offers {
-    top: 2030px;
+    top: 50%;
 }
 .btn-text_offers {
-    top: 2054px;
+    top: 50.4%;
 }
 .grid_item2-pic {
     background: url('./img/15offer.png');
