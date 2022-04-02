@@ -106,8 +106,8 @@ h1 {
     border-bottom: 2px solid #D4D626;
     width: 176px;
     position: absolute;
-    left: 13%;
-    top: 75%;
+    left: 24px;
+    top: 31px;
 }
 .menu-select {
     margin-left: 10px;
@@ -149,15 +149,7 @@ h1 {
     font-size: 27px;
     line-height: 136.8%;
 }
-/* .drop-down::after {
-    content: '';
-    display: block;
-    border-bottom: 2px solid #D4D626;
-    width: 176px;
-    position: absolute;
-    left: 32%;
-    top: 95px;
-} */
+
 .contact-select-big {
     margin-left: 75px;
 }
@@ -188,7 +180,6 @@ h1 {
 .header-nav_list {
     list-style: none;
     padding: 0;
-    /* padding-right: 30px; */
 }
 .header-nav_link {
     text-decoration: none;
@@ -255,32 +246,113 @@ h1 {
     line-height: 113%;
     max-width: 600px;
     margin-top: 130px;
-    margin-left: 13px;
-    margin-bottom: 130px;
+    margin-left: 20px;
+    margin-bottom: 125px;
     color: #fff;
 }
-.slider1 {
-    margin-left: 500px;
-    overflow: hidden;
-    
+
+
+/* ==== первый свайпер */
+/* подключить js css для свайпера */
+.swiper {
+    margin-right: 0;
+    z-index: 1;
 }
-.slider1__item {
-    max-width: 800px;
+
+.hero_swip-box {
+    position: relative;
+}
+
+.hero_swiper {
     width: 100%;
-    
+    max-width: 740px;
+    height: 283px;
+    padding-bottom: 2px;
 }
-.hero-pic {
-    max-width: 353px;
-    width: 100%;
-    height: 100%;
-    
+
+.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    top: inherit;
+    bottom: 0;
+    width: 48%;
 }
+
+.swiper-button-next {
+    background-image: url(../img/arrow-right-green.svg);
+    /* background: url(./img/arrow-right-green.svg); */
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* width: 58px; */
+    /* height: 58px; */
+    top: inherit;
+    opacity: 1;
+    right: 26%;
+    bottom: 69px;
+}
+
+.swiper-button-prev {
+    background-image: url(../img/arrow-left-green.svg);
+    /* background: url(../img/arrow-left-green.svg); */
+    /* background: url(./img/arrow-right-green.svg); */
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: inherit;
+    left: inherit;
+    width: 58px;
+    height: 58px;
+    opacity: 1;
+    right: 35.6%;
+    bottom: 69px;
+}
+.hero_visual {
+    background-image: url('../img/hero-pic.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 353px;
+    height: 250px;
+}
+
+.hero_wrap {
+    /* max-width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 352px;
+}
+
+.swiper-pagination-progressbar {
+    background: #fff;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #fff;
+    top: -2px;
+}
+
 .hero-content {
     display: flex;
     justify-content: start;
     align-items: start;
 }
-
+.hero-visual {
+    background-image: url('./img/hero-pic.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 48%;
+    width: 353px;
+    height: 250px;
+    margin-left: 500px;
+    position: relative;
+}
+.hero-visual::after {
+    content: '';
+    border-bottom: 1px solid #fff;
+}
 .hero-text {
     margin-left: 60px;
     flex-basis: 20%;
@@ -291,6 +363,7 @@ h1 {
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 12px;
+    margin-top: 5px;
 }
 .hero-heading {
     font-family: 'Philosopher', sans-serif;
@@ -326,8 +399,27 @@ h1 {
 }
 .white-phone-index {
     top: 17%;
-    right: 10%;
-    
+    right: 10%;  
+}
+.white_phone-index {
+    top: inherit;
+    bottom: -63px;
+    right: 0;
+    z-index: 3;
+}
+.white_phone-btn {
+    display: block;
+    position: absolute;
+    background-image: url(../img/phone.svg);
+    /* background: url('../img/phone.svg'); */
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.4s ease;
+    width: 75px;
+    height: 75px;
 }
 .white-phone-offers {
     margin-top: 135px;
@@ -343,7 +435,7 @@ h1 {
 .slider2 {
     position: absolute;
     margin-left: 547px;
-    top: 55px;
+    top: 320px;
 }
 .slick-slider {
 
@@ -355,7 +447,7 @@ h1 {
     display: flex;
     align-items: flex-start;
 }
-.slider2 .slick-arrow {
+/* .slider2 .slick-arrow {
     position: absolute;
     top: 50%;
     margin-top: -80px;
@@ -365,18 +457,15 @@ h1 {
     width: 60px;
     height: 60px;
     border: 0;
-}
-.slider2 .slick-arrow.slick-prev {
+} */
+/* .slider2 .slick-arrow.slick-prev {
     left: 0;
     background: url('./img/arrow-left-green.svg') 0 0 / 100% no-repeat;
 }
 .slider2 .slick-arrow.slick-next {
     right: 0;
     background: url('./img/arrow-right-green.svg') 0 0 / 100% no-repeat; 
-}
-.slider2 .slick-dots{}
-.slider2 .slick-dots li{}
-.slider2 .slick-dots button{}
+} */
 
 .slider2__item {
    width: 420px;
@@ -406,19 +495,16 @@ h1 {
     text-transform: uppercase;
 }
 
-
-
-
 .wrap-services {
-    
     position: absolute;
-    top: 320px;
+    margin-left: 100px; 
+    margin-top: 310px;
 }
 .services-text {
     display: flex;
     flex-direction: column;
     max-width: 304px;
-    margin-left: 95px;
+    /* margin-left: 95px; */
     /* margin-right: 122px; */
 }
 .title-services {
@@ -551,10 +637,10 @@ h1 {
     max-width: 295px;
 }
 .btn-bg_offers {
-    top: 50%;
+    top: 41%;
 }
 .btn-text_offers {
-    top: 50.4%;
+    top: 41.4%;
 }
 .grid_item2-pic {
     background: url('./img/15offer.png');
@@ -1806,10 +1892,54 @@ input {
         margin-right: 20px;
     }
 
+    /* ============================================1 часть */
     .header {
         padding-top: 40px;
         padding-right: 0;
         padding-left: 0;
     }
 
+    .header-nav_link {
+        font-size: 15px;
+    }
+
+    .header-nav {
+        margin-right: 35px;
+        gap: 20px;
+    }
+
+    .menu-select {
+        width: 192px;
+    }
+
+    .title-hero {
+        font-size: 64.9171px;
+        line-height: 113%;
+        max-width: 600px;
+        margin-top: 130px;
+        margin-left: 40px;
+        margin-bottom: 130px;
+    }
+
 }
+
+@media (max-width: 1040px) {
+    .header-nav {
+        margin-right: 20px;
+        gap: 15px;
+    }
+
+    .header-nav_link {
+        font-size: 11px;
+    }
+}
+
+/* @media (max-width: 900px) {} */
+
+/* breakpoint: 768, */
+/* breakpoint: 500, */
+
+
+
+
+
