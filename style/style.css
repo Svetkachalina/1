@@ -237,13 +237,17 @@
 .wrap_services {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 
 }
 
 .slider_2-wrap {
-    position: relative;
+   
+    position: absolute;
+    top: -9px;
+    left: 593px;
     height: 400px;
-    max-width: 921px;
+    max-width: 927px;
     margin-top: 5px;
 }
 

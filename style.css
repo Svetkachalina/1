@@ -495,11 +495,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.wrap-services {
-    position: absolute;
-    margin-left: 100px; 
-    margin-top: 310px;
-}
 .services-text {
     display: flex;
     flex-direction: column;
@@ -523,7 +518,7 @@ h1 {
 }
 .btn-services {
     margin-top: 140px;
-   
+    position: absolute;
 }
 .btn {
    
@@ -546,7 +541,7 @@ h1 {
 }
 .btn-text_services {
     position: absolute;
-    top: 405px; 
+    top: 27px; 
 }
 .btn-text {
     /* position: absolute; */
@@ -594,7 +589,7 @@ h1 {
 
 .offers {
     background: #e5e5e5;
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 120px;
 }
 .offers-grid {
@@ -602,7 +597,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 457px 179px 705px;
     gap: 10px;
-    margin-top: 150px;
+    margin-top: 245px;
 }
 .offers-grid_item1 {
     grid-column: 1 / 1;
@@ -637,6 +632,7 @@ h1 {
     font-family: 'Philosopher', sans-serif;
     text-transform: uppercase;
     font-size: 46px;
+    margin-top: 44px;
     margin-bottom: 50px;
 }
 .offers-description {
