@@ -521,6 +521,42 @@ h1 {
     margin-bottom: 120px;
     line-height: 21px; 
 }
+.btn-services {
+    margin-top: 140px;
+   
+}
+.btn {
+   
+}
+.btn-bg {
+    background: url('./img/button.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 66px;
+    position: relative;
+}
+.btn-bg_services {
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1);
+}
+.btn-bg_services:hover {
+    transform: scale(1.1);
+}
+.btn-text_services {
+    position: absolute;
+    top: 405px; 
+}
+.btn-text {
+    /* position: absolute; */
+    text-decoration: none;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 47px; 
+}
 
 .service-card {
     max-width: 302px;
@@ -555,34 +591,7 @@ h1 {
     font-size: 56px;
     text-align: left;
 }
-.btn {
-    display: flex;
-}
-.btn-bg {
-    background: url('./img/button.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 165px;
-    height: 66px;
-    position: absolute;
-}
-.btn-bg_services {
-    position: absolute;
-    top: 96%;
-}
-.btn-text {
-    position: absolute;
-    text-decoration: none;
-    color: #000;
-    font-family: 'Philosopher', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 47px; 
-}
-.btn-text_services {
-    position: absolute;
-    top: 370px; 
-}
+
 .offers {
     background: #e5e5e5;
     padding-top: 200px;
@@ -636,11 +645,21 @@ h1 {
     line-height: 22.37px;
     max-width: 295px;
 }
+.btn-offers {
+    margin-top: 70px;
+    position: relative;
+}
 .btn-bg_offers {
-    top: 41%;
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: scale(1);
+}
+.btn-bg_offers:hover {
+    transform: scale(1.1);
 }
 .btn-text_offers {
-    top: 41.4%;
+    position: absolute;
+    top: 24px;
 }
 .grid_item2-pic {
     background: url('./img/15offer.png');
