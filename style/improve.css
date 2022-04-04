@@ -1,4 +1,24 @@
-что изменить;
-script.js // Initialize Swiper1
-удалить весь блок;
-// Initialize Swiper2 удалить тоже
+Изменения!
+4 апреля
+
+изменения в файлах: 
+
+html - внизу мобильное меню и в хедере кнопка
+мои style.css
+
++ (добавил) мобильное меню
++ в папку img две картинки: 
+close_moby.svg
+burger_menu.svg
+
+
+
+:root {
+    --text-size-larg: 16px;
+    --text-size-medium: 11px;
+  }
+  
+  .one {    
+    font-size: var(--text-size-medium);   
+    font-size: var(--text-size-larg);
+  }

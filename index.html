@@ -52,7 +52,9 @@
                             
                           </form>
                           <button class="search-btn" type="submit"></button>
+                          <button class="burger-btn header-burger" onclick="openModal()" type="button"></button> 
                     </nav>
+                    
                 </div>
             </div>
         </header>
@@ -135,10 +137,11 @@
                 <div class="services-text">
                     <h2 class="title-services">Наши услуги</h2>
                     <p class="descr-services">Thai Smile SPA&nbsp;&mdash; оазис спокойствия и&nbsp;красоты. Заботливые руки спа-терапевтов вернут Вас к&nbsp;жизни и&nbsp;избавят от&nbsp;стресса, вернув бодрость и&nbsp;отличное самочувствие</p>
-                <div class="gray-bg">
-                    <div class="btn btn-services">
-                        <div class="btn-bg btn-bg_services"></div>
-                        <a href="services.html" class="btn-text btn-text_services">Все услуги</a>
+                    <div class="gray-bg">
+                        <div class="btn btn-services">
+                            <div class="btn-bg btn-bg_services"></div>
+                            <a href="services.html" class="btn-text btn-text_services">Все услуги</a>
+                        </div>
                     </div>
                 </div>
                  <!-- Swiper2 -->
@@ -198,7 +201,7 @@
                     <div class="swiper-pagination"></div>
                     </div>
                 </div>    
-                </div>
+                
             </div>            
             </section>  
            
@@ -308,7 +311,23 @@
             </section>
         </div>
     
-
+        <!-- мобильное меню  -->
+        <div class="modal__mb" id="modal__mb">
+            <div class="modal_window">
+                <div class="modal_box">
+                    <div class="modal_logo"></div>
+                    <button onclick="closeModal()" class="header-modal-close"></button>
+                </div>
+                <div class="burger-link">
+                    <a class="modal_link" href="#special">Услуги</a>
+                    <a class="modal_link" href="#process">Галерея</a>
+                    <a class="modal_link" href="#comand">Акции</a>
+                    <a class="modal_link" href="#comand">сертификаты</a>
+                    <a class="modal_link" href="#comand">Контакты</a>
+                </div>
+            </div>
+        </div>
+    
 
  
       <!-- Swiper JS -->
