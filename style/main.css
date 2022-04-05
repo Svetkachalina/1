@@ -570,10 +570,7 @@ body {
     opacity: 0;
     transition: all 0.3s;
   }
-  .form-input-name {
-    font-weight: 500;
-    font-size: 17px;
-  }
+
   input[type="radio"]:checked + label::after {
     opacity: 1;
   }
@@ -585,24 +582,18 @@ body {
     margin-bottom: 48px;
   }
   
-  .form-input-email {
-    text-transform: none;
-    padding-top: 3px;
-  }
-  
+
   .form-input-phone {
     margin-top: 24px;
     margin-bottom: 26px;
   }
-  .online-reg-form {
-    width: 100%;
-  }
+ 
   .reg-left-wrapper {
     margin-left: 0;
     margin-top: 0;
-    padding-left: 8.3%;
+    padding-left: 10%;
     padding-top: 65px;
-    padding-right: 8.3%;
+    padding-right: 10%;
   }
   .social {
     font-size: 12px;

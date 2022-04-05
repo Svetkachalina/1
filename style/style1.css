@@ -566,10 +566,7 @@ input[type="radio"] + label::after {
   opacity: 0;
   transition: all 0.3s;
 }
-.form-input-name {
-  font-weight: 500;
-  font-size: 17px;
-}
+
 input[type="radio"]:checked + label::after {
   opacity: 1;
 }
@@ -582,17 +579,17 @@ input[type="radio"] {
 }
 
 .form-input-email {
-  text-transform: none;
-  padding-top: 3px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-top: 17px;
 }
 
 .form-input-phone {
   margin-top: 24px;
   margin-bottom: 26px;
+  font-size: 1rem;
 }
-.online-reg-form {
-  width: 100%;
-}
+
 .reg-left-wrapper {
   margin-left: 0;
   margin-top: 0;
