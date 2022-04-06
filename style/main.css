@@ -1,7 +1,7 @@
 /* изменить  */
 /* https://github.com/Svetkachalina/1.git */
 /* https://github.com/keaasd/Spa.git */
-
+/* e  */
 body {
   background-color: #e5e5e5;
 }
@@ -45,20 +45,17 @@ body {
   background: url("../img/button.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  /* position: relative; */
   position: absolute;
   display: block;
   cursor: pointer;
   transition: 0.3s ease-out;
   transform: scale(1);
 }
-.btn-text:hover {
-  transform: scale(1.1);
-}
 
 .btn-services {
   margin-top: 135px;
   cursor: pointer;
-  
 }
 
 .header {
@@ -80,14 +77,17 @@ body {
   padding-left: 2px;
 }
 
+
 .btn-text_services {
   padding: 23px 43px 26px 40px;
   transition: 0.3s ease-out;
   transform: scale(1);
 }
+
 .btn-text_services:hover {
   transform: scale(1.1);
 }
+
 .btn-bg {
   width: 10px;
   height: 66px;
@@ -95,13 +95,11 @@ body {
   display: none;
 }
 
-
 .btn-text_offers {
   padding: 22px 68px 25px 39px;
   top: 24px;
   font-size: 17px;
- }
-
+}
 
 /* ==== первый свайпер */
 /* подключить js css для свайпера */
@@ -148,8 +146,15 @@ body {
 .white_phone-index {
   top: 17%;
   right: 10%;
+  transform: scale(1);
+  transition: 0.3s ease-out;
 }
 
+.white_phone-index:hover {
+  transform: scale(1.1);
+}
+
+/* comment */
 .white_phone-btn {
   display: block;
   position: absolute;
@@ -216,11 +221,6 @@ body {
   bottom: -63px;
   right: 0;
   z-index: 3;
-  transform: scale(1);
-  transition: 0.3s ease-out;
-}
-.white_phone-index:hover {
-  transform: scale(1.1);
 }
 
 .main-bg {
@@ -593,9 +593,20 @@ input[type="radio"]+label::after {
   transition: all 0.3s;
 } */
 
+.form-input-name {
+  font-weight: 500;
+  font-size: 17px;
+}
 
+/* 
+input[type="radio"]:checked+label::after {
+  opacity: 1;
+}
 
-
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+} */
 
 .online-reg-title {
   margin-bottom: 48px;
@@ -603,12 +614,15 @@ input[type="radio"]+label::after {
 
 .form-input-email {
   text-transform: none;
+  padding-top: 3px;
 }
 
-/* .form-input-phone {
-  margin-top: 24px;
-  margin-bottom: 26px;
-} */
+.form-input-phone {
+  /* margin-top: 24px; */
+  /* margin-bottom: 26px; */
+  opacity: 1;
+
+}
 
 .online-reg-form {
   width: 100%;
@@ -688,11 +702,13 @@ input[type="radio"]+label::after {
   .contact-box {
     gap: 46px;
   }
-
-
 }
 
 @media (max-width: 1200px) {
+  .search-txt {
+    width: 39vw;
+  }
+
   .slider_2-wrap {
     max-width: 63vw;
   }
@@ -706,7 +722,7 @@ input[type="radio"]+label::after {
   }
 
   .swiper-title {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .swiper-no {
@@ -787,6 +803,14 @@ input[type="radio"]+label::after {
 }
 
 @media (max-width: 900px) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger-btn {
+    display: block;
+  }
+
   .slider_2-wrap {
     max-width: 55vw;
   }
@@ -804,14 +828,6 @@ input[type="radio"]+label::after {
   .container {
     padding-right: 40px;
     padding-left: 40px;
-  }
-
-  .burger-btn {
-    display: block;
-  }
-
-  .header-nav {
-    display: none;
   }
 
   .header {
@@ -950,12 +966,13 @@ input[type="radio"]+label::after {
   }
 
   .swiper-title {
-    font-size: 17px;
+    font-size: 2.3vw;
     line-height: 0.9;
   }
 
   .swiper-no {
     font-size: 30px;
+    line-height: 63.8%;
   }
 
   .swiper-text {
@@ -978,13 +995,17 @@ input[type="radio"]+label::after {
   .offers-title {
     font-size: 30px;
     margin-top: 55px;
-    margin-bottom: 50px;
+    margin-bottom: 22px;
   }
 
   .offers-grid {
     grid-template-rows: 630px 238px 428px;
     gap: 10px;
-    margin-top: 21px;
+    margin-top: 0;
+  }
+
+  .offers {
+    padding-top: 71px;
   }
 
   .grid_item2-pic {
@@ -1121,6 +1142,10 @@ input[type="radio"]+label::after {
     max-height: 310px;
   }
 
+  .offers-grid_item3 {
+    display: none;
+  }
+
   .footer-flex {
     font-size: 12px;
     letter-spacing: 0.02em;
@@ -1137,7 +1162,15 @@ input[type="radio"]+label::after {
   }
 }
 
-@media (max-width:620px) {
+@media (max-width: 620px) {
+  .swiper-button-next {
+    right: 19%;
+  }
+
+  .swiper-button-prev {
+    right: 28.6%;
+  }
+
   .swiper-title {
     font-size: 16px;
   }
@@ -1238,6 +1271,10 @@ input[type="radio"]+label::after {
     display: block;
   }
 
+  .swiper-title::after {
+    padding-bottom: 6px;
+  }
+
   .hero_visual {
     width: 259px;
     height: 193px;
@@ -1275,14 +1312,14 @@ input[type="radio"]+label::after {
   .swiper-button-next {
     width: 40px;
     height: 40px;
-    right: 37%;
+    right: 22%;
     bottom: 37px;
   }
 
   .swiper-button-prev {
     width: 40px;
     height: 40px;
-    right: 46.6%;
+    right: 36.6%;
     bottom: 36px;
   }
 
@@ -1320,7 +1357,6 @@ input[type="radio"]+label::after {
     margin-left: 7px;
   }
 
-
   .swiper-text {
     margin-top: 12px;
   }
@@ -1331,20 +1367,24 @@ input[type="radio"]+label::after {
 
   .btn-services {
     margin-top: 0;
-    top: -17px;
-    left: 210px;
+    top: -18px;
+    right: 6.7%;
   }
 
   .btn-text {
-    padding: 18px 35px 29px 31px;
+    padding: 15px 30px 16px 31px;
     font-size: 13px;
-    position: absolute;
-    top: 13px;
-    right: 6%;
   }
 
   .offers {
     position: relative;
+  }
+
+  .btn-text_offers {
+    position: absolute;
+    padding: 17px 33px 20px 31px;
+    top: 13px;
+    right: 6%;
   }
 
   .offers-description {
@@ -1380,8 +1420,8 @@ input[type="radio"]+label::after {
   }
 
   .discount-15 {
-    top: 228px;
-    left: 19px;
+    top: 227px;
+    left: 9%;
     font-size: 31px;
   }
 
@@ -1390,13 +1430,81 @@ input[type="radio"]+label::after {
     font-size: 21px;
     margin-left: 17%;
     margin-top: 22px;
+    margin-bottom: 9px;
   }
+
+  .item2-text {
+    max-width: 274px;
+    margin-left: 17%;
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 9px;
+  }
+
+  .grid_item4-pic {
+    background-size: cover;
+    width: 91%;
+    height: 175px;
+    margin-bottom: 23px;
+  }
+
+  .offers-grid_item4 {
+    position: relative;
+    margin-top: 42px;
+  }
+
+  .swiper-no {
+    line-height: 1.2;
+  }
+
+  .discount-10 {
+    position: absolute;
+    top: 99px;
+    left: initial;
+    bottom: 20px;
+    right: 4px;
+    font-size: 31px;
+  }
+
+  .grid_item4-pic::after {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: initial;
+    top: 78px;
+    right: -12px;
+  }
+
+  .item4-title {
+    font-size: 21px;
+    line-height: 110%;
+    max-width: 272px;
+    margin-bottom: 10px;
+  }
+
+  .item4-text {
+    max-width: 220px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .offers-grid_item5 {
+    margin: 46px auto 20px;
+  }
+
+  .grid_item5-pic {
+    background-size: cover;
+    width: 100%;
+    height: 275px;
+    max-width: 217px;
+    margin: 0 auto;
+  }
+
+
 }
 
 @media (max-width: 375px) {
-  .swiper-no {
-    line-height: 76.8%;
-  }
+
 
   .swiper-button-next {
     right: 0%;
@@ -1425,5 +1533,8 @@ input[type="radio"]+label::after {
   }
 }
 
-/* breakpoint: 768, */
-/* breakpoint: 500, */
+@media (max-width: 320px) {
+  .title-hero {
+    font-size: 30px;
+  }
+}
