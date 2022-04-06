@@ -45,12 +45,20 @@ body {
   background: url("../img/button.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   display: block;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  transform: scale(1);
+}
+.btn-text:hover {
+  transform: scale(1.1);
 }
 
 .btn-services {
   margin-top: 135px;
+  cursor: pointer;
+  
 }
 
 .header {
@@ -74,8 +82,12 @@ body {
 
 .btn-text_services {
   padding: 23px 43px 26px 40px;
+  transition: 0.3s ease-out;
+  transform: scale(1);
 }
-
+.btn-text_services:hover {
+  transform: scale(1.1);
+}
 .btn-bg {
   width: 10px;
   height: 66px;
@@ -83,11 +95,13 @@ body {
   display: none;
 }
 
+
 .btn-text_offers {
   padding: 22px 68px 25px 39px;
   top: 24px;
   font-size: 17px;
-}
+ }
+
 
 /* ==== первый свайпер */
 /* подключить js css для свайпера */
@@ -202,6 +216,11 @@ body {
   bottom: -63px;
   right: 0;
   z-index: 3;
+  transform: scale(1);
+  transition: 0.3s ease-out;
+}
+.white_phone-index:hover {
+  transform: scale(1.1);
 }
 
 .main-bg {
