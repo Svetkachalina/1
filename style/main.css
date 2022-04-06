@@ -99,6 +99,11 @@ body {
   padding: 22px 68px 25px 39px;
   top: 24px;
   font-size: 17px;
+  transition: 0.3s ease-out;
+  transform: scale(1);
+}
+.btn-text_offers:hover {
+  transform: scale(1.1);
 }
 
 /* ==== первый свайпер */
@@ -315,7 +320,6 @@ body {
   display: block;
   flex-direction: inherit;
   max-width: 304px;
-  margin-left: 100px;
   margin-right: 0;
 }
 
@@ -355,7 +359,7 @@ body {
   text-transform: uppercase;
 }
 
-.btn-text_services {
+.btn-text {
   font-size: 17px;
 }
 
@@ -593,10 +597,6 @@ input[type="radio"]+label::after {
   transition: all 0.3s;
 } */
 
-.form-input-name {
-  font-weight: 500;
-  font-size: 17px;
-}
 
 /* 
 input[type="radio"]:checked+label::after {
@@ -607,6 +607,28 @@ input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 } */
+.maps-moby {
+
+  display: none;
+  color: #000000;
+  font-size: 12px;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 3px;
+  margin-bottom: 36px;
+}
+
+.maps-moby::before {
+  content: '';
+  background-image: url(../img/pin.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  margin-right: 10px;
+}
 
 .online-reg-title {
   margin-bottom: 48px;
@@ -644,13 +666,12 @@ input[type="radio"] {
 }
 
 .footer-social {
-  gap: 24px;
+  gap: 62px;
 }
 
 @media (max-width: 1360px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 20px;
   }
 
   .logo {
@@ -733,7 +754,11 @@ input[type="radio"] {
     top: 66px;
   }
 }
-
+@media (max-width: 1100px) {
+   .wrap_services {
+    margin-bottom: 38px;
+  }
+}
 @media (max-width: 1040px) {
   .header-nav {
     margin-right: 20px;
@@ -743,7 +768,7 @@ input[type="radio"] {
   .header-nav_link {
     font-size: 11px;
   }
-
+  
   .title-hero {
     font-size: 54px;
     max-width: 472px;
@@ -979,34 +1004,25 @@ input[type="radio"] {
     margin-top: 20px;
   }
 
-  .btn-text_services {
+  .btn-text {
     font-size: 11px;
   }
 
   .btn-text {
+    position: absolute;
     margin-left: 0px;
     padding: 14px 29px 22px 26px;
   }
 
   .btn-services {
-    margin-top: 38px;
+    margin-top: 116px;
   }
 
   .offers-title {
     font-size: 30px;
-    margin-top: 55px;
     margin-bottom: 22px;
   }
 
-  .offers-grid {
-    grid-template-rows: 630px 238px 428px;
-    gap: 10px;
-    margin-top: 0;
-  }
-
-  .offers {
-    padding-top: 71px;
-  }
 
   .grid_item2-pic {
     background-repeat: no-repeat;
@@ -1081,10 +1097,6 @@ input[type="radio"] {
 
   .form-input-text {
     margin-bottom: 14px;
-  }
-
-  .offers-grid {
-    display: block;
   }
 
   .btn-flex {
@@ -1421,8 +1433,18 @@ input[type="radio"] {
 
   .discount-15 {
     top: 227px;
-    left: 9%;
+    left: 24%;
     font-size: 31px;
+  }
+
+  .grid_item5-pic::before {
+    position: absolute;
+    width: 114px;
+    height: 103px;
+    top: inherit;
+    left: -26%;
+    bottom: 21px;
+    background-size: cover;
   }
 
   .item2-title {
@@ -1489,10 +1511,12 @@ input[type="radio"] {
   }
 
   .offers-grid_item5 {
-    margin: 46px auto 20px;
+    margin: 46px auto 0;
+    padding-bottom: 40px;
   }
 
   .grid_item5-pic {
+    position: relative;
     background-size: cover;
     width: 100%;
     height: 275px;
@@ -1500,6 +1524,89 @@ input[type="radio"] {
     margin: 0 auto;
   }
 
+  .item5-title {
+    max-width: 217px;
+    font-size: 21px;
+    line-height: 110%;
+    margin: 20px auto 10px;
+  }
+
+  .item5-text {
+    max-width: 221px;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 150%;
+  }
+
+  .wraps_box {
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+
+  .online-reg-right,
+  .map,
+  .footer-line {
+    display: none;
+  }
+
+  .registration,
+  .copyright {
+    order: 2;
+  }
+
+  .contact {
+    background: white;
+    margin-top: 21px;
+  }
+
+  .contact-nav {
+    display: block;
+  }
+
+  .contact-content {
+    line-height: 120%;
+    font-size: 25px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .contacts {
+    line-height: 120%;
+    font-size: 25px;
+  }
+
+  .contact-box {
+    display: block;
+  }
+
+  .contact-hours-descr {
+    line-height: 150%;
+    font-size: 12px;
+    max-width: 232px;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+  }
+
+  .footer-social {
+    width: 100%;
+  }
+
+  .offers {
+    padding-bottom: 20px;
+  }
+
+  .maps-moby {
+    display: flex;
+  }
+
+  .contacts_nav-items {
+    margin-bottom: 40px;
+  }
 
 }
 
@@ -1519,8 +1626,7 @@ input[type="radio"] {
   }
 
   .offers {
-    padding-top: 0;
-    padding-bottom: 120px;
+    padding: 0;
   }
 
   .offers-title {
@@ -1530,6 +1636,11 @@ input[type="radio"] {
 
   .offers-grid {
     margin-top: 34px;
+  }
+
+  .discount-15 {
+    top: 227px;
+    left: 9%;
   }
 }
 
