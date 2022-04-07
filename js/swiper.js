@@ -48,15 +48,18 @@ var swiper = new Swiper(".mySwiper", {
       768: {
         spaceBetween: 18,
       },
+      936: {
+        spaceBetween: 25,
+      },
       1200: {
         slidesPerView: 2.5,
         slidesPerGroup: 1,
-        spaceBetween: 20,
+        spaceBetween: 30,
       },
       1440: {
         slidesPerView: 2.5,
         slidesPerGroup: 1,
-        spaceBetween: 114,
+        spaceBetween: 60,
       },
     }
   });
