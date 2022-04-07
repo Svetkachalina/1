@@ -146,7 +146,7 @@ legend {
   content: "";
   display: block;
   border-bottom: 2px solid #d4d626;
-  width: 176px;
+  width: 140px;
   position: absolute;
   left: 24px;
   top: 31px;
@@ -2366,10 +2366,8 @@ input {
   margin-top: 200px;
   margin-bottom: 60px;
   grid-template-rows: 189px 128px 343px;
-  }
-.offers-grid_item {
-  
 }
+
 .grid-item2-pic {
   max-width: 223px;
 }
@@ -2398,5 +2396,6 @@ input {
 }
 .discount-10 {
   font-size: 1.25rem;
+}
 }
 }
