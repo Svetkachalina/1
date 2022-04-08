@@ -2223,11 +2223,17 @@ input {
   width: 130px;
   height: 130px;
   animation: moving 30s 3s infinite linear;
-  
 }
 @keyframes moving {
   100% {transform: rotate(360deg);}
 }
+.enroll-online-btn:hover {
+  background-color: #d4d626;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
 
 
 
