@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Галерея</title>
+    <title>Запись онлайн</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style.css">
@@ -76,23 +76,42 @@
           </div>
         </div>
       </section> 
-      <section class="enroll-online">
-          <div class="container">
-              <div class="enroll-online-wrapper">
-                  <div class="enroll-online-title">
-                    <h1 class="title-extra-large title-extra-large1">Запись</h1>
-                    <h1 class="title-extra-large title-extra-large2">онлайн</h1>
-                  </div>
-                    <p class="enroll-online-action">Оставьте нам свои контакты и оператор перезвонит вам в течение часа</p>
-                    <a href="enroll-online.html" class="enroll-online-btn"></a>
-                </div>
-              
-          
-            </div>
-      </section>
   </div>
       
-  
+      <section class="registration-contacts _gallery">
+        <div class="online-reg">
+            <div class="online-reg-left">
+               <div class="reg-left-wrapper">
+                    <h2 class="online-reg-title">Запись онлайн</h2>
+                    <form class="online-enroll-form">
+                        <input type="text" class="form-input form-input-name_black" placeholder="ваше имя" required>
+                        <input type="email" class="form-input form-input-email_black" placeholder="почта" required>
+                        <input type="tel" class="form-input form-input-phone_black" placeholder="телефон">
+                        <textarea type="text" class="form-input form-input-text_black" name="" rows="2" placeholder="сообщение"></textarea>
+                        <div class="certificate-form_radio">
+                          <label class="radio-button">
+                              <input type="radio" class="radio-button__input" id="choice-agree" name="choice-agree">
+                              <span class="radio-button__control"></span>
+                              <span class="radio-button__label">Даю согласие на обработку персональных данных</span>
+                            </label>
+                            <label class="radio-button">
+                              <input type="radio" class="radio-button__input">
+                            </label>
+                            <div class="btn-flex _gallery">
+                              <button class="online-reg-btn" type="submit">Отправить&nbsp;сообщение</button>
+                              <p class="online-reg-confirm">Наш оператор перезвонит вам в&nbsp;течение часа</p>
+                            </div>
+                          
+                        </div>
+                    </form>
+               </div>
+            </div>
+            <div class="online-reg-right">
+                <img src="./img/registration.png"  class="online-reg-pic _border">
+            </div>
+        </div>
+      </section>
+
     
     <footer class="footer">
       <div class="container">

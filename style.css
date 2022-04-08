@@ -2185,6 +2185,56 @@ input {
 
 /* END of SPA for TWO PAGE */
 
+/* ENROLL_ONLINE PAGE */
+
+.enroll-online-wrapper {
+  display: flex;
+  align-items: start;
+  margin-left: 100px;
+  margin-top: 121px;
+  margin-bottom: 144px;
+
+}
+.title-extra-large {
+  color: #000;
+  margin: 0;
+  font-weight: 700;
+  font-size: 7.25rem;
+  line-height: 99%;
+  text-transform: uppercase;
+}
+.title-extra-large2 {
+  margin-left: 102px;
+  margin-top: 25px;
+}
+.enroll-online-action {
+  max-width: 319px;
+  font-weight: 500;
+  line-height: 144%;
+  color: #1D201D;
+  margin-left: 55px;
+  margin-top: 180px;
+}
+.enroll-online-btn {
+  background: url('./img/enroll-online.svg');
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  animation: moving 30s 3s infinite linear;
+  
+}
+@keyframes moving {
+  100% {transform: rotate(360deg);}
+}
+
+
+
+
+
+/* END of ENROLL_ONLINE PAGE */
+
 /* MEDIA  */
 
 @media (max-width: 1360px) {
