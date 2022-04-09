@@ -461,142 +461,8 @@ legend {
   margin-top: 14px;
 }
 
-/* 
-input[type="radio"] {
-  appearance: none;
-}
-
-input[type="radio"] {
-  appearance: none;
-}
-
-input[type="radio"]+label {
-  cursor: pointer;
-  position: relative;
-  padding-left: 30px;
-  line-height: 20px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 18.17px;
-}
-
-input[type="radio"]+label::before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  aspect-ratio: 1;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  opacity: 1;
-  transition: all 0.3s;
-}
-
-input[type="radio"]+label::after {
-  content: "";
-  display: inline-block;
-  width: 5px;
-  aspect-ratio: 1;
-  border: 1px solid #fff;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  left: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-input[type="radio"]:checked+label::after {
-  opacity: 1;
-}
-
-input[type="radio"]+label {
-  cursor: pointer;
-  position: relative;
-  padding-left: 30px;
-  line-height: 20px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 18.17px;
-}
-
-input {
-  font-size: 12px;
-  line-height: 124.8%;
-  color: #ffffff;
-  padding: 0;
-}
-
-.form-input {
-  background: transparent;
-  outline: 0;
-  border: 0;
-  border-bottom-color: currentcolor;
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  text-transform: uppercase;
-  border-bottom: 1px solid #d4d626;
-}
-
-input[type="radio"]+label {
-  cursor: pointer;
-  position: relative;
-  padding-left: 30px;
-  line-height: 20px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 18.17px;
-}
-
-input[type="radio"]+label::before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  aspect-ratio: 1;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  opacity: 1;
-  transition: all 0.3s;
-}
-
-input[type="radio"]+label::after {
-  content: "";
-  display: inline-block;
-  width: 5px;
-  aspect-ratio: 1;
-  border: 1px solid #fff;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  left: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0;
-  transition: all 0.3s;
-} */
 
 
-/* 
-input[type="radio"]:checked+label::after {
-  opacity: 1;
-}
-
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-} */
 .maps-moby {
 
   display: none;
@@ -637,7 +503,7 @@ input[type="radio"] {
 }
 
 .online-reg-form {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .reg-left-wrapper {
@@ -1118,7 +984,33 @@ input[type="radio"] {
     padding-bottom: 45px;
   }
 }
+@media (max-width: 737px) {
+  
+  .reg-left-wrapper {
+    margin: 0;
+    padding: 32px 36px 38px 32px;
+}
 
+.online-reg-confirm {
+  margin-top: 0;
+  font-size: 12px;
+  position: absolute;
+  top: 63.6%;
+  left: 34%;
+  max-width: 100px;
+}
+}
+@media (max-width: 676px) {
+  .online-reg-confirm {
+    top: 63.6%;
+    left: 34%;
+    max-width: 123px;
+    padding-left: 20px;
+  }
+  .reg-left-wrapper {
+    padding-right: 16px;
+}
+}
 @media (max-width: 620px) {
   .swiper-button-next {
     right: 19%;

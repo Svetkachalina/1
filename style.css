@@ -1044,7 +1044,7 @@ legend {
 
 .online-reg-form {
   /* max-width: 515px; */
-  max-width: 462px;
+  /* max-width: 462px; */
   display: flex;
   flex-direction: column;
 }
@@ -2486,7 +2486,6 @@ input[type="radio"] + label {
   margin-bottom: 53px;
   grid-template-rows: 189px 128px 343px;
 }
-
 .grid-item2-pic {
   max-width: 223px;
 }
@@ -2535,4 +2534,20 @@ input[type="radio"] + label::after {
 .online-reg-left {
   flex-basis: 51%;
 }
+}
+@media (max-width: 737px) {
+  .online-reg-form {
+    max-width: 578;
+  }
+  .online-reg-left {
+    flex-basis: 71%;
+  }
+  @media (max-width: 632px) {
+    .online-reg-left {
+      flex-basis: 81%;
+    }
+    .online-reg-right {
+      flex-basis: 29%;
+  }
+  }
 }
