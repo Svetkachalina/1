@@ -760,18 +760,6 @@ input[type="radio"] {
     max-width: 472px;
   }
 
-  .online-reg-left {
-    flex-basis: auto;
-  }
-
-  .online-reg-right {
-    flex: 1;
-  }
-
-  .online-reg-left {
-    flex: 1;
-  }
-
   .btn-flex {
     gap: 3%;
     margin-top: 35px;
@@ -844,11 +832,7 @@ input[type="radio"] {
 }
 
 @media (max-width: 768px) {
-  .container {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
+ 
   .header {
     padding-top: 21px;
   }
@@ -1022,13 +1006,6 @@ input[type="radio"] {
     line-height: 145%;
     max-width: 194px;
   }
-
-  .registration {
-    padding-bottom: 50px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-
   .online-reg-title {
     max-width: 165px;
     font-size: 30px;
@@ -1039,10 +1016,6 @@ input[type="radio"] {
     margin: 0;
     padding: 32px 29px;
   }
-
-  /* input {
-    font-size: 12px;
-  } */
 
   .form-input {
     font-size: 12px;
@@ -1058,17 +1031,8 @@ input[type="radio"] {
     font-size: 12px;
     padding-bottom: 0px;
   }
-
-  .form-input-phone {
-    margin-bottom: 18px;
-  }
-
   legend {
     font-size: 7px;
-  }
-
-  input[type="radio"]+label {
-    font-size: 10px;
   }
 
   .online-reg-btn {
@@ -1080,12 +1044,8 @@ input[type="radio"] {
     height: 25px;
   }
 
-  .form-input-text {
-    margin-bottom: 14px;
-  }
-
   .btn-flex {
-    margin-top: 32px;
+    margin-top: 34px;
   }
 
   .online-reg-confirm {

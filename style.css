@@ -1890,7 +1890,7 @@ input {
 input[type=radio] {
     box-sizing: border-box;
     padding: 0;
-    opacity: 0;
+    display: none;
 }
 
 input {
@@ -2243,12 +2243,17 @@ input {
 
 
 
-
-
-
 /* END of ENROLL_ONLINE PAGE */
 
 /* MEDIA  */
+
+
+
+@media (max-width: 1400px) {
+  .container {
+      max-width: 1320px;
+    }
+}
 
 @media (max-width: 1360px) {
   .container {
@@ -2290,37 +2295,14 @@ input {
   }
 }
 
-@media (max-width: 1040px) {
-  .header-nav {
-    margin-right: 20px;
-    gap: 15px;
-  }
 
-  .header-nav_link {
-    font-size: 11px;
-  }
-}
-
-/* @media (max-width: 900px) {} */
-
-/* breakpoint: 768, */
-/* breakpoint: 500, */
-
-
-
-/* ADAPTIVE INDEX - SECTION OFFERS */
-
-@media (max-width: 1400px) {
-    .container {
-        max-width: 1320px;
-      }
-}
 @media (max-width: 1300px) {
   .container {
     max-width: 1249px;
   }
   .offers-grid {
     grid-template-rows: 444px 220px 518px;
+}
 }
 @media (max-width: 1250px) {
     .container {
@@ -2381,6 +2363,16 @@ input {
     max-width: 15rem;
   }
 }
+@media (max-width: 1040px) {
+  .header-nav {
+    margin-right: 20px;
+    gap: 15px;
+  }
+
+  .header-nav_link {
+    font-size: 11px;
+  }
+}
 @media (max-width: 1030px) {
     .new-spa-circle {
         max-width: 6.5rem;
@@ -2434,11 +2426,40 @@ input {
         left: -25%;
     }
 }
-/* @media (max-width: 830px) {
+@media (max-width: 830px) {
  .online-reg-title {
    font-size: 1.875rem;
+   margin-bottom: 0;
  }
-} */
+ .offers {
+   padding-bottom: 70px;
+ }
+ .online-reg-form._white .form-input-name {
+  padding: 0;
+}
+.form-input {
+  font-size: 0.75rem;
+}
+.online-reg-form._white .form-input-email {
+  padding: 0;
+}
+.online-reg-form._white .form-input-phone {
+  
+  padding-bottom: 0;
+}
+.online-reg-form._white .form-input-text {
+  margin-top: 19px;
+}
+.registration {
+  padding-bottom: 70px;
+}
+.main-contact-title {
+  padding-top: 0;
+}
+input[type="radio"] + label {
+  font-size: 0.6rem;
+}
+}
 @media (max-width: 790px) {
     .new-spa-circle {
         left: -28%;
@@ -2462,7 +2483,7 @@ input {
 }
 .offers-grid {
   margin-top: 200px;
-  margin-bottom: 60px;
+  margin-bottom: 53px;
   grid-template-rows: 189px 128px 343px;
 }
 
@@ -2499,5 +2520,22 @@ input {
 .discount-10 {
   font-size: 1.25rem;
 }
+
+.online-reg-form._white .form-input-text {
+  padding-bottom: 0;
+}
+.form-input-text {
+  margin-bottom: 16px;
+}
+input[type="radio"] + label::before {
+
+  width: 13px;
+}
+input[type="radio"] + label::after {
+  width: 3.5px;
+}
+.online-reg-left {
+  flex-basis: 51%;
+
 }
 }
