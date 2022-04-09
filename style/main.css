@@ -580,6 +580,7 @@ legend {
 @media (max-width: 1200px) {
   .search-txt {
     width: 39vw;
+    
   }
 
   .slider_2-wrap {
@@ -671,7 +672,15 @@ legend {
     margin-bottom: 0;
   }
 }
+@media (max-width: 970px) {
+  .slider_2-wrap {
+    margin-top: 8px;
+  }
 
+  .swiper-title {
+    font-size: 18px;
+  }
+}
 @media (max-width: 900px) {
   .header-nav {
     display: none;
@@ -1069,11 +1078,6 @@ legend {
     margin-top: 44px;
   }
 
-  .wrap_services {
-    display: block;
-    margin-bottom: 70px;
-  }
-
   .navbar {
     position: absolute;
     top: 3px;
@@ -1177,12 +1181,14 @@ legend {
   }
 
   .wrap_services {
-    margin-left: 17px;
+    /* margin-left: 17px; */
     line-height: 117%;
-
     position: relative;
+    display: block;
+    margin-bottom: 70px;
+    margin-left: 0;
   }
-
+  
   .descr-services {
     font-size: 12px;
     line-height: 150%;
@@ -1194,6 +1200,10 @@ legend {
 
   .main-bg {
     height: 560px;
+  }
+  .services .container {
+    padding-right: 0;
+    padding-left: 24px;
   }
 
   .title-services {
@@ -1223,6 +1233,8 @@ legend {
   .btn-text {
     padding: 15px 30px 16px 31px;
     font-size: 13px;
+    right: 0;
+    top: 28px;
   }
 
   .offers {
