@@ -278,13 +278,15 @@ legend {
   line-height: 187.5%;
   position: absolute;
   float: left;
-  width: 580px;
+  width: 18.6rem;
   right: 40px;
   top: -30px;
   transition: 0.4s;
   display: none;
 }
-
+.search-txt input {
+  color: red;
+}
 .search-btn {
   display: block;
   border: none;
@@ -308,7 +310,13 @@ legend {
   right: -20px;
   top: -20px;
 }
+.hidden {
+  display: none;
+}
 
+.switch-on-off {
+  display: inline-block;
+}
 .title-hero {
   font-size: 64.9171px;
   line-height: 113%;
@@ -2220,8 +2228,8 @@ input {
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 130px;
-  height: 130px;
+  width: 128px;
+  height: 134px;
   animation: moving 30s 3s infinite linear;
 }
 @keyframes moving {
@@ -2229,9 +2237,9 @@ input {
 }
 .enroll-online-btn:hover {
   background-color: #d4d626;
-  width: 130px;
+  width: 131px;
   height: 130px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 

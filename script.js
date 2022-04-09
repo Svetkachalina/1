@@ -1,14 +1,25 @@
 // Search-box
 
-let navbar = document.querySelector('.navbar');
+// let navbar = document.querySelector('.navbar');
+// let searchBtn = document.querySelector('.search-btn');
+
+// searchBtn.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   navbar.classList.toggle('on-search');
+//   searchBtn.classList.toggle('on-search');
+// });
+
+
+let navbar = document.querySelector('.header-nav');
 let searchBtn = document.querySelector('.search-btn');
+let searchText = document.querySelector('.search-txt');
 
 searchBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  navbar.classList.toggle('on-search');
-  searchBtn.classList.toggle('on-search');
+  navbar.classList.toggle('hidden');
+  // searchBtn.classList.toggle('lupa');
+  searchText.classList.toggle('switch-on-off');
 });
-
 
 
   // Initialize Swiper3
