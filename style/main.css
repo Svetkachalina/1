@@ -1056,7 +1056,7 @@ input[type="radio"] {
   .main-contact-title {
     font-size: 30px;
     line-height: 121%;
-    padding-top: 20px;
+    padding-top: 0;
     margin-bottom: 24px;
   }
 

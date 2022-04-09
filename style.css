@@ -2520,7 +2520,6 @@ input[type="radio"] + label {
 .discount-10 {
   font-size: 1.25rem;
 }
-
 .online-reg-form._white .form-input-text {
   padding-bottom: 0;
 }
@@ -2528,7 +2527,6 @@ input[type="radio"] + label {
   margin-bottom: 16px;
 }
 input[type="radio"] + label::before {
-
   width: 13px;
 }
 input[type="radio"] + label::after {
@@ -2536,6 +2534,5 @@ input[type="radio"] + label::after {
 }
 .online-reg-left {
   flex-basis: 51%;
-
 }
 }
