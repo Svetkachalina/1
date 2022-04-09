@@ -1050,14 +1050,12 @@ legend {
 }
 .online-reg-right {
     flex-basis: 49%;
-  
-
 }
 .online-reg-title {
   max-width: 260px;
   font-family: "Philosopher";
   font-weight: 700;
-  font-size: 59.1429px;
+  font-size: 3.6875rem;
   line-height: 113%;
   text-transform: uppercase;
   color: #fff;
@@ -1108,7 +1106,7 @@ input[type="radio"] + label {
   padding-left: 30px;
   line-height: 20px;
   color: #fff;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   line-height: 113.56%;
 }
@@ -2396,6 +2394,7 @@ input {
   .btn-text_services {
     top: -56px;
 }
+
 }
 @media (max-width: 970px) {
   .title-h2 {
@@ -2415,6 +2414,16 @@ input {
   max-width: 25rem;
 }
 }
+@media (max-height: 945px) {
+  input[type="radio"] + label {
+    font-size: 0.6875rem;
+    line-height: 100%;
+  }
+  .online-reg-confirm {
+    font-size: 0.6875rem;
+    line-height: 130%;
+}
+}
 @media (max-width: 900px) {
     .new-spa-circle { 
         left: -23%;
@@ -2425,6 +2434,11 @@ input {
         left: -25%;
     }
 }
+/* @media (max-width: 830px) {
+ .online-reg-title {
+   font-size: 1.875rem;
+ }
+} */
 @media (max-width: 790px) {
     .new-spa-circle {
         left: -28%;

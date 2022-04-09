@@ -812,6 +812,11 @@ input[type="radio"] {
     width: 100%;
   }
 }
+@media (max-width: 1000px) {
+  .online-reg-title {
+    margin-bottom: 0;
+  }
+}
 
 @media (max-width: 900px) {
   .header-nav {
