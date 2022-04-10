@@ -578,6 +578,9 @@ legend {
 }
 
 @media (max-width: 1200px) {
+  .main-bg {
+    height: 1188px;
+  }
   .search-txt {
     width: 39vw;
     
@@ -585,6 +588,7 @@ legend {
 
   .slider_2-wrap {
     max-width: 63vw;
+    margin-top: 0;
   }
 
   .services-text {
@@ -606,6 +610,9 @@ legend {
   .slider_2-wrap {
     top: 66px;
   }
+  .btn-services {
+    margin-top: 63px;
+}
 }
 @media (max-width: 1100px) {
    .wrap_services {
@@ -671,6 +678,9 @@ legend {
   .online-reg-title {
     margin-bottom: 0;
   }
+  .btn-services {
+    margin-top: 159px;
+}
 }
 @media (max-width: 970px) {
   .slider_2-wrap {
@@ -1360,7 +1370,7 @@ legend {
   }
 
   .offers-grid_item5 {
-    /* margin: 46px auto 0; */
+    
     padding-bottom: 40px;
     margin-top: 25px;
   }
@@ -1378,14 +1388,14 @@ legend {
     line-height: 110%;
     margin-top: 19px;
     margin-bottom: 8px;
-    /* margin: 20px auto 10px; */
+    
 }
-  }
+  
 
   .item5-text {
     max-width: 221px;
     font-size: 12px;
-    /* margin: 0 auto; */
+    
     line-height: 150%;
   }
 
