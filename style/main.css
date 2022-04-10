@@ -1362,12 +1362,13 @@ legend {
   .offers-grid_item5 {
     /* margin: 46px auto 0; */
     padding-bottom: 40px;
+    margin-top: 25px;
   }
 
   .grid_item5-pic {
     position: relative;
     background-size: cover;
-    max-width: 71%;
+    max-width: 50%;
     margin: 0 auto;
   }
 
@@ -1375,7 +1376,10 @@ legend {
     max-width: 217px;
     font-size: 21px;
     line-height: 110%;
+    margin-top: 19px;
+    margin-bottom: 8px;
     /* margin: 20px auto 10px; */
+}
   }
 
   .item5-text {
