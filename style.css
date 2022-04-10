@@ -597,7 +597,9 @@ legend {
   border-bottom: 1px solid #d4d626;
   width: 232px;
 }
-
+.swiper-title._all::after {
+  opacity: 0;
+}
 .swiper-no {
   font-family: "Alice";
   font-weight: 400;
@@ -2569,6 +2571,26 @@ input[type="radio"] + label::after {
   .online-reg-left {
     flex-basis: 71%;
   }
+}
+@media (max-width: 678px) {
+  .discount-15::before {
+    width: 4rem;
+    height: 4rem;
+}
+.discount-15 {
+  font-size: 1.3rem;
+}
+.new-spa-circle {
+  max-width: 4rem;
+  left: -23%;
+}
+.discount-10::before {
+  width: 3rem;
+  height: 3rem;
+}
+.discount-10 {
+  font-size: 1.1rem;
+}
 }
 @media (max-width: 632px) {
   .online-reg-left {
