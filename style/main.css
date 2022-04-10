@@ -1051,6 +1051,7 @@ legend {
 }
 
 @media (max-width: 570px) {
+ 
   .header {
     padding-top: 12px;
   }
@@ -1133,6 +1134,7 @@ legend {
   .container {
     padding-right: 24px;
     padding-left: 24px;
+    background: #fff;
   }
 
   .hero_wrap {
@@ -1410,13 +1412,11 @@ legend {
     flex-direction: column;
     background: white;
   }
-
   .online-reg-right,
   .map,
   .footer-line {
     display: none;
   }
-
   .registration {
     /* position: absolute; */
     bottom: 130px;
@@ -1427,18 +1427,15 @@ legend {
   .contact {
     background: white;
     margin-top: 21px;
-    padding-bottom: 445px;
+    padding-bottom: 0;
   }
-
   .contact-nav {
     display: block;
   }
-
   .contact-content {
     line-height: 120%;
     font-size: 25px;
   }
-
   br {
     display: none;
   }
@@ -1457,7 +1454,6 @@ legend {
   .contact-hours-descr {
     line-height: 150%;
     font-size: 12px;
-    
   }
   .contact-email {
     border-bottom: 0;
@@ -1466,6 +1462,7 @@ legend {
    }
 .footer {
   background: #fff;
+  order: 10;
 }
   .footer-flex {
     flex-direction: column;

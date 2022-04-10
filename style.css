@@ -2607,6 +2607,9 @@ input[type="radio"] + label::after {
 }
 @media (max-width: 570px) {
 
+  body {
+    background: #fff;
+  }
     .offers-grid {
       display: block;
       margin-top: 0;
@@ -2617,6 +2620,13 @@ input[type="radio"] + label::after {
       flex-direction: column;
       justify-content: start;
       align-items: start;
+    }
+    .change-order {
+      display: flex;
+      flex-direction: column;
+    }
+    .enroll-form {
+      order: 2;
     }
  .online-reg {
    /* position: absolute; */
