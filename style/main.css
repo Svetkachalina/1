@@ -1246,13 +1246,14 @@ legend {
     position: absolute;
     padding: 17px 33px 20px 31px;
     top: -11px;
-    right: 6%;
+    right: 6.7%;
   }
 
   .offers-description {
     font-size: 12px;
     max-width: 262px;
     line-height: 150%;
+    margin-bottom: 30px;
   }
 
   .offers-title {
@@ -1260,8 +1261,9 @@ legend {
   }
 
   .btn-offers {
-    position: initial;
-    margin: 0;
+      position: absolute;
+      right: 7%;
+      margin: 0;
   }
 
   .grid_item2-pic {
