@@ -2557,6 +2557,25 @@ input[type="radio"] + label::after {
     flex-basis: 71%;
   }
 }
+@media (max-width: 570px) {
+
+    .offers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      margin-top: 0;
+     
+    }
+    .offers-grid_item1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+    }
+ 
+}
   @media (max-width: 632px) {
     .online-reg-left {
       flex-basis: 81%;
@@ -2565,7 +2584,5 @@ input[type="radio"] + label::after {
       flex-basis: 29%;
   }
   }
-  @media (max-width: 360px) {
-    
-  }
+ 
   
