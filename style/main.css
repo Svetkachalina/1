@@ -1502,10 +1502,16 @@ legend {
   .title-hero {
     font-size: 30px;
   }
+  .slider2-item img {
+    height: 38.9vw;
+}
   .swiper-title {
-    font-size: 13px;
+    font-size: 12px;
   }
+  .swiper-title::after {
+    width: 90%;
+}
   .swiper-no {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
