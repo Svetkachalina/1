@@ -1418,10 +1418,12 @@ legend {
   }
 
   .registration {
-    position: absolute;
+    /* position: absolute; */
     bottom: 130px;
   }
-
+  .reg-left-wrapper {
+    /* padding-right: 36px; */
+  } 
   .contact {
     background: white;
     margin-top: 21px;

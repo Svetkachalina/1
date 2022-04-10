@@ -2619,13 +2619,20 @@ input[type="radio"] + label::after {
       align-items: start;
     }
  .online-reg {
-   position: absolute;
+   /* position: absolute; */
    bottom: 0;
  }
+ .online-reg-left {
+  flex-basis: 100%;
+  border-radius: 10px;
+}
  .registration {
    padding-bottom: 0;
  }
- 
+ .online-reg-form._white .form-input-name {
+  
+}
+
 }
  
  
