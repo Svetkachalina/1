@@ -1259,26 +1259,18 @@ legend {
   .offers-title {
     margin-bottom: 20px;
   }
-
   .btn-offers {
       position: absolute;
       right: 7%;
       margin: 0;
   }
-
   .grid_item2-pic {
-    
-    max-width: 71%;
-   
+    max-width: 60%;
   }
-
   .offers-grid_item2 {
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
   }
-
   .grid_item2-pic::before {
     width: 85px;
     height: 85px;
