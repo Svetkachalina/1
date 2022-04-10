@@ -2560,11 +2560,7 @@ input[type="radio"] + label::after {
 @media (max-width: 570px) {
 
     .offers-grid {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: center;
-      align-items:center;
+      display: block;
       margin-top: 0;
      
     }
