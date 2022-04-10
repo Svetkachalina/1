@@ -2565,7 +2565,7 @@ input[type="radio"] + label::after {
     .offers-grid {
       display: block;
       margin-top: 0;
-     
+      margin-bottom: 0;
     }
     .offers-grid_item1 {
       display: flex;
@@ -2580,6 +2580,7 @@ input[type="radio"] + label::after {
  .registration {
    padding-bottom: 0;
  }
+ 
 }
   @media (max-width: 632px) {
     .online-reg-left {

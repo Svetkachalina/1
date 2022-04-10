@@ -1417,14 +1417,15 @@ legend {
     display: none;
   }
 
-  .registration,
-  .copyright {
-    order: 2;
+  .registration {
+    position: absolute;
+    bottom: 130px;
   }
 
   .contact {
     background: white;
     margin-top: 21px;
+    padding-bottom: 445px;
   }
 
   .contact-nav {
@@ -1439,7 +1440,9 @@ legend {
   br {
     display: none;
   }
-
+.main-contact-title {
+  padding-top: 38px;
+}
   .contacts {
     line-height: 120%;
     font-size: 25px;
@@ -1452,9 +1455,16 @@ legend {
   .contact-hours-descr {
     line-height: 150%;
     font-size: 12px;
-    max-width: 232px;
+    
   }
-
+  .contact-email {
+    border-bottom: 0;
+    text-decoration: underline solid 1px;
+    text-underline-offset: 5px;
+   }
+.footer {
+  background: #fff;
+}
   .footer-flex {
     flex-direction: column;
   }
@@ -1464,7 +1474,7 @@ legend {
   }
 
   .offers {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 
   .maps-moby {
