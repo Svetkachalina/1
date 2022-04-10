@@ -2570,6 +2570,14 @@ input[type="radio"] + label::after {
     flex-basis: 71%;
   }
 }
+@media (max-width: 632px) {
+  .online-reg-left {
+    flex-basis: 81%;
+  }
+  .online-reg-right {
+    flex-basis: 29%;
+}
+}
 @media (max-width: 570px) {
 
     .offers-grid {
@@ -2592,13 +2600,6 @@ input[type="radio"] + label::after {
  }
  
 }
-  @media (max-width: 632px) {
-    .online-reg-left {
-      flex-basis: 81%;
-    }
-    .online-reg-right {
-      flex-basis: 29%;
-  }
-  }
+ 
  
   
