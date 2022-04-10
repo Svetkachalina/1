@@ -1360,7 +1360,7 @@ legend {
   }
 
   .offers-grid_item5 {
-    margin: 46px auto 0;
+    /* margin: 46px auto 0; */
     padding-bottom: 40px;
   }
 
@@ -1375,13 +1375,13 @@ legend {
     max-width: 217px;
     font-size: 21px;
     line-height: 110%;
-    margin: 20px auto 10px;
+    /* margin: 20px auto 10px; */
   }
 
   .item5-text {
     max-width: 221px;
     font-size: 12px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     line-height: 150%;
   }
 
