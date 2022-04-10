@@ -600,6 +600,10 @@ legend {
 .swiper-title._all::after {
   opacity: 0;
 }
+.slider-link {
+  text-decoration: none;
+  color: #000;
+}
 .swiper-no {
   font-family: "Alice";
   font-weight: 400;
