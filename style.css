@@ -310,6 +310,16 @@ legend {
   right: -20px;
   top: -20px;
 }
+.cross {
+  display: block;
+  background-image: url(../img/cross.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
 .hidden {
   display: none;
 }
