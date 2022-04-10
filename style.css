@@ -2313,7 +2313,7 @@ input {
   .slider2-item img {
     height: auto;
     width: 100%;
-    object-fit: contain;
+    /* object-fit: contain; */
   }
 }
 
@@ -2566,7 +2566,5 @@ input[type="radio"] + label::after {
   }
   }
   @media (max-width: 360px) {
-    .swiper-title {
-      font-size: 13px;
-    }
+    
   }

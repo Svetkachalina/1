@@ -1492,9 +1492,20 @@ legend {
     left: 9%;
   }
 }
+@media (max-width: 368px) {
+  .swiper-no {
+    font-size: 24px;
+  }
+}
 
 @media (max-width: 320px) {
   .title-hero {
     font-size: 30px;
+  }
+  .swiper-title {
+    font-size: 13px;
+  }
+  .swiper-no {
+    font-size: 22px;
   }
 }
