@@ -682,7 +682,11 @@ legend {
     margin-top: 159px;
 }
 }
+
 @media (max-width: 970px) {
+  .services-text {
+    max-width: 250px;
+  }
   .slider_2-wrap {
     margin-top: 8px;
   }
@@ -776,7 +780,7 @@ legend {
   }
 
   .services-text {
-    max-width: 27vw;
+    max-width: 24vw;
     margin-left: 7px;
   }
 
@@ -1004,7 +1008,9 @@ legend {
   }
 }
 @media (max-width: 737px) {
-  
+  .btn-services {
+    margin-top: 84px;
+}
   .reg-left-wrapper {
     margin: 0;
     padding: 32px 36px 38px 32px;
@@ -1371,7 +1377,7 @@ legend {
 
   .offers-grid_item5 {
     
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     margin-top: 25px;
   }
 
