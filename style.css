@@ -2573,7 +2573,13 @@ input[type="radio"] + label::after {
       justify-content: start;
       align-items: start;
     }
- 
+ .online-reg {
+   position: absolute;
+   bottom: 0;
+ }
+ .registration {
+   padding-bottom: 0;
+ }
 }
   @media (max-width: 632px) {
     .online-reg-left {
