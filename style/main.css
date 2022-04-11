@@ -110,13 +110,6 @@ body {
   padding-bottom: 2px;
 }
 
-.swiper-horizontal>.swiper-pagination-progressbar,
-.swiper-pagination-progressbar.swiper-pagination-horizontal {
-  top: inherit;
-  bottom: 0;
-  width: 48%;
-}
-
 .swiper-button-next {
   background-image: url(../img/arrow-right.svg);
   background-repeat: repeat;
@@ -212,9 +205,8 @@ body {
 }
 
 .white_phone-index {
-  top: inherit;
-  bottom: -63px;
-  right: 0;
+  top: 15.7%;
+  right: 8%;
   z-index: 3;
 }
 
@@ -1274,7 +1266,9 @@ legend {
       margin: 0;
   }
   .grid_item2-pic {
-    max-width: 60%;
+    max-width: 47%;
+    display: block;
+    margin: 0 auto;
   }
   .offers-grid_item2 {
     margin-top: 10px;
@@ -1306,9 +1300,7 @@ legend {
   .item2-title {
     max-width: 211px;
     font-size: 21px;
-    /* margin-left: 17%; */
-    margin-top: 22px;
-    margin-bottom: 9px;
+   margin: 0 auto;
   }
 
   .item2-text {
@@ -1320,9 +1312,10 @@ legend {
   }
 
   .grid_item4-pic {
-    background-size: cover;
-    max-width: 81%;
-    margin-bottom: 23px;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 23px;
   }
 
   .offers-grid_item4 {
