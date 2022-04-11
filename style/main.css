@@ -1303,16 +1303,16 @@ legend {
   }
 
   .item2-text {
-    max-width: 274px;
+    max-width: 246px;
     font-size: 12px;
     line-height: 150%;
+    margin: 0 auto;
     margin-bottom: 9px;
   }
 
   .grid_item4-pic {
     max-width: 60%;
     display: block;
-    margin: 0 auto;
     padding-bottom: 23px;
   }
 
@@ -1331,12 +1331,13 @@ legend {
     width: 5.2rem;
     height: 5.2rem;
 }
+.discount-10::before {
+   right: 90%;
+}
   .discount-10 {
-    position: absolute;
-    top: 99px;
+    top: 46%;
     left: initial;
-    bottom: 20px;
-    right: 4px;
+    right: 34%;
     font-size: 31px;
   }
 
@@ -1370,14 +1371,16 @@ legend {
 
   .grid_item5-pic {
     position: relative;
+    display: block;
     background-size: cover;
     max-width: 50%;
     margin: 0 auto;
   }
 
   .item5-title {
-    max-width: 217px;
+    max-width: 224px;
     font-size: 21px;
+    margin: 0 auto;
     line-height: 110%;
     margin-top: 19px;
     margin-bottom: 8px;
@@ -1387,7 +1390,7 @@ legend {
   .item5-text {
     max-width: 221px;
     font-size: 12px;
-    
+    margin: 0 auto;
     line-height: 150%;
   }
 
@@ -1414,8 +1417,11 @@ legend {
     margin-bottom: 23px;
 }
   .online-reg-confirm {
-    top: 87%;
+    top: 86%;
     left: 68%;
+}
+.online-reg-btn {
+  padding: 10px 30px;
 }
 .form-input {
   padding-bottom: 5px;
@@ -1427,6 +1433,7 @@ legend {
   }
   .contact-nav {
     display: block;
+    padding-bottom: 40px;
   }
   .contact-content {
     line-height: 120%;
@@ -1437,6 +1444,7 @@ legend {
   }
 .main-contact-title {
   padding-top: 38px;
+  margin-bottom: 28px;
 }
   .contacts {
     line-height: 120%;

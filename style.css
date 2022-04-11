@@ -77,7 +77,9 @@ legend {
 .btn-phone-green-black:hover {
   transform: scale(1.1);
 }
-
+.btn-phone-green-black._spa:hover {
+  transform: scale(1.1);
+}
 .main-bg {
   background: url("./img/bg1.jpg");
   background-size: cover;
@@ -2671,6 +2673,10 @@ input[type="radio"] + label::after {
       width: 5.3rem;
       height: 5.3rem;
   }
+  .new-spa-circle {
+    max-width: 7rem;
+    left: 13%;
+}
     .change-order {
       display: flex;
       flex-direction: column;
@@ -2711,6 +2717,11 @@ input[type="radio"] + label::after {
 }
 .online-reg-form._white .form-input-phone {
   padding: 27px 0 7px;
+}
+.btn-phone-green-black._mobile {
+  top: 81%;
+  right: 10%;
+  
 }
 }
  
