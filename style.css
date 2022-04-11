@@ -2667,6 +2667,10 @@ input[type="radio"] + label::after {
       justify-content: start;
       align-items: start;
     }
+    .discount-15::before {
+      width: 5.3rem;
+      height: 5.3rem;
+  }
     .change-order {
       display: flex;
       flex-direction: column;
@@ -2678,7 +2682,6 @@ input[type="radio"] + label::after {
       order: 2;
     }
  .online-reg {
-   /* position: absolute; */
    bottom: 0;
  }
  .form-input-email {
