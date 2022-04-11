@@ -1266,6 +1266,7 @@ legend {
     max-width: 47%;
     display: block;
     margin: 0 auto;
+    padding-bottom: 25px;
   }
   .offers-grid_item2 {
     margin-top: 10px;
@@ -1281,7 +1282,7 @@ legend {
   .discount-15 {
     top: 227px;
     left: 24%;
-    font-size: 31px;
+    font-size: 28px;
   }
 
   .grid_item5-pic::before {
@@ -1295,14 +1296,14 @@ legend {
   }
 
   .item2-title {
-    max-width: 211px;
+    max-width: 243px;
     font-size: 21px;
-   margin: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 
   .item2-text {
     max-width: 274px;
-    /* margin-left: 17%; */
     font-size: 12px;
     line-height: 150%;
     margin-bottom: 9px;
@@ -1326,7 +1327,10 @@ legend {
   .swiper-no {
     line-height: 1.2;
   }
-
+  .discount-10::before {
+    width: 5.2rem;
+    height: 5.2rem;
+}
   .discount-10 {
     position: absolute;
     top: 99px;
