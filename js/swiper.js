@@ -6,7 +6,7 @@ let myImageSlider = new Swiper(".mySwiper", {
   effect: "creative",
   creativeEffect: {
     prev: {
-      shadow: true,
+      shadow: false,
       // translate: ["-10%", 0, 0],
     },
     next: {
