@@ -1144,13 +1144,13 @@ legend {
   }
 
   .menu-select {
-    width: 186px;
+    width: 144px;
     margin-left: 3px;
     font-size: 12px;
   }
 
   .drop-down {
-    margin-left: 44px;
+    /* margin-left: 44px; */
     margin-top: 6px;
   }
 
