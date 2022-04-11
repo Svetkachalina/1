@@ -1025,7 +1025,9 @@ legend {
   border-radius: 10px;
   max-width: 1360px;
 }
-
+.form-input-email-small {
+  display: none;
+}
 .registration-contacts._gallery .online-reg-title {
   color: #000;
 }
@@ -2653,10 +2655,7 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 570px) {
-
-  body {
-    background: #fff;
-  }
+ 
     .offers-grid {
       display: block;
       margin-top: 0;
@@ -2672,6 +2671,9 @@ input[type="radio"] + label::after {
       display: flex;
       flex-direction: column;
     }
+    .container._form {
+      background: #fff;
+    }
     .enroll-form {
       order: 2;
     }
@@ -2679,6 +2681,17 @@ input[type="radio"] + label::after {
    /* position: absolute; */
    bottom: 0;
  }
+ .form-input-email {
+   display: none;
+ }
+ .form-input-email-small {
+  display: inline;
+  padding-top: 27px;
+}
+ legend {
+   display: none;
+ }
+
  .online-reg-left {
   flex-basis: 100%;
   border-radius: 10px;
@@ -2686,10 +2699,16 @@ input[type="radio"] + label::after {
  .registration {
    padding-bottom: 0;
  }
- .online-reg-form._white .form-input-name {
-  
+.form-input {
+    font-size: 12px;
+    padding-bottom: 5px;
 }
-
+.online-reg-form._white .form-input-text {
+  margin-top: 30px;
+}
+.online-reg-form._white .form-input-phone {
+  padding: 27px 0 7px;
+}
 }
  
  
