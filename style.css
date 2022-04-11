@@ -2721,7 +2721,16 @@ input[type="radio"] + label::after {
 .btn-phone-green-black._mobile {
   top: 81%;
   right: 10%;
-  
+}
+.copyright {
+  order: 2;
+  align-self: flex-start;
+}
+.social {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 195%;
 }
 }
  
