@@ -880,7 +880,7 @@ legend {
   .swiper-horizontal>.swiper-pagination-progressbar,
   .swiper-pagination-progressbar.swiper-pagination-horizontal {
     height: 1px;
-    width: 45.3%;
+    width: 100%;
   }
 
   .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
@@ -1214,13 +1214,9 @@ legend {
     padding-bottom: 14px;
     margin-left: 0;
     max-width: 235px;
+    height: 100%;
   }
 
-  .swiper-horizontal>.swiper-pagination-progressbar,
-  .swiper-pagination-progressbar.swiper-pagination-horizontal {
-    width: 44.6%;
-    bottom: 108px;
-  }
 
   .swiper-button-next {
     width: 40px;

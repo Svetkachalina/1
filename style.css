@@ -73,6 +73,10 @@ legend {
   transition: 0.4s ease;
   transform: scale(1);
 }
+.btn-phone-green-black._mobile {
+  display: none;
+
+}
 
 .btn-phone-green-black:hover {
   transform: scale(1.1);
@@ -2813,6 +2817,7 @@ input[type="radio"] + label::after {
   padding: 27px 0 7px;
 }
 .btn-phone-green-black._mobile {
+  display: block;
   top: 81%;
   right: 10%;
 }
