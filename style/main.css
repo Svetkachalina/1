@@ -1335,7 +1335,7 @@ legend {
    right: 90%;
 }
   .discount-10 {
-    top: 46%;
+    bottom: 46%;
     left: initial;
     right: 34%;
     font-size: 31px;
@@ -1488,6 +1488,12 @@ legend {
     margin-bottom: 40px;
   }
 
+}
+@media (max-width: 563px) {
+
+.discount-15 {
+  top: 168px;
+}
 }
 
 @media (max-width: 375px) {

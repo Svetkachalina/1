@@ -2733,6 +2733,17 @@ input[type="radio"] + label::after {
   line-height: 195%;
 }
 }
+@media (max-width: 563px) {
+  .discount-15::before {
+    top: -70%;
+}
+.discount-15 {
+  top: 168px;
+}
+.discount-10 {
+  bottom: 19%;
+}
+}
  
  
   
