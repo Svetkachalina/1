@@ -823,12 +823,17 @@ legend {
     height: 822px;
   }
 
-  .hero_swiper {
+  /* .hero_swiper {
     height: 280px;
     padding-bottom: 2px;
     max-width: 570px;
+  } */
+  в маин
+  .hero_swiper {
+    width: 100%;
+    max-width: 740px;
+    padding-bottom: 33px;
   }
-
   .hero-text {
     margin-left: 0px;
     flex-basis: 46%;
@@ -1124,7 +1129,11 @@ legend {
     height: 100%;
     display: block;
   }
-
+  .hero_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
   .swiper-title::after {
     padding-bottom: 6px;
   }

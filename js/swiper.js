@@ -1,9 +1,14 @@
 let myImageSlider = new Swiper(".mySwiper", {
-  speed: 2000,
+  // speed: 2000,
   grabCursor: true,
   loop: true,
+  spaceBetween: 0,
   effect: "creative",
   creativeEffect: {
+    prev: {
+      shadow: true,
+      // translate: ["-10%", 0, 0],
+    },
     next: {
       translate: ["100%", 0, 0],
     },
@@ -19,18 +24,12 @@ let myImageSlider = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-});
+}); 
 let mySwiperText = new Swiper(".mySwiperText", {
   direction: 'vertical',
-  speed: 2000,
+  // speed: 1000,
   grabCursor: true,
   loop: true,
-  // effect: "creative",
-  // creativeEffect: {
-  //   next: {
-  //     translate: [0, '100%', 0],
-  //   },
-  // },
   controller: {
     inverse: false,
   },
