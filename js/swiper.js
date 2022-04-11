@@ -47,7 +47,7 @@ mySwiperText.controller.control = myImageSlider
   let myTextSlider = new Swiper(".swiper_services", {
     slidesPerView: 2.5,
     slidesPerGroup: 1,
-    loop: true,
+    loop: false,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
