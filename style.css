@@ -344,7 +344,7 @@ legend {
   color: #fff;
 }
 .burger-btn {
-  background-image: url(../img/burger_menu.svg);
+  background-image: url('./img/burger_menu.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
