@@ -2355,8 +2355,13 @@ input {
 .btn-phone-green-black._spa-2 {
   position: absolute;
   top: 22%;
+  transition: 0.4s ease-out;
+  transform: scale(1);
 }
-
+.btn-phone-green-black._spa-2:hover {
+ 
+  transform: scale(1.1);
+}
 .cards-list-grid._spa-2 {
   grid-template-columns: 27% 27% 27%;
   grid-template-rows: 58% 42%;
