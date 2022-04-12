@@ -290,6 +290,9 @@ legend {
   top: -30px;
   transition: 0.4s;
   display: none;
+  top: inherit;
+  bottom: 14px;
+  right: 78px;
 }
 .search-txt input {
   color: red;
@@ -316,6 +319,24 @@ legend {
   position: absolute;
   right: -20px;
   top: -20px;
+}
+.search-btn_contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  
+}
+.search-btn_contain:hover {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 58px;
+  height: 58px;
+}
+.search-btn:hover::after {
+  border: 1px solid transparent;
 }
 .cross {
   display: block;
@@ -2359,7 +2380,6 @@ input {
   transform: scale(1);
 }
 .btn-phone-green-black._spa-2:hover {
- 
   transform: scale(1.1);
 }
 .cards-list-grid._spa-2 {
@@ -2617,6 +2637,12 @@ input {
   .grid_item5-pic {
     max-width: 15rem;
   }
+ 
+}
+@media (max-width: 1110px) {
+  .col-right {
+    flex-basis: 49%;
+}
 }
 @media (max-width: 1040px) {
   .header-nav {
