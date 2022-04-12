@@ -432,6 +432,7 @@ height: 27px;
 .modal_box {
   justify-content: center;
   position: relative;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
