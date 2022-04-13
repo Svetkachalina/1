@@ -2796,6 +2796,12 @@ input {
     font-size: 11px;
   }
 }
+@media (max-width: 838px) {
+  .categories {
+    row-gap: 32px;
+    column-gap: 20px;
+}
+}
 
 @media (max-width: 830px) {
   .card-title {
@@ -2841,6 +2847,11 @@ input[type="radio"] + label {
     .category-item {
       font-size: 13px;
     }
+}
+@media (max-width: 812px) {
+  .categories {
+    column-gap: 60px;
+}
 }
 @media (max-width: 768px) {
   .burger-link {
