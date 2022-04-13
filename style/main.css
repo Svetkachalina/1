@@ -684,7 +684,7 @@ legend {
   }
 
   .swiper-title {
-    font-size: 18px;
+    font-size: 1.1875rem;
   }
 }
 @media (max-width: 900px) {
@@ -703,9 +703,7 @@ legend {
   .services-text {
     max-width: 205px;
 }
-  .swiper-title {
-    font-size: 19px;
-  }
+ 
   .swiper-text {
     margin-top: 8px;
   }
@@ -790,22 +788,6 @@ legend {
   .swiper-slide {
     justify-content: start;
   }
-
-  .swiper-button-next {
-    width: 44px;
-    height: 44px;
-    right: inherit;
-    bottom: 56px;
-    left: 20%;
-  }
-
-  .swiper-button-prev {
-    width: 44px;
-    height: 44px;
-    right: inherit;
-    bottom: 56px;
-    left: 0;
-  }
   .hero_visual {
     width: 259px;
     height: 183px;
@@ -845,18 +827,16 @@ legend {
     font-size: 28px;
     line-height: 107%;
   }
-
-  .swiper-button-next {
-    width: 44px;
-    height: 44px;
-    right: 29%;
-    bottom: 44px;
-  }
-
   .swiper-button-prev {
     width: 44px;
     height: 44px;
-    right: 38.6%;
+    right: 80%;
+    bottom: 44px;
+  }
+  .swiper-button-next {
+    width: 44px;
+    height: 44px;
+    left: 29%;
     bottom: 44px;
   }
 
@@ -890,7 +870,7 @@ legend {
   }
 
   .swiper-title {
-    font-size: 2.3vw;
+    
     line-height: 0.9;
   }
 
@@ -1050,8 +1030,8 @@ legend {
 }
 }
 @media (max-width: 676px) {
+  
   .online-reg-confirm {
-    top: 63.6%;
     left: 34%;
     max-width: 123px;
     padding-left: 20px;
@@ -1060,13 +1040,25 @@ legend {
     padding-right: 16px;
 }
 }
+@media (max-width: 635px) {
+  .main-bg {
+    height: 849px;
+}
+.btn-services {
+  margin-top: 104px;
+}
+.slider_2-wrap {
+  margin-top: 41px;
+}
+}
 @media (max-width: 620px) {
+
   .swiper-button-next {
-    right: 19%;
+    /* right: 19%; */
   }
 
   .swiper-button-prev {
-    right: 28.6%;
+    /* right: 28.6%; */
   }
 
   .swiper-title {
@@ -1218,22 +1210,21 @@ legend {
     height: 100%;
   }
 
-
-  .swiper-button-next {
-    width: 40px;
-    height: 40px;
-    left: inherit;
-    right: 0;
-    bottom: 77px;
-  }
-
   .swiper-button-prev {
     width: 40px;
     height: 40px;
     right: 36.6%;
     bottom: 77px;
     left: inherit;
-    right: 15%;
+    right: 40%;
+  }
+
+  .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    left: inherit;
+    right: 25%;
+    bottom: 77px;
   }
 
   .services {
@@ -1486,7 +1477,7 @@ legend {
     margin-bottom: 23px;
 }
   .online-reg-confirm {
-    top: 86%;
+    top: 427%;
     left: 68%;
 }
 .online-reg-btn {

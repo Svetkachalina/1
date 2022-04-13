@@ -3101,11 +3101,7 @@ input[type="radio"] + label::after {
 .online-reg-form._white .form-input-phone {
   padding: 27px 0 7px;
 }
-.btn-phone-green-black._mobile {
-  display: block;
-  top: 81%;
-  right: 10%;
-}
+
 .copyright {
   order: 2;
   align-self: flex-start;
