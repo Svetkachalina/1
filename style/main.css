@@ -580,10 +580,6 @@ legend {
     margin-left: 0;
   }
 
-  .slider2-item img {
-    /* height: 250px; */
-  }
-
   .swiper-title {
     font-size: 24px;
   }
@@ -600,6 +596,9 @@ legend {
 }
 }
 @media (max-width: 1100px) {
+  .slider_2-wrap {
+    top: 44px;
+}
    .wrap_services {
     margin-bottom: 38px;
   }
@@ -698,13 +697,12 @@ legend {
   }
 
   .slider_2-wrap {
-    max-width: 55vw;
+   margin-top: 41px;
   }
 
-  .slider2-item img {
-    height: 205px;
-  }
-
+  .services-text {
+    max-width: 205px;
+}
   .swiper-title {
     font-size: 19px;
   }
@@ -742,7 +740,7 @@ legend {
   }
 
   .slider2-item img {
-    height: 26.5vw;
+    height: 32.5vw;
   }
 
   .menu-select {
@@ -815,7 +813,7 @@ legend {
   }
 
   .services {
-    margin-top: 102px;
+    margin-top: 84px;
   }
 
   .services-text {
@@ -887,7 +885,8 @@ legend {
 
   .slider_2-wrap {
     max-width: 64.4vw;
-    top: -9px;
+    top: 0;
+    margin-top: 0;
   }
 
   .swiper-title {
@@ -897,7 +896,7 @@ legend {
 
   .swiper-no {
     font-size: 30px;
-    line-height: 63.8%;
+    line-height: 118.8%;
   }
 
   .swiper-text {
