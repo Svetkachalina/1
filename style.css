@@ -574,7 +574,7 @@ font-size: 10px;
 }
 .mySwiperText {
   min-height: 0;
-  max-height: 300px;
+  max-width: 300px;
   flex: 1;
 }
 .swiper-horizontal > .swiper-pagination-progressbar,
@@ -2736,7 +2736,7 @@ input {
   max-width: 25rem;
 }
 }
-@media (max-height: 955px) {
+@media (max-width: 955px) {
   .services-title {
     font-size: 65px;
   }
@@ -2748,7 +2748,7 @@ input {
     font-size: 10px;
 }
 }
-@media (max-height: 945px) {
+@media (max-width: 945px) {
   input[type="radio"] + label {
     font-size: 0.6875rem;
     line-height: 100%;
@@ -2898,7 +2898,7 @@ input[type="radio"] + label {
   }
   
   .mySwiperText {
-    max-height: 216px;
+    max-width: 216px;
     margin-left: 8%;
   }
 
@@ -3114,7 +3114,7 @@ input[type="radio"] + label::after {
   }
 
   .mySwiperText {
-    max-height: 147px;
+    max-width: 147px;
     margin-left: 0;
   }
 
