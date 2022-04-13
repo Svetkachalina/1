@@ -2681,6 +2681,9 @@ input {
   .hero-subheading {
     font-size: 14px;
   }
+  .search-txt {
+    width: 32vw;
+  }
   .btn-phone-green-black._spa-2 {
  
     right: 2%;
@@ -2745,6 +2748,9 @@ input {
 }
 }
 @media (max-width: 900px) {
+  .search-box {
+    display: none;
+  }
     .new-spa-circle { 
         left: -23%;
     }
