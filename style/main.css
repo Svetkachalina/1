@@ -1,7 +1,4 @@
-/* изменить  */
-/* https://github.com/Svetkachalina/1.git */
-/* https://github.com/keaasd/Spa.git */
-/* e  */
+
 body {
   background-color: #e5e5e5;
 }
@@ -21,18 +18,14 @@ body {
   background-repeat: no-repeat;
 }
 
-
-
-
-
 .header-nav_list {
   padding-right: 0;
-  /* удалить паддинг  */
+
 }
 
 .btn-text {
   margin-left: 0px;
-  background: url("../img/button.svg");
+  background: url('./img/button.svg');
   background-size: contain;
   background-repeat: no-repeat;
   /* position: relative; */
@@ -115,7 +108,7 @@ body {
 }
 
 .swiper-button-next {
-  background-image: url(./img/arrow-right.svg);
+  background-image: url('./img/arrow-right.svg');
   background-repeat: repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,8 +143,8 @@ body {
 .white_phone-btn {
   display: block;
   position: absolute;
-  background-image: url(./img/phone.svg);
-  /* background: url('../img/phone.svg'); */
+  background-image: url('./img/phone.svg');
+ 
   background-repeat: repeat;
   background-size: auto;
   background-repeat: no-repeat;
@@ -163,7 +156,7 @@ body {
 }
 
 .swiper-button-prev {
-  background-image: url(./img/arrow-left.svg);
+  background-image: url('./img/arrow-left.svg');
 
   background-repeat: repeat;
   background-size: auto;
@@ -180,7 +173,7 @@ body {
 }
 
 .hero_visual {
-  background-image: url("../img/hero-pic.png");
+  background-image: url('./img/hero-pic.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 353px;
@@ -1093,7 +1086,11 @@ legend {
   }
 
   .logo {
-    background-image: url(./img/logo_mobile.svg);
+    display: block;
+    background-image: url('./img/logo_mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     width: 46px;
     height: 40.89px;
     margin-right: 0;
