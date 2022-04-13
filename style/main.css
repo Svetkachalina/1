@@ -668,7 +668,7 @@ legend {
 }
 @media (max-width: 1000px) {
   .online-reg-title {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
   }
   .btn-services {
     margin-top: 159px;
