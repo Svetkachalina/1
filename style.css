@@ -3123,9 +3123,12 @@ input[type="radio"] + label::after {
 .discount-10 {
   bottom: 19%;
 }
-
 }
- 
+@media (max-width: 550px) {
+  .online-reg-confirm {
+    top: 423%;
+}
+} 
 @media (max-width: 522px) {
   .btn-phone-green-black._mobile {
     top: 80%;
