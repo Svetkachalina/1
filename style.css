@@ -1295,6 +1295,7 @@ font-size: 10px;
   display: flex;
   max-width: 1360px;
   margin: 0 auto;
+  position: relative;
 }
 
 .online-reg-left {
@@ -3039,6 +3040,9 @@ input[type="radio"] + label::after {
     left: inherit;
     right: 15%;
   }
+  .contacts {
+    position: relative;
+  }
     .offers-grid {
       display: block;
       margin-top: 0;
@@ -3062,6 +3066,11 @@ input[type="radio"] + label::after {
       display: flex;
       flex-direction: column;
     }
+  
+    .btn-phone-green-black._mobile {
+      display: block;
+      top: 75%;
+  }
     .container._form {
       background: #fff;
     }
@@ -3126,17 +3135,13 @@ input[type="radio"] + label::after {
 }
 @media (max-width: 550px) {
   .online-reg-confirm {
-    top: 423%;
+    top: 4%;
 }
 } 
-@media (max-width: 522px) {
-  .btn-phone-green-black._mobile {
-    top: 80%;
-}
-}  
+  
 @media (max-width: 420px) {
   .btn-phone-green-black._mobile {
-    top: 79.5%;
+   
     right: 8%;
 }
 }
@@ -3146,9 +3151,7 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 390px) {
-  .btn-phone-green-black._mobile {
-    top: 79%;
-}
+
   input[type="radio"] + label {
     font-size: 0.7rem;
 }
@@ -3163,13 +3166,11 @@ input[type="radio"]:checked+label::after {
 }
 
 }
+
 @media (max-width: 375px) {
   .swiper-button-prev {
     right: 48px;
   }
+  
 }
-@media (max-width: 375px) {
-  .btn-phone-green-black._mobile {
-    top: 78%;
-  }
-}
+

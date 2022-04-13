@@ -1024,14 +1024,15 @@ legend {
   margin-top: 0;
   font-size: 12px;
   position: absolute;
-  top: 239.6%;
+  padding-left: 10px;
   left: 34%;
-  max-width: 100px;
+  max-width: 108px;
 }
 }
 @media (max-width: 676px) {
   
   .online-reg-confirm {
+    top: 10%;
     left: 34%;
     max-width: 123px;
     padding-left: 20px;
@@ -1477,7 +1478,7 @@ legend {
     margin-bottom: 23px;
 }
   .online-reg-confirm {
-    top: 427%;
+    
     left: 68%;
 }
 .online-reg-btn {
@@ -1487,9 +1488,10 @@ legend {
   padding-bottom: 5px;
 }
   .contact {
-    background: white;
+    background: #fff;
     margin-top: 21px;
     padding-bottom: 0;
+    position: relative;
   }
   .contact-nav {
     display: block;
@@ -1509,6 +1511,7 @@ legend {
   .contacts {
     line-height: 120%;
     font-size: 25px;
+    
   }
 
   .contact-box {
@@ -1557,13 +1560,11 @@ legend {
 }
 @media (max-width: 522px) {
   .online-reg-confirm {
-    top: 85%;
     left: 65%;
   }
 }
 @media (max-width: 470px) {
   .online-reg-confirm {
-    top: 84%;
     left: 60%;
   }
 }
@@ -1579,7 +1580,6 @@ legend {
 
 @media (max-width: 385px) {
   .online-reg-confirm {
-    top: 83.5%;
     left: 55%;
   }
 }
@@ -1622,6 +1622,12 @@ legend {
   .swiper-no {
     font-size: 24px;
   }
+  .online-reg-title {
+    font-size: 24px;
+}
+.online-reg-confirm {
+ font-size: 9px;
+}
 }
 
 @media (max-width: 320px) {
