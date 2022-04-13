@@ -2747,6 +2747,9 @@ input {
   .card-text {
     font-size: 10px;
 }
+.show-more-text {
+  font-size: 10px;
+}
 }
 @media (max-width: 945px) {
   input[type="radio"] + label {
@@ -3042,6 +3045,10 @@ input[type="radio"] + label::after {
 .card-text {
   font-size: 12px;
 }
+.show-more-text {
+  font-size: 12px;
+  margin-top: -21px;
+}
 }
 @media (max-width: 703px) {
   .categories {
@@ -3293,6 +3300,10 @@ input[type="radio"] + label::after {
   font-size: 10px;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.show-more-text {
+  font-size: 10px;
+  margin-top: -12px;
 }
   .btn-phone-green-black._mobile {
     right: 8%;
