@@ -3092,7 +3092,9 @@ input[type="radio"] + label::after {
  legend {
    display: none;
  }
-
+ input {
+  padding-left: 0;
+}
  .online-reg-left {
   flex-basis: 100%;
   border-radius: 10px;
@@ -3136,6 +3138,7 @@ input[type="radio"] + label::after {
 .discount-10 {
   bottom: 19%;
 }
+
 }
  
 @media (max-width: 522px) {
