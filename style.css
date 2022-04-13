@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  position: relative;
+  /* position: relative; */
   background-color: #e5e5e5;
 }
 
@@ -61,6 +61,17 @@ legend {
   background-color: #e5e5e5;
 }
 
+.small-bg::after {
+  content: '';
+  display: block;
+  background-color: rgba(33, 37, 32, 0.3);;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
 .btn-phone-green-black {
   display: block;
   background: url("./img/phone-black-green.svg");
@@ -113,12 +124,16 @@ legend {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  position: relative;
+  z-index: 2;
 }
+
 
 .header {
   padding-top: 40px;
+  padding-right: 7%;
+  padding-left: 6%;
 }
-
 .container {
   max-width: 1279px;
   margin: 0 auto;
@@ -132,7 +147,7 @@ legend {
 }
 
 .logo {
-  background: url("./img/logo.svg");
+  background: url('./img/logo.svg');
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
@@ -215,11 +230,7 @@ legend {
   padding-left: 2px;
 }
 
-.header {
-  padding-top: 40px;
-  padding-right: 7%;
-  padding-left: 6%;
-}
+
 
 .header-box {
   display: flex;
@@ -460,7 +471,7 @@ height: 27px;
 
 .modal_logo {
   display: block;
-  background-image: url(./img/logo_mobile.svg);
+  background-image: url('./img/logo_mobile.svg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 46px;
@@ -1076,7 +1087,7 @@ font-size: 10px;
   height: 75px;
   cursor: pointer;
   position: absolute;
-  top: 39.5%;
+  top: 261%;
   right: 8%;
   transition: 0.3s ease-out;
   transform: scale(1);
