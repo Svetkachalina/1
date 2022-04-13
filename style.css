@@ -74,7 +74,7 @@ legend {
 }
 .btn-phone-green-black {
   display: block;
-  background: url("./img/phone-black-green.svg");
+  background: url('./img/phone-black-green.svg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 86px;
@@ -97,7 +97,7 @@ legend {
   transform: scale(1.1);
 }
 .main-bg {
-  background: url("./img/bg1.jpg");
+  background: url('./img/bg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -120,7 +120,7 @@ legend {
 }
 
 .small-bg {
-  background: url("./img/bg1.jpg");
+  background: url('./img/bg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -184,7 +184,7 @@ legend {
   font-size: 13px;
   line-height: 136.8%;
   outline: none;
-  background: url("./img/drop-down.svg");
+  background: url('./img/drop-down.svg');
   background-repeat: no-repeat;
   background-size: 9px 7.75px;
   background-position: 98% center;
@@ -311,7 +311,7 @@ legend {
 .search-btn {
   display: block;
   border: none;
-  background: url("./img/search.svg");
+  background: url('./img/search.svg');
   background-repeat: no-repeat;
   width: 16.6px;
   height: 16px;
@@ -351,7 +351,7 @@ legend {
 }
 .cross {
   display: block;
-  background-image: url(./img/cross.svg);
+  background: url('./img/cross.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -376,7 +376,7 @@ legend {
   color: #fff;
 }
 .burger-btn {
-  background-image: url('./img/burger_menu.svg');
+  background: url('./img/burger_menu.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -389,7 +389,7 @@ legend {
 }
 /* стили крестика ======== */
 .header-modal-close {
-  background-image: url('./img/moby.svg');
+  background: url('./img/moby.svg');
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
@@ -471,7 +471,7 @@ height: 27px;
 
 .modal_logo {
   display: block;
-  background-image: url('./img/logo_mobile.svg');
+  background: url('./img/logo_mobile.svg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 46px;
@@ -593,8 +593,8 @@ font-size: 10px;
   bottom: 69px;
 } */
 .swiper-button-next {
-  background-image: url(./img/arrow-right.svg);
-  background-repeat: repeat;
+  background: url('./img/arrow-right.svg');
+ 
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -620,8 +620,8 @@ font-size: 10px;
   bottom: 69px;
 } */
 .swiper-button-prev {
-  background-image: url(./img/arrow-left.svg);
-  background-repeat: repeat;
+  background: url('./img/arrow-left.svg');
+  
   background-size: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -650,7 +650,7 @@ font-size: 10px;
 }
 
 .hero_visual {
-  background-image: url("../img/hero-pic.png");
+  background-image: url('./img/hero-pic.png');
   background-repeat: no-repeat;
   background-size: contain;
   max-width: 22.0625rem;
@@ -682,7 +682,7 @@ font-size: 10px;
 }
 
 .hero-visual {
-  background-image: url("./img/hero-pic.png");
+  background: url('./img/hero-pic.png');
   background-repeat: no-repeat;
   background-size: contain;
   flex-basis: 48%;
@@ -738,7 +738,7 @@ font-size: 10px;
 .white-phone-btn {
   display: block;
   position: absolute;
-  background: url("./img/phone.svg");
+  background: url('./img/phone.svg');
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -762,9 +762,9 @@ font-size: 10px;
 .white_phone-btn {
   display: block;
   position: absolute;
-  background-image: url(./img/phone.svg);
+  background: url('./img/phone.svg');
   /* background: url('../img/phone.svg'); */
-  background-repeat: repeat;
+  
   background-size: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -893,7 +893,7 @@ font-size: 10px;
 
 
 .btn-bg {
-  background: url("./img/button.svg");
+  background: url('./img/button.svg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 10.3125rem;
@@ -931,7 +931,7 @@ font-size: 10px;
 }
 
 .img-service_card {
-  background: url("./img/spa-3.png");
+  background: url('./img/spa-3.png');
   border-radius: 10px;
   width: 100%;
   max-width: 303px;
@@ -1793,12 +1793,12 @@ li {
 
 .slider3 .slick-arrow.slick-prev {
   right: 17%;
-  background: url("./img/arrow-left-green.svg") 0 0 / 100% no-repeat;
+  background: url('./img/arrow-left-green.svg') 0 0 / 100% no-repeat;
 }
 
 .slider3 .slick-arrow.slick-next {
   right: 11%;
-  background: url("./img/arrow-right-green.svg") 0 0 / 100% no-repeat;
+  background: url('./img/arrow-right-green.svg') 0 0 / 100% no-repeat;
 }
 
 .slider3 .slick-dots {
@@ -1981,27 +1981,27 @@ li {
 }
 
 .offers-card:nth-child(1) {
-  background: url("./img/offers1.png");
+  background: url('./img/offers1.png');
   background-repeat: no-repeat;
 }
 
 .offers-card:nth-child(2) {
-  background: url("./img/offers2.png");
+  background: url('./img/offers2.png');
   background-repeat: no-repeat;
 }
 
 .offers-card:nth-child(3) {
-  background: url("./img/offers3.png");
+  background: url('./img/offers3.png');
   background-repeat: no-repeat;
 }
 
 .offers-card:nth-child(4) {
-  background: url("./img/offers4.png");
+  background: url('./img/offers4.png');
   background-repeat: no-repeat;
 }
 
 .offers-card:nth-child(5) {
-  background: url("./img/offers5.png");
+  background: url('./img/offers5.png');
   background-repeat: no-repeat;
 }
 
@@ -2043,7 +2043,7 @@ li {
 
 .ellipse-green {
   display: block;
-  background: url("./img/Ellipse 8.svg");
+  background: url('./img/Ellipse 8.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 600px;
@@ -2279,7 +2279,7 @@ input {
 }
 
 #Swiper3 .swiper-slide:nth-child(1n) {
-  background: url("./img/gallery1.png");
+  background: url('./img/gallery1.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -2292,7 +2292,7 @@ input {
 }
 
 #Swiper3 .swiper-slide:nth-child(2n) {
-  background: url("./img/gallery2.png");
+  background: url('./img/gallery2.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -2300,7 +2300,7 @@ input {
 }
 
 #Swiper3 .swiper-slide:nth-child(3n) {
-  background: url("./img/gallery1.png");
+  background: url('./img/gallery1.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -2317,7 +2317,7 @@ input {
 }
 
 .swiper-button-prev {
-  background: url(./img/arrow-left-green.svg);
+  background: url('./img/arrow-left-green.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -2328,7 +2328,7 @@ input {
 }
 
 .swiper-button-next {
-  background: url(./img/arrow-right-green.svg);
+  background: url('./img/arrow-right-green.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -2637,6 +2637,9 @@ input {
   .offers-grid {
     grid-template-rows: 311px 220px 518px;
     margin-top: 280px;
+}
+.phone-green {
+  top: 231%;
 }
 .discount-15::before {
   width: 6rem;

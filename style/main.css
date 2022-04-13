@@ -25,7 +25,7 @@ body {
 
 .btn-text {
   margin-left: 0px;
-  background: url('./img/button.svg');
+  background: url('../img/button.svg');
   background-size: contain;
   background-repeat: no-repeat;
   /* position: relative; */
@@ -108,8 +108,8 @@ body {
 }
 
 .swiper-button-next {
-  background-image: url('./img/arrow-right.svg');
-  background-repeat: repeat;
+  background: url('../img/arrow-right.svg');
+  
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -143,9 +143,7 @@ body {
 .white_phone-btn {
   display: block;
   position: absolute;
-  background-image: url('./img/phone.svg');
- 
-  background-repeat: repeat;
+  background: url('../img/phone.svg');
   background-size: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,9 +154,7 @@ body {
 }
 
 .swiper-button-prev {
-  background-image: url('./img/arrow-left.svg');
-
-  background-repeat: repeat;
+  background: url('../img/arrow-left.svg');
   background-size: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +169,7 @@ body {
 }
 
 .hero_visual {
-  background-image: url('./img/hero-pic.png');
+  background: url('../img/hero-pic.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 353px;
@@ -202,8 +198,8 @@ body {
 }
 
 .white_phone-index {
-  top: 15.7%;
-  right: 8%;
+  top: 101.7%;
+  right: 5%;
   z-index: 3;
 }
 
@@ -353,7 +349,7 @@ body {
 }
 
 /* .burger-btn {
-  background-image: url(./img/burger_menu.svg);
+  background-image: url(.../img/burger_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -367,7 +363,7 @@ body {
 
 /* стили крестика ======== */
 /* .header-modal-close {
-  background-image: url(./img/moby.svg);
+  background-image: url(.../img/moby.svg);
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
@@ -420,7 +416,7 @@ body {
 
 .modal_logo {
   display: block;
-  background-image: url(./img/logo_mobile.svg);
+  background-image: url(.../img/logo_mobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 46px;
@@ -466,7 +462,7 @@ legend {
 
 .maps-moby::before {
   content: '';
-  background-image: url('./img/pin.svg');
+  background: url('../img/pin.svg');
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -1087,7 +1083,7 @@ legend {
 
   .logo {
     display: block;
-    background-image: url('./img/logo_mobile.svg');
+    background: url('../img/logo_mobile.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
