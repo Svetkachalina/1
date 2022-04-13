@@ -750,6 +750,7 @@ legend {
   .pin {
     width: 8.86px;
     height: 11.65px;
+    margin-right: 5px;
   }
 
   .drop-down::after {
@@ -1321,7 +1322,7 @@ legend {
       margin: 0;
   }
   .grid_item2-pic {
-    max-width: 47%;
+    max-width: 65%;
     display: block;
     margin: 0 auto;
     padding-bottom: 25px;
@@ -1338,9 +1339,9 @@ legend {
   }
 
   .discount-15 {
-    top: 227px;
-    left: 24%;
-    font-size: 28px;
+    top: 269px;
+    left: 13%;
+    font-size: 2.5rem;
   }
 
   .grid_item5-pic::before {
@@ -1369,7 +1370,7 @@ legend {
   }
 
   .grid_item4-pic {
-    max-width: 60%;
+    max-width: 90%;
     display: block;
     padding-bottom: 23px;
   }
@@ -1393,9 +1394,9 @@ legend {
    right: 90%;
 }
   .discount-10 {
-    bottom: 46%;
+    bottom: 39%;
     left: initial;
-    right: 34%;
+    right: 4%;
     font-size: 31px;
   }
 
@@ -1423,7 +1424,6 @@ legend {
 
   .offers-grid_item5 {
     
-    /* padding-bottom: 40px; */
     margin-top: 25px;
   }
 
@@ -1431,7 +1431,7 @@ legend {
     position: relative;
     display: block;
     background-size: cover;
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
   }
 
@@ -1450,6 +1450,7 @@ legend {
     font-size: 12px;
     margin: 0 auto;
     line-height: 150%;
+    padding-bottom: 35px;
   }
 
   .wraps_box {
@@ -1550,27 +1551,60 @@ legend {
   .contacts_nav-items {
     margin-bottom: 40px;
   }
-
-}
-@media (max-width: 563px) {
-
-.discount-15 {
-  top: 168px;
-}
 }
 @media (max-width: 522px) {
   .online-reg-confirm {
     left: 65%;
   }
 }
+@media (max-width: 500px) {
+  .discount-15 {
+    top: 237px;
+    left: 10%; 
+}
+}
 @media (max-width: 470px) {
   .online-reg-confirm {
     left: 60%;
   }
+  .discount-15 {
+    top: 219px;
 }
+.new-spa-circle {
+  left: -1%;
+  }
+}
+@media (max-width: 440px) {
+  .discount-15 {
+    top: 196px;
+}
+.new-spa-circle {
+ 
+  width: 100px;
+  height: 100px;
+}
+}
+@media (max-width: 420px) {
+  .discount-15 {
+    top: 196px;
+    font-size: 2rem;
+    left: 9%;
+}
+.new-spa-circle {
+  width: 100px;
+  height: 100px;
+}
+}
+
 @media (max-width: 400px) {
+  .discount-15 {
+    top: 180px;
+}
+.discount-10::before {
+  width: 5rem;
+  height: 5rem;
+}
   .contact-hours-descr {
-  
     max-width: 166px;
   }
   .footer-social {
@@ -1584,8 +1618,6 @@ legend {
   }
 }
 @media (max-width: 375px) {
-
-
   .swiper-button-next {
     right: 0%;
   }
@@ -1612,12 +1644,22 @@ legend {
   }
 
   .discount-15 {
-    top: 227px;
-    left: 9%;
+    top: 164px;
   }
+  .discount-10::before {
+    width: 4.5rem;
+    height: 4.5rem;
 }
-
-
+  .discount-10 {
+    bottom: 42%;
+    right: -1%;
+    font-size: 27px;
+}
+.new-spa-circle {
+  width: 90px;
+  height: 90px;
+}
+}
 @media (max-width: 368px) {
   .swiper-no {
     font-size: 24px;
@@ -1629,7 +1671,31 @@ legend {
  font-size: 9px;
 }
 }
-
+@media (max-width: 350px) {
+  .discount-15 {
+    top: 149px;
+    left: 7%;
+}
+.new-spa-circle {
+ left: -3%;
+ top: 50%;
+}
+}
+@media (max-width: 340px) {
+.main-bg {
+  height: 617px;
+}
+}
+@media (max-width: 335px) {
+  .discount-15 {
+    top: 126px;
+    left: 5%;
+}
+.new-spa-circle {
+ left: -6%;
+ top: 48%;
+}
+}
 @media (max-width: 320px) {
   .title-hero {
     font-size: 30px;
