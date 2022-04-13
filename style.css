@@ -3244,6 +3244,9 @@ input[type="radio"] + label::after {
     row-gap: 24px;
     margin-bottom: 60px;
 }
+.category-item {
+  font-size: 10px;
+}
 .card-item {
   margin-bottom: 55px;
 }
