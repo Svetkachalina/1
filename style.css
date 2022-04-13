@@ -796,8 +796,6 @@ font-size: 10px;
   top: 320px;
 }
 
-.slick-slider {
-}
 
 .slick-list {
   overflow: hidden;
@@ -1794,14 +1792,7 @@ li {
   background: url('./img/arrow-right-green.svg') 0 0 / 100% no-repeat;
 }
 
-.slider3 .slick-dots {
-}
 
-.slider3 .slick-dots li {
-}
-
-.slider3 .slick-dots button {
-}
 
 /* ONLINE-REGISTRATION FORM */
 
@@ -2245,8 +2236,7 @@ input {
   padding-bottom: 120px;
 }
 
-#Swiper3 .swiper-wrapper {
-}
+
 
 .swiper-slide {
   /* Center slide text vertically */
@@ -2347,8 +2337,7 @@ input {
 
 /* HAMAM PAGE */
 
-.card-item._hamam:nth-child(1) {
-}
+
 
 .sub-heading-card-list {
   font-family: "Raleway";
