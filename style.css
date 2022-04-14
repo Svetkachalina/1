@@ -187,7 +187,7 @@ legend {
   background: url('./img/drop-down.svg');
   background-repeat: no-repeat;
   background-size: 9px 7.75px;
-  background-position: 98% center;
+  background-position: 100% center;
   appearance: none;
   position: relative;
 }
@@ -195,6 +195,23 @@ legend {
 .menu-select option {
   color: #000;
   background: #fff;
+}
+.menu-select._black {
+  margin-left: 10px;
+  border: none;
+  color: #000;
+  width: 144px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 136.8%;
+  outline: none;
+  background: url('./img/drop-down-black.svg');
+  background-repeat: no-repeat;
+  background-size: 9px 7.75px;
+  background-position: 98% center;
+  appearance: none;
+  position: relative;
 }
 .menu-select._categories {
   color: #000;
@@ -3117,14 +3134,7 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 570px) {
-  .menu-select {
-    background: url('./img/drop-down-black.svg');
-    background-repeat: no-repeat;
-    background-size: 9px 7.75px;
-    background-position: 98% center;
-    position: relative;
-    display: block;
-  }
+
   
   .small-bg {
     background: #E5E5E5;
@@ -3146,7 +3156,7 @@ input[type="radio"] + label::after {
   }
   .burger-btn-green {
     display: block;
-    
+
   }
   .categories {
     display: none;
