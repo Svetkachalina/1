@@ -1354,7 +1354,7 @@ font-size: 10px;
 }
 .online-reg-pic._border {
   /* border-radius: 0 10px 10px 0; */
-  flex-basis: 50%;
+  flex-basis: 58%;
   width: 100%;
   max-width: 685px;
   overflow: hidden;
