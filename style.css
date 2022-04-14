@@ -245,7 +245,7 @@ legend {
 } */
 
 .menu-select-big {
-  width: 274px;
+  width: 300px;
   font-weight: 500;
   font-size: 27px;
   line-height: 136.8%;
@@ -262,9 +262,6 @@ legend {
   margin-top: 20px;
   padding-left: 2px;
 }
-
-
-
 .header-box {
   display: flex;
 }
