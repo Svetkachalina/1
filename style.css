@@ -196,7 +196,21 @@ legend {
   color: #000;
   background: #fff;
 }
-
+.menu-select._categories {
+  color: #000;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 260px;
+  background: url('./img/drop-down-black.svg');
+  background-repeat: no-repeat;
+  background-size: 8.79px 6.06px;
+  background-position: 95% center;
+  border: 1px solid #000;
+  border-radius: 40px;
+  padding: 10px 15px;
+  display: none;
+}
 .select-big {
   position: relative;
 }
@@ -381,6 +395,18 @@ legend {
 }
 .burger-btn {
   background: url('./img/burger_menu.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 16px;
+  border: none;
+  width: 24px;
+  margin-left: 5vw;
+  display: none;
+  height: 9.5px;
+}
+.burger-btn-green {
+  background: url('./img/burger-green.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -3091,6 +3117,37 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 570px) {
+  .small-bg {
+    background: #E5E5E5;
+  }
+  .small-bg::after {
+    display: none;
+  }
+  .service-flex {
+    padding-bottom: 0;
+  }
+  .services-title {
+    color:#000;
+    font-size: 30px;
+    flex-basis: auto;
+    margin: 0 auto;
+  }
+  .services-descriprion {
+    display: none;
+  }
+  .burger-btn-green {
+    display: block;
+  }
+  .categories {
+    display: none;
+  }
+  .menu-select._categories {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+  }
   .swipers_box {
     max-width: 100%;
     display: block;
@@ -3271,21 +3328,14 @@ input[type="radio"] + label::after {
 }
 } 
 @media (max-width: 535px) {
-  .categories {
-    column-gap: 20px;
-}
+ 
 }
 @media (max-width: 505px) {
   .services-title {
     font-size: 36px;
     flex-basis: 52%;
 }
-  .categories {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 24px;
-    margin-bottom: 60px;
-}
+
 .category-item {
   font-size: 10px;
 }
@@ -3378,10 +3428,7 @@ input[type="radio"]:checked+label::after {
 .col-right {
   flex-basis: 67%;
 }
-.categories {
-  margin-top: 40px;
-  margin-bottom: 45px;
-}
+
 .category-item {
   font-size: 10.5px;
 }
