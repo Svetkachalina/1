@@ -499,16 +499,16 @@ legend {
   padding-right: 8.3%;
 }
 
-.social {
+/* .social {
   font-size: 12px;
 
   text-align: right;
   letter-spacing: 0.02em;
-}
+} */
 
-.footer-social {
+/* .footer-social {
   gap: 62px;
-}
+} */
 
 @media (max-width: 1360px) {
   .container {
@@ -997,11 +997,11 @@ legend {
     display: none;
   }
 
-  .footer-flex {
+  /* .footer-flex {
     font-size: 12px;
     letter-spacing: 0.02em;
     gap: 20px;
-  }
+  } */
 
   .footer-line {
     margin: 0 20px;
