@@ -174,7 +174,7 @@ legend {
   top: 30px;
 } */
 
-.menu-select {
+.menu-select._desk {
   margin-left: 10px;
   border: none;
   color: #fff;
@@ -228,6 +228,7 @@ legend {
   border: 1px solid #000;
   border-radius: 40px;
   padding: 10px 15px;
+  appearance: none;
   display: none;
 }
 .select-big {
@@ -3156,10 +3157,10 @@ input[type="radio"] + label::after {
     }
 }
 @media (max-width: 570px) {
-.menu-select {
-  display: none;
-}
   .menu-select._mob {
+    display: block;
+  }
+  .menu-select._desk {
     display: block;
   }
   .small-bg {
