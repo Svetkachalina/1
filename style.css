@@ -3117,6 +3117,16 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 570px) {
+  .menu-select {
+    background: url('./img/drop-down-black.svg');
+    background-repeat: no-repeat;
+    background-size: 9px 7.75px;
+    background-position: 98% center;
+    position: relative;
+    display: block;
+  }
+  
+  
   .small-bg {
     background: #E5E5E5;
   }
