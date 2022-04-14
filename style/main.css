@@ -1098,7 +1098,7 @@ legend {
     align-items: center;
   }
   .burger-btn {
-    display: none;
+    background: url('../img/burger-green.svg');
   }
   
   .search-box {

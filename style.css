@@ -3126,7 +3126,6 @@ input[type="radio"] + label::after {
     display: block;
   }
   
-  
   .small-bg {
     background: #E5E5E5;
   }
@@ -3147,6 +3146,7 @@ input[type="radio"] + label::after {
   }
   .burger-btn-green {
     display: block;
+    
   }
   .categories {
     display: none;
