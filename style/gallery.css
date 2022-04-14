@@ -115,7 +115,7 @@ img {
   color: #9e9d52;
 }
 
-.select-big::after {
+/* .select-big::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
@@ -123,7 +123,7 @@ img {
   position: absolute;
   right: 0;
   top: 89%;
-}
+} */
 
 .form_wrap {
   display: flex;

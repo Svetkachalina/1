@@ -234,7 +234,7 @@ legend {
   position: relative;
 }
 
-.select-big::after {
+/* .select-big::after {
   content: "";
   display: block;
   border-bottom: 1px solid #fff;
@@ -242,10 +242,10 @@ legend {
   position: absolute;
   right: 6%;
   top: 89%;
-}
+} */
 
 .menu-select-big {
-  width: 308px;
+  width: 274px;
   font-weight: 500;
   font-size: 27px;
   line-height: 136.8%;
