@@ -140,7 +140,7 @@ legend {
 }
 .noscroll {
   overflow: hidden;
-  height: 100%;
+  /* height: 100%; */
 }
 .modal_window {
   overflow-y: scroll;
