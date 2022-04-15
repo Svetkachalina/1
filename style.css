@@ -138,7 +138,14 @@ legend {
   max-width: 1279px;
   margin: 0 auto;
 }
+.noscroll {
+  overflow: hidden;
+  height: 100%;
+}
+.modal_window {
+  overflow-y: scroll;
 
+}
 .header-flex {
   display: flex;
   justify-content: space-between;

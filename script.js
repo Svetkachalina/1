@@ -21,6 +21,9 @@ function closeModal() {
     document.getElementById("modal__mb").style.left = "-3000px";
 }
 
+
+
+
 // Button HIDDEN
 const texts = document.querySelectorAll('.text-hidden');
     
@@ -39,21 +42,25 @@ if (texts) {
   });
 }
 
+const open = document.querySelector('.burger-btn');
+const close = document.querySelector('.header-modal-close');
+const body = document.querySelector('body');
+const modalWindow = document.querySelector('.modal_window');
 
-// Button HIDDEN
-// const texts = document.querySelectorAll('.text-hidden');
 
-// if (texts) {
-//   texts.forEach(text => {
-//     const moreBtn = text.querySelector('.show-more-btn');
-//     const moreText = text.querySelector('.show-more-text');
+open.addEventListener('click', () => {
+  body.classList.add('noscroll');
+});
+close.addEventListener('click', () => {
+  body.classList.remove('noscroll');
+});
 
-//     moreText.style.display = 'none';
+modalWindow.addEventListener('click', (e) => {
+  const isModal = e.target.closest('.modal__mb');
+  if (!isModal) {
+    console.log('мимо: ');
+    modalWindow.style.left = "-3000px";
+    body.classList.remove('noscroll');
+  }
+});
 
-//     moreBtn.addEventListener('click', e => {
-//       e.preventDefault();
-//       moreText.style.display = 'block';
-//       moreBtn.style.display = 'none';
-//     });
-//   });
-// }
