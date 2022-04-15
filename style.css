@@ -1601,7 +1601,7 @@ li {
 
 .services-title {
   text-transform: uppercase;
-  flex-basis: 31%;
+  flex-basis: 38%;
 }
 
 .services-descriprion {
@@ -1647,16 +1647,18 @@ li {
 
 .cards-list-grid {
   display: grid;
-  grid-template-columns: 49% 50%;
+  grid-template-columns: 50% 50%;
   grid-auto-rows: repeat(4, 311px);
   row-gap: 90px;
 }
 
 .card-item {
-  display: flex;
-  gap: 40px;
-  transition: 0.4s ease;
-  position: relative;
+  /* display: flex;
+  gap: 40px; */
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 170px 51%;
+  grid-auto-rows: auto auto;
 }
 
 .btn-reg {
@@ -1687,7 +1689,9 @@ li {
 }
 
 .col-right {
-  flex-basis: 55.5%;
+  /* flex-basis: 55.5%; */
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .card-title {
@@ -1719,17 +1723,34 @@ li {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  margin-top: 33px;
-  margin-bottom: 6px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.text-hidden {
+  grid-column: 2 / 3;
+  grid-row: 3 / 3;
+ 
+}
+.text-hidden._1 {
+  margin-top: -63px;
+}
+.text-hidden._2 {
+  margin-top: -39px;
+}
+.text-hidden._3 {
+  margin-top: -39px;
+}
+.text-hidden._4 {
+  margin-top: -39px;
 }
 .show-more-text {
   display: none;
-  margin-top: -8px;
   max-width: 343px;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
+ 
 }
 .show-more-btn {
   font-family: "Raleway";
@@ -1744,6 +1765,7 @@ li {
   cursor: pointer;
   opacity: 0.8;
 }
+
 .show-more-btn:hover {
   opacity: 1;
 }
@@ -1756,7 +1778,9 @@ li {
 }
 .card-item-pic {
   /* height: 311px; */
-  flex-basis: 27%;
+  /* flex-basis: 27%; */
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
 
 .card-title3 {
@@ -2801,7 +2825,9 @@ input {
 }
 @media (max-width: 890px) {
  .card-item {
-   gap: 20px;
+   column-gap: 20px;
+   row-gap: 0;
+   max-width: 288px;
  }
 }
 
@@ -2892,6 +2918,17 @@ input[type="radio"] + label {
 }
 }
 @media (max-width: 768px) {
+  .cards-list-grid {
+    display: block;
+}
+.card-item {
+  max-width: 600px;
+  grid-template-columns: 170px 131%;
+  
+}
+.text-hidden {
+  margin-top: -69px;
+}
   .burger-link {
     margin-top: 89px;
   }
@@ -3025,6 +3062,22 @@ input[type="radio"] + label::after {
 .online-reg-left {
   flex-basis: 51%;
 }
+.card-item {
+  max-width: 260px;
+  margin-bottom: 50px;
+}
+.card-title {
+  font-size: 23px;
+}
+.time-price {
+  font-size: 16px;
+}
+.card-text {
+  font-size: 12px;
+}
+.show-more-text {
+  font-size: 12px;
+}
 }
 @media (max-width: 737px) {
   .time-price {
@@ -3071,9 +3124,7 @@ input[type="radio"] + label::after {
   .category-item {
     font-size: 12px;
 }
-  .cards-list-grid {
-    display: block;
-}
+
 .card-item {
   
   margin-bottom: 60px;
@@ -3120,6 +3171,7 @@ input[type="radio"] + label::after {
 .discount-10 {
   font-size: 1.1rem;
 }
+
 }
 @media (max-width: 660px) {
   .categories {
@@ -3138,6 +3190,9 @@ input[type="radio"] + label::after {
   }
   .online-reg-right {
     flex-basis: 29%;
+}
+.card-item {
+  max-width: 206px;
 }
 }
 @media (min-width: 571px) {
@@ -3176,9 +3231,13 @@ input[type="radio"] + label::after {
   .small-bg::after {
     display: none;
   }
+  .btn-phone-green-black._spa-2 {
+    top: 740%;
+}
   .service-flex {
     padding-bottom: 0;
   }
+ 
   .services-title {
     color:#000;
     font-size: 30px;
@@ -3355,6 +3414,39 @@ input[type="radio"] + label::after {
 } 
 }
 @media (max-width: 567px) {
+  .card-item {
+    max-width: 600px;
+    grid-template-columns: 110px 66%;
+    grid-template-rows: 180px auto;
+}
+
+.card-item-pic {
+ grid-column: 1 / 2;
+ grid-row: 1 / 2;
+}
+.card-item-pic img{
+  width: 100%;
+  max-width: 104px;
+  max-height: 176px;
+}
+.col-right {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.card-title {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+.card-text {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  max-width: 485px;
+}
+.text-hidden {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  margin-top: 66px;
+}
   .footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -3370,9 +3462,7 @@ input[type="radio"] + label::after {
 }
 }
 @media (max-width: 550px) {
-  .services-title {
-    flex-basis: 53%;
-}
+
   .services-descriprion {
     margin-left: 10%;
     font-size: 12px;
@@ -3387,7 +3477,6 @@ input[type="radio"] + label::after {
 @media (max-width: 505px) {
   .services-title {
     font-size: 36px;
-    flex-basis: 52%;
 }
 
 .category-item {
