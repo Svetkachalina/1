@@ -3581,7 +3581,6 @@ input[type="radio"]:checked+label::after {
   }
   .services-title {
     font-size: 32px;
-    flex-basis: 81%;
 }
 .services-descriprion {
    font-size: 10px;
