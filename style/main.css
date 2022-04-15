@@ -1074,32 +1074,7 @@ legend {
     padding-top: 12px;
   }
 
-  .logo {
-    display: block;
-    background: url('../img/logo_mobile.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 46px;
-    height: 40.89px;
-    margin-right: 0;
-  }
-
-  .header-flex {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .header-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .burger-btn {
-    background: url('../img/burger-green.svg');
-  }
+ 
   
   .search-box {
     display: none;
@@ -1542,6 +1517,34 @@ legend {
 
   .contacts_nav-items {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 567px) {
+  .logo {
+    display: block;
+    background: url('../img/logo_mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 46px;
+    height: 40.89px;
+    margin-right: 0;
+  }
+
+  .header-flex {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger-btn {
+    background: url('../img/burger-green.svg');
   }
 }
 @media (max-width: 522px) {

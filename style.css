@@ -3195,7 +3195,7 @@ input[type="radio"] + label::after {
   max-width: 206px;
 }
 }
-@media (min-width: 571px) {
+@media (min-width: 568px) {
   
     .menu-select._mob {
       display: block;
@@ -3219,48 +3219,13 @@ input[type="radio"] + label::after {
     }
 }
 @media (max-width: 570px) {
-  .menu-select._mob {
-    display: block;
-  }
-  .menu-select._desk {
-    display: block;
-  }
-  .small-bg {
-    background: #E5E5E5;
-  }
-  .small-bg::after {
-    display: none;
-  }
-  .btn-phone-green-black._spa-2 {
-    top: 740%;
-}
+
   .service-flex {
     padding-bottom: 0;
   }
  
-  .services-title {
-    color:#000;
-    font-size: 30px;
-    flex-basis: auto;
-    margin: 0 auto;
-  }
-  .services-descriprion {
-    display: none;
-  }
-  .burger-btn-green {
-    display: block;
-
-  }
-  .categories {
-    display: none;
-  }
-  .menu-select._categories {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
-
-  }
+  
+ 
   .swipers_box {
     max-width: 100%;
     display: block;
@@ -3309,20 +3274,7 @@ input[type="radio"] + label::after {
     left: inherit;
     right: 15%;
   }
-  .contacts {
-    position: relative;
-  }
-    .offers-grid {
-      display: block;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-    .offers-grid_item1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: start;
-    }
+ 
     .discount-15::before {
       width: 6rem;
       height: 6rem;
@@ -3414,6 +3366,58 @@ input[type="radio"] + label::after {
 } 
 }
 @media (max-width: 567px) {
+  .menu-select._mob {
+    display: block;
+  }
+  .menu-select._desk {
+    display: block;
+  }
+  .small-bg {
+    background: #E5E5E5;
+  }
+  .small-bg::after {
+    display: none;
+  }
+  .btn-phone-green-black._spa-2 {
+    top: 740%;
+}
+.services-title {
+  color:#000;
+  font-size: 30px;
+  flex-basis: auto;
+  margin: 0 auto;
+}
+.services-descriprion {
+  display: none;
+}
+.burger-btn-green {
+  display: block;
+
+}
+.contacts {
+  position: relative;
+}
+  .offers-grid {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .offers-grid_item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+.menu-select._categories {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.categories {
+  display: none;
+}
   .card-item {
     max-width: 600px;
     grid-template-columns: 110px 66%;
@@ -3448,7 +3452,7 @@ input[type="radio"] + label::after {
   margin-top: 66px;
 }
 .text-hidden._1 {
-  margin-top: 91px;
+  margin-top: 92px;
 }
 .text-hidden._2 {
   margin-top: 54px;
