@@ -60,3 +60,9 @@
 .disabled {
     pointer-events: none;
 }
+@media (min-width: 568px) {
+    .drop-down-categories {
+        display: none;
+    }
+   
+}
