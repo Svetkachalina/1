@@ -57,6 +57,6 @@
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
 }
-.menu__arrow {
-
+.disabled {
+    pointer-events: none;
 }
