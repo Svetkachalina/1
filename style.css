@@ -140,7 +140,7 @@ legend {
 }
 .noscroll {
   overflow: hidden;
-  /* height: 100%; */
+  height: 100vh;
 }
 .modal_window {
   overflow-y: scroll;
@@ -253,6 +253,22 @@ legend {
 } */
 
 .menu-select-big {
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  width: 156px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 136.8%;
+  outline: none;
+  background: url('./img/drop-down.svg');
+  background-repeat: no-repeat;
+  background-size: 9px 7.75px;
+  background-position: 100% center;
+  appearance: none;
+  position: relative;
+  border-bottom: 2px solid #fff;
   width: 300px;
   font-weight: 500;
   font-size: 27px;
@@ -470,7 +486,7 @@ legend {
   position: relative;
   background-color: #31311F;
   padding: 12px 20px 28px 26px;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   max-width: 570px;
 }
@@ -3195,7 +3211,7 @@ input[type="radio"] + label::after {
   max-width: 206px;
 }
 }
-@media (min-width: 568px) {
+@media (min-width: 567px) {
   
     .menu-select._mob {
       display: block;
