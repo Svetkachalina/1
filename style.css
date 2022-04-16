@@ -80,8 +80,8 @@ legend {
   width: 86px;
   height: 86px;
   position: absolute;
-  top: 30%;
-  right: 9%;
+  top: 120%;
+  right: 4%;
   transition: 0.4s ease;
   transform: scale(1);
 }
@@ -1732,7 +1732,9 @@ li {
   border-bottom: 1px solid #9e9d52;
   max-width: 335px;
 }
-
+.card-item._hamam .line {
+  margin-bottom: 15px;
+}
 .card-text {
   max-width: 343px;
   font-family: "Raleway";
@@ -3486,6 +3488,9 @@ input[type="radio"] + label::after {
   .footer {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .card-item._hamam {
+    margin-bottom: 255px;
   }
 }
 @media (max-width: 563px) {
