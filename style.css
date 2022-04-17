@@ -1731,9 +1731,10 @@ li {
 .line {
   border-bottom: 1px solid #9e9d52;
   max-width: 335px;
-}
-.card-item._hamam .line {
   margin-bottom: 15px;
+}
+.card-item._serv .line {
+  margin-bottom: 0;
 }
 .card-text {
   max-width: 343px;
