@@ -3492,6 +3492,12 @@ input[type="radio"] + label::after {
   .card-item._hamam {
     margin-bottom: 255px;
   }
+  .card-item._complex {
+    margin-bottom: 130px;
+  }
+  .btn-phone-green-black._complex {
+    top: 800%;
+  }
 }
 @media (max-width: 563px) {
  
@@ -3598,7 +3604,24 @@ input[type="radio"] + label::before {
 input[type="radio"]:checked+label::after {
   top: 20%;
 }
-
+.card-item._complex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.card-item._complex .card-title {
+ text-align: center;
+ margin-top: 15px;
+ font-size: 24px;
+}
+.card-item._complex .time-price {
+  font-size: 16px;
+}
+.card-item._complex .card-text {
+  font-size: 12px;
+}
 }
 
 @media (max-width: 375px) {
