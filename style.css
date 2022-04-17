@@ -180,7 +180,24 @@ legend {
   left: 24px;
   top: 30px;
 } */
-
+.menu-select._index {
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  width: 156px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 136.8%;
+  outline: none;
+  background: url('./img/drop-down.svg');
+  background-repeat: no-repeat;
+  background-size: 9px 7.75px;
+  background-position: 100% center;
+  appearance: none;
+  position: relative;
+  border-bottom: 2px solid #d4d626;
+}
 .menu-select._desk {
   margin-left: 10px;
   border: none;
@@ -1664,7 +1681,7 @@ li {
 .cards-list-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-auto-rows: repeat(4, 311px);
+  grid-template-rows: repeat(4, 311px);
   row-gap: 90px;
 }
 
@@ -3239,7 +3256,7 @@ input[type="radio"] + label::after {
   
 }
   .online-reg-form {
-    max-width: 578;
+    max-width: 578px;
   }
   .online-reg-left {
     flex-basis: 71%;
@@ -3368,20 +3385,20 @@ input[type="radio"] + label::after {
   max-width: 221px;
 }
 }
-@media (min-width: 567px) {
+@media (max-width: 567px) {
   
-    .menu-select._mob {
+    .menu-select._desk {
       display: block;
       margin-left: 10px;
       border: none;
-      color: #fff;
+      color: #000;
       width: 150px;
       font-family: "Noto Sans";
       font-weight: 400;
       font-size: 13px;
       line-height: 136.8%;
       outline: none;
-      background: url('./img/drop-down.svg');
+      background: url('./img/drop-down-black.svg');
       background-repeat: no-repeat;
       background-size: 9px 8.75px;
       background-position: 101% center;
@@ -3769,7 +3786,7 @@ input[type="radio"] + label::before {
   
   top: 20%;
   left: 0;
-  
+ 
 }
 input[type="radio"]:checked+label::after {
   top: 20%;
@@ -3810,7 +3827,6 @@ input[type="radio"]:checked+label::after {
 .col-right {
   flex-basis: 67%;
 }
-
 .category-item {
   font-size: 10.5px;
 }
@@ -3818,7 +3834,6 @@ input[type="radio"]:checked+label::after {
     gap: 10px;
     grid-template-rows: 165px auto;
   }
-  
   .card-text {
     font-size: 10px;
 }
@@ -3833,5 +3848,6 @@ input[type="radio"]:checked+label::after {
 }
 .text-hidden._4 {
   margin-top: 87px;
+}
 }
 }
