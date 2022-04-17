@@ -3897,4 +3897,7 @@ input[type="radio"]:checked+label::after {
   .card-item-text-spa-2 p {
     display: none;
 }
+.card-desсription._facial {
+  display: block;
+}
 }
