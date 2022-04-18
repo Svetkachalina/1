@@ -552,11 +552,6 @@ legend {
     right: 0px;
   }
 
-  .online-reg-pic {
-    object-fit: cover;
-    height: 100%;
-  }
-
   .contact-box {
     gap: 46px;
   }
@@ -939,9 +934,9 @@ legend {
   .online-reg-btn {
     padding: 6px 15px 7px 15px;
   }
-  textarea {
+  /* textarea {
     height: 25px;
-  }
+  } */
   .btn-flex {
     margin-top: 34px;
   }
