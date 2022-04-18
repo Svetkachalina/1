@@ -1649,7 +1649,7 @@ li {
 .cards-list-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: repeat(4, 311px);
+  /* grid-template-rows: repeat(4, 311px); */
   row-gap: 90px;
 }
 
@@ -2429,7 +2429,7 @@ input {
 }
 .cards-list-grid._spa-2 {
   grid-template-columns: 30% 27% 27%;
-  grid-template-rows: 40% 30%;
+  grid-template-rows: 58% 30%;
   column-gap: 5%;
 }
 .card-item-text-spa-2 {
@@ -2854,12 +2854,8 @@ input {
 }
 .cards-list-grid._spa-2 {
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 58% 42%;
+  grid-template-rows: 54% 42%;
   column-gap: 3%;
-}
-.cards-list-grid._spa-2 {
-  
-  grid-template-rows: 44% 42%;
 }
 }
 @media (max-width: 917px) {
