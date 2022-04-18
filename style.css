@@ -3001,6 +3001,9 @@ input[type="radio"] + label {
 }
 }
 @media (max-width: 768px) {
+  .burger-btn {
+    display: block;
+  }
   .cards-list-grid {
     display: block;
 }
@@ -3519,9 +3522,12 @@ input[type="radio"] + label::after {
 .services-descriprion {
   display: none;
 }
-.burger-btn-green {
-  display: block;
 
+.burger-btn {
+  background: url('../img/burger-green.svg');
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 .contacts {
   position: relative;
