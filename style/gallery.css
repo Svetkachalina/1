@@ -115,7 +115,7 @@ img {
 
 .select-big::after {
   content: "";
-  display: block;
+  display: none;
   border-bottom: 1px solid #fff;
   width: 289px;
   position: absolute;
