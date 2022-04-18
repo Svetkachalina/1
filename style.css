@@ -619,11 +619,6 @@ font-weight: 400;
 font-size: 10px;
 }
 
-
-
-
-
-
 .wrap_services {
   display: flex;
   justify-content: space-between;
@@ -667,18 +662,6 @@ font-size: 10px;
   width: 48%;
 }
 
-/* .swiper-button-next {
-  background-image: url(./img/arrow-right-green.svg);
-  background-repeat: repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
- 
-  top: inherit;
-  opacity: 1;
-  right: 26%;
-  bottom: 69px;
-} */
 .swiper-button-next {
   background: url('./img/arrow-right.svg');
  
@@ -691,21 +674,6 @@ font-size: 10px;
   bottom: 84px;
 }
 
-/* .swiper-button-prev {
-  background-image: url(./img/arrow-left-green.svg);
-  background-repeat: repeat;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: inherit;
-  left: inherit;
-  width: 58px;
-  height: 58px;
-  opacity: 1;
-  right: 35.6%;
-  bottom: 69px;
-} */
 .swiper-button-prev {
   background: url('./img/arrow-left.svg');
   
@@ -2752,7 +2720,6 @@ input {
   .grid_item5-pic {
     max-width: 15rem;
   }
- 
 }
 @media (max-width: 1090px) {
   .btn-phone-green-black._spa-2 {
@@ -2818,7 +2785,6 @@ input {
   .btn-text_services {
     top: -56px;
 }
-
 .cards-list-grid {
   column-gap: 20px;
 }
@@ -2895,6 +2861,7 @@ input {
   
   grid-template-rows: 44% 42%;
 }
+}
 @media (max-width: 917px) {
   .category-item {
     font-size: 12px;
@@ -2919,8 +2886,6 @@ input {
   .new-spa-circle { 
         left: -23%;
   }
-
-
 }
 @media (max-width: 890px) {
  .card-item {
