@@ -2537,17 +2537,16 @@ input {
   background-size: cover;
   width: 129.84px;
   height: 133.26px;
-  animation: moving 30s 3s infinite linear;
   transition: 0.1s ease-out;
+  
 }
-@keyframes moving {
-  100% {transform: rotate(360deg);}
-}
+
 .enroll-online-btn:hover {
   background-color: #d4d626;
   width: 129.84px;
   height: 133.26px;
   border-radius: 100%;
+ 
 }
 
 

@@ -1,0 +1,765 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input {
+  width: 100%;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-right: 3%;
+  padding-left: 3.5%;
+}
+
+.service-flex {
+  gap: 14.4vw;
+  margin-top: 77px;
+}
+
+.header-nav {
+  margin-right: 5px;
+  gap: 2.5vw;
+}
+
+.services-title {
+  flex-basis: auto;
+}
+
+.services-descriprion {
+  flex-basis: auto;
+  max-width: 331px;
+  margin-top: 43px;
+}
+
+.current-offers_grid {
+  display: grid;
+  /* grid-template-columns: 30% 30% 30%; */
+  /* grid-template-rows: 580px 580px; */
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1250px;
+
+  gap: 90px 0;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.offers_image {
+  height: 378px;
+  margin-bottom: 32px;
+}
+
+.offers_picture {
+  position: relative;
+}
+
+.offers__sale_s {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D4D626;
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  right: -49px;
+  bottom: 37px;
+  z-index: 3;
+}
+.offers__sale_m {
+  background-image: url(../img/new-spa.svg);
+  background-size: 100%;
+}
+
+.offers__image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 378px;
+  /* height: 26.4vw; */
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.offers__image_1 {
+  background-image: url(../img/offers1.png);
+}
+
+.offers__image_2 {
+  background-image: url('../img/offers2.png');
+}
+
+.offers__image_3 {
+  background-image: url('../img/offers3.png');
+}
+
+.offers__image_4 {
+  background-image: url('../img/offers4.png');
+}
+
+.offers__image_5 {
+  background-image: url('../img/offers5.png');
+}
+
+.offers_card {
+  max-width: 303px;
+}
+.offer_title {
+  /* font-size: 3.2vw; */
+  margin-top: 0;
+margin-left: 39px;
+}
+.header-flex_offer {
+  max-width: 1306px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.contact-box {
+  display: flex;
+  gap: 46px;
+  justify-content: space-between;
+}
+.contact-nav {
+  gap: 33px;
+  max-width: 1098px;
+}
+.contact-nav-item {
+  display: block;
+}
+.contacts {
+  display: block;
+}
+.contact-title {
+  display: block;
+}
+.contacts {
+  display: block;
+}
+.contact-hours-descr {
+  max-width: 176px;
+}
+.maps-moby {
+  display: none;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 3px;
+  margin-bottom: 36px;
+}
+.maps-moby::before {
+  content: '';
+  background: url('../img/pin.svg');
+    background-repeat: repeat;
+    background-size: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  margin-right: 10px;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1307px;
+  margin: 0 auto;
+  padding-top: 57px;
+padding-bottom: 39px;
+}
+.ellipse__green {
+  display: block;
+  background: url('../img/Ellipse 8.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 239px;
+  display: flex;
+align-items: center;
+justify-content: center;
+  /* max-width: 597px; */
+  max-width: 41.3vw;
+}
+.ellipse__text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 139.8%;
+  color: #fff;
+  max-width: 339px;
+}
+.green-bg {
+  position: relative;
+}
+.online-reg_box {
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background: #D4D626;
+  box-shadow: inset 0px 0 0 1px #000;
+}
+.reg-left_wrapper {
+  padding: 64px 4% 54px 4%;
+  flex-grow: 1;
+  margin-right: 8vw;
+  position: relative;
+}
+.certificate-form .online-reg-title {
+  margin-bottom: 31px;
+}
+.online-reg-confirm {
+  max-width: 230px;
+}
+.online-reg-moby {
+  display: none;
+}
+.online-reg_input {
+  max-width: 466px;
+}
+.form-input-name, .form-input-email, .form-input-phone {
+  color: #000;
+}
+.form-input-email {
+  display: block;
+}
+.form-input-name, .form-input-email, .form-input-phone {
+  color: #000;
+}
+.online-reg-form .form-input-email {
+  padding: 24px 0 13px;
+}
+.form-input-name, .form-input-email, .form-input-phone {
+  color: #000;
+}
+.online-reg-form .form-input-phone {
+  margin-top: 20px;
+}
+.online-reg-form .certificate-form_radio {
+  margin-top: 28px;
+}
+.btn-flex {
+  gap: 2px;
+  margin-top: 39px;
+  justify-content: flex-start;
+}
+.online-reg-btn {
+  margin: 0 6% 0 0;
+}
+.online-reg-confirm {
+  max-width: 230px;
+}
+.online-reg_image {
+  flex-grow: 1;
+  max-height: 100%;
+  border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+input {
+  width: 100%;
+}
+.certificate-form {
+  padding: 0;
+  margin: 40px auto;
+}
+
+@media (max-width: 1360px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .header-nav_link {
+    font-size: 13px;
+  }
+
+  .header-nav {
+    margin-right: 10px;
+    gap: 16px;
+  }
+  .offer_title {
+    font-size: 40px;
+    margin-left: 0;
+  }
+  .offer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .reg-left_wrapper {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .current-offers_grid {
+    margin: 0 auto;
+    gap: 70px 0;
+  }
+  .offers_card {
+    max-width: 260px;
+  }
+
+  .offers__sale_s {
+    bottom: 32px;
+    width: 90px;
+    height: 90px;
+    font-size: 36px;
+  }
+
+  .offers__image {
+    height: 325px;
+  }
+  .ellipse__text {
+    font-size: 15px;
+    max-width: 308px;
+  }
+  .offer_title {
+    font-size: 37px;
+    max-width: 440px;
+    
+  }
+  .reg-left_wrapper {
+    padding: 40px 4%;
+  }
+  .online-reg-btn {
+    padding: 6px 15px 7px 15px;
+  }
+  .online-reg_image {
+    flex-shrink: 2;
+    flex-grow: 0;
+  }
+  .online-reg-title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger-btn {
+    display: block;
+  }
+
+  .burger-btn {
+    margin-left: 0;
+  }
+
+  .search-btn_contain {
+    display: none;
+  }
+}
+
+@media (max-width: 1056px) {
+  .online-reg-form .form-input-name {
+    padding: 0;
+  }
+  .online-reg-form .form-input-email {
+    padding: 0;
+    margin-top: 25px;
+  }
+  .checkbox-square {
+    margin-top: 25px;
+  }
+  .online-reg-form .form-input-phone {
+    padding: 0;
+  }
+  .btn-flex {
+    gap: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .online-reg-btn {
+    margin: 0;
+  }
+  .online-reg-confirm {
+    max-width: 293px;
+  }
+}
+
+
+
+@media (max-width: 1040px) {
+  .current-offers_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offers_card {
+    max-width: 260px;
+  }
+  .contact-content {
+    font-size: 22px;
+    line-height: 124%;
+  }
+  .contacts {
+    font-size: 22px;
+    line-height: 124%;
+  }
+  .contacts {
+    font-size: 22px;
+    line-height: 124%;
+  }
+  .contact-hours-descr {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  .offer_title {
+    font-size: 33px;
+    max-width: 401px;
+  }
+  .ellipse__text {
+    font-size: 15px;
+  }
+  .ellipse__green {
+    background: none;
+    height: 100%;
+    max-width: 306px;
+  }
+}
+
+@media (max-width: 955px) {
+  .services-descriprion {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .service-flex {
+    gap: 14.4vw;
+  }
+}
+@media (max-width: 900px)  {
+  .offer {
+    display: block;
+  }
+  .ellipse__green {
+    background: none;
+    height: 100%;
+    margin-top: 30px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .service-flex {
+    gap: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-descriprion {
+    margin-left: 0;
+    margin-left: 5%;
+  }
+
+  .offers__image {
+    height: 300px;
+    margin-bottom: 17px;
+    max-width: 85%;
+  }
+
+  .offers_card {
+    max-width: 89%;
+    margin: auto;
+  }
+
+  .offers__sale_s {
+    width: 77px;
+    height: 77px;
+    font-size: 27px;
+    right: -13%;
+    bottom: 17%;
+  }
+
+  .offers-card-title {
+    min-height: 43px;
+    font-size: 18px;
+    line-height: 117%;
+    margin-bottom: 10px;
+  }
+
+  .offers-card-text {
+    min-height: 66px;
+    font-size: 11px;
+    line-height: 145%;
+  }
+
+  .current-offers_grid {
+    gap: 60px 0;
+    padding-top: 70px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+  }
+  .contact-nav {
+    gap: 5%;
+    padding-bottom: 30px;
+    max-width: 652px;
+  }
+  .contact-title {
+    font-size: 12px;
+    margin-bottom: 1px;
+  }
+  .contact-content {
+    font-size: 17px;
+    line-height: 124%;
+  }
+  .contact-title {
+    font-size: 12px;
+    margin-bottom: 1px;
+  }
+  .reg-left_wrapper {
+    padding: 30px 4%;
+  }
+  .checkbox-button {
+    font-size: 13px;
+  }
+  .checkbox-button__label1 {
+    margin-right: 30px;
+    font-size: 13px;
+  }
+  .online-reg-form .form-input-phone {
+    margin-top: 10px;
+  }
+  .btn-flex {
+    margin-top: 34px;
+  }
+  .online-reg-title {
+    font-size: 30px;
+  }
+  .services-descriprion {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 608px) {
+  .offers__sale_s {
+    right: 2%;
+    bottom: 15%;
+  }
+
+  .offers__image {
+    height: 250px;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 567px) {
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+    position: relative;
+  }
+
+  .header {
+    padding-top: 11px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header-flex {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger-btn {
+    background: url('../img/burger_menu-black.svg');
+    background-size: auto;
+    background-size: cover;
+    width: 24px;
+    height: 9.5px;
+    position: absolute;
+    right: 6%;
+    top: 12px;
+  }
+
+  .drop-down {
+    margin-top: 6px;
+  }
+
+  .logo {
+    display: block;
+    background: url("../img/logo_mobile.svg");
+    width: 46px;
+    height: 40.89px;
+    margin-right: 0;
+  }
+
+  .service-flex {
+    margin-top: 29px;
+  }
+
+  .services-title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .offers__image {
+    height: 363px;
+    margin-bottom: 22px;
+    background-position: center;
+  }
+
+  .current-offers_grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    max-width: 87%;
+    gap: 40px 0;
+    padding-top: 37px;
+    padding-bottom: 40px;
+  }
+
+
+  .offers-card-title {
+    font-size: 21px;
+    line-height: 110%;
+  }
+
+  .offers-card-text {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .offers__sale_s {
+    width: 85px;
+    height: 85px;
+    font-size: 31px;
+    bottom: 21px;
+    right: inherit;
+    left: -25px;
+  }
+  .contact-nav {
+    display: block;
+    padding-bottom: 40px;
+  }
+  .contact-content {
+    line-height: 120%;
+    font-size: 25px;
+  }
+  .maps-moby {
+    display: flex;
+  }
+  .contact-box {
+    display: block;
+  }
+  .contacts_nav-items {
+    margin-bottom: 40px;
+  }
+  .contacts {
+    line-height: 120%;
+    font-size: 25px;
+  }
+  .contact-email {
+    border-bottom: 0;
+    text-decoration: underline solid 1px;
+    /* text-underline-offset: 5px; */
+  }
+  .offers-contact .contact-email {
+    border-bottom: 0;
+  }
+  .offers-footer .footer-line {
+    border-bottom: none;
+  }
+  .offer_title {
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 249px;
+  }
+  .offer::after {
+    content: '';
+    background-image: url(../img/ellips_8-moby.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 6.5%;
+    left: 0;
+  }
+  .offer {
+    padding: 40px 24px 28px;
+  }
+  .ellipse__green {
+    margin-top: 50px;
+  }
+  .ellipse__text {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .reg-left_wrapper {
+    padding: 30px;
+  }
+  .certificate-form .online-reg-title {
+    margin-bottom: 10px;
+  }
+  .online-reg-confirm {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .checkbox-button__label1 {
+    margin-right: 20px;
+    font-size: 12px;
+  }
+  .online-reg-confirm {
+    display: none;
+  }
+  .online-reg_image {
+    display: none;
+  }
+  .online-reg-moby {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+}
+@media (max-width: 375px) {
+  .offers__image {
+    height: 275px;
+  }
+  .offers-card-title {
+    padding-left: 7%;
+  }
+  .offers-card-text {
+    padding-left: 7%;
+  }
+  .offer::after {
+    height: 76px;
+    top: 5%;
+  }
+  
+  .offers-card-title {
+    padding-left: 0;
+  }
+  .offers-card-text {
+    padding-left: 0;
+  }
+  .offer_title {
+    max-width: 290px;
+    font-size: 23px;
+  }
+  
+}
