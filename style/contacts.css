@@ -450,7 +450,9 @@
   .drop-down {
     margin-top: 6px;
   }
-
+  .drop-down_mobile-menu {
+    display: flex;
+  }
   .navbar {
     position: absolute;
     top: 3px;
