@@ -16,6 +16,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
