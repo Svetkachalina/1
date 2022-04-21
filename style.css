@@ -9,6 +9,7 @@
 ::-moz-placeholder, :-moz-placeholder {
   opacity: 1;
 }
+
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
@@ -17,6 +18,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling:touch;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
 
 body {
