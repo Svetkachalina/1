@@ -2728,6 +2728,7 @@ input {
   }
   .grid_item5-pic {
     max-width: 15rem;
+    transition: .3s;
   }
 }
 @media (max-width: 1090px) {
@@ -2832,6 +2833,7 @@ input {
 }
 .grid_item4-pic {
   max-width: 25rem;
+  transition: .3s;
 }
 }
 @media (max-width: 955px) {
