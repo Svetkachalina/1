@@ -906,25 +906,25 @@ font-size: 10px;
   display: flex;
   flex-direction: column;
   max-width: 304px;
-  /* margin-left: 95px; */
-  /* margin-right: 122px; */
+  
 }
+
 
 .title-services {
   font-family: "Philosopher", sans-serif;
   text-transform: uppercase;
   font-size: 46px;
-  /* line-height: 52px; */
   line-height: 325%;
   font-weight: 700;
   margin-bottom: 30px;
+ 
 }
+
 
 .descr-services {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin-bottom: 120px;
-  /* line-height: 21px; */
   line-height: 131.25%;
 }
 
@@ -1096,7 +1096,7 @@ font-size: 10px;
 }
 .before-15 {
   position: relative;
-  
+    
 }
 .discount-15::before {
   content: "";
@@ -1149,6 +1149,18 @@ font-size: 10px;
   max-width: 320px;
   margin-top: 0;
   margin-bottom: 20px;
+  -webkit-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+-webkit-transition: all 2.4s ease;
+transition: all 2.4s ease;
+opacity: 0;
+-webkit-animation-name: anim-items;
+  animation-name: anim-items;
+}
+.item2-title._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .item-text {

@@ -290,6 +290,19 @@ body {
 .title-services {
   margin-bottom: 29px;
   line-height: 113%;
+  -webkit-transform: translate(-50%, 0px);
+          transform: translate(-50%, 0px);
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+  opacity: 0;
+  -webkit-animation-name: anim;
+          animation-name: anim;
+  overflow: hidden;
+}
+.title-services._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .services-text {
@@ -297,13 +310,16 @@ body {
   flex-direction: inherit;
   max-width: 304px;
   margin-right: 0;
+
 }
+
 
 .wrap_services {
   display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
   min-width: 0;
+  
 }
 
 .slider_2-wrap {
@@ -347,6 +363,31 @@ body {
   margin-left: 20px;
   margin-bottom: 125px;
   color: #fff;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+-webkit-animation-name: slidein;
+  animation-name: slidein;
+}
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 /* .burger-btn {
