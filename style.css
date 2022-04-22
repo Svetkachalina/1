@@ -926,7 +926,9 @@ font-size: 10px;
   font-weight: 400;
   margin-bottom: 120px;
   line-height: 131.25%;
+  
 }
+
 
 .btn-services {
   margin-top: 140px;
@@ -1075,8 +1077,20 @@ overflow: hidden;
   font-weight: 400;
   line-height: 139.8125%;
   max-width: 295px;
+  -webkit-transform: translate(40%, 0);
+  transform: translate(40%, 0);
+-webkit-transition: all 3s ease;
+transition: all 3s ease;
+opacity: 0;
+-webkit-animation-name: anim-items;
+  animation-name: anim-items;
 }
 
+.offers-description._active {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+opacity: 1;
+}
 .btn-offers {
   margin-top: 41px;
   position: relative;

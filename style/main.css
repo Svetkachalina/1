@@ -216,6 +216,18 @@ body {
 .descr-services {
   margin-bottom: 0;
   line-height: 131%;
+  -webkit-transform: translate(40%, 0);
+          transform: translate(40%, 0);
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+  opacity: 0;
+  -webkit-animation-name: anim-items;
+          animation-name: anim-items;
+}
+.descr-services._active {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+opacity: 1;
 }
 
 .contact-box {
