@@ -1182,12 +1182,6 @@ overflow: hidden;
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 100%;
-}
-
-.item2-title {
-  max-width: 320px;
-  margin-top: 0;
-  margin-bottom: 20px;
   -webkit-transform: translate(0, 100%);
   transform: translate(0, 100%);
 -webkit-transition: all 2.4s ease;
@@ -1196,11 +1190,19 @@ opacity: 0;
 -webkit-animation-name: anim-items;
   animation-name: anim-items;
 }
-.item2-title._active {
+.item-title._active {
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
   opacity: 1;
 }
+
+.item2-title {
+  max-width: 320px;
+  margin-top: 0;
+  margin-bottom: 20px;
+ 
+}
+
 
 .item-text {
   font-family: "Raleway", sans-serif;
@@ -1209,10 +1211,24 @@ opacity: 0;
   font-weight: 400;
   margin-bottom: 20px;
   line-height: 132%;
+  -webkit-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+-webkit-transition: all 2.4s ease;
+transition: all 2.4s ease;
+opacity: 0;
+-webkit-animation-name: anim-items;
+  animation-name: anim-items;
+}
+
+.item-text._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .item2-text {
   max-width: 260px;
+ 
   
 }
 
