@@ -1696,7 +1696,7 @@ legend {
 }
   .discount-10 {
     bottom: 42%;
-    right: -1%;
+    /* right: -1%; */
     font-size: 27px;
 }
 .new-spa-circle {
