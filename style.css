@@ -28,6 +28,7 @@ html {
 body {
   /* position: relative; */
   background-color: #e5e5e5;
+  overflow: hidden;
 }
 
 h1 {
