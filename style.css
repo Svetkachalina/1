@@ -1129,7 +1129,7 @@ transition: all 3s ease;
 opacity: 0;
 -webkit-animation-name: anim;
   animation-name: anim;
-overflow: hidden;
+
     
 }
 .before-15._active {
@@ -1168,7 +1168,7 @@ overflow: hidden;
   height: 75px;
   cursor: pointer;
   position: absolute;
-  top: 261%;
+  top: 40%;
   right: 8%;
   transition: 0.3s ease-out;
   transform: scale(1);
@@ -1248,7 +1248,7 @@ transition: all 3s ease;
 opacity: 0;
 -webkit-animation-name: anim;
   animation-name: anim;
-overflow: hidden;
+/* overflow: hidden; */
 }
 .before-10._active {
   -webkit-transform: translate(0px, 0px);
@@ -1296,7 +1296,7 @@ overflow: hidden;
   opacity: 0;
   -webkit-animation-name: anim;
     animation-name: anim;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .img-wrapper._active {
   -webkit-transform: translate(0px, 0px);
@@ -2817,9 +2817,7 @@ input {
     grid-template-rows: 311px 220px 518px;
     margin-top: 280px;
 }
-.phone-green {
-  top: 231%;
-}
+
 .discount-15::before {
   width: 6rem;
   height: 6rem;
@@ -3161,6 +3159,7 @@ input[type="radio"] + label {
   .burger-btn {
     display: block;
   }
+
   .cards-list-grid {
     display: block;
 }
