@@ -3531,11 +3531,7 @@ input[type="radio"] + label::after {
     max-width: 288px;
   }
 }
-@media (max-width: 576px) {
-  .text-hidden._1 {
-    margin-top: 150px;
-}
-}
+
 @media (max-width: 570px) {
 
   .service-flex {
@@ -3884,7 +3880,8 @@ margin-top: 10px;
 } 
 @media (max-width: 512px) {
   .text-hidden._1 {
-    margin-top: 125px;
+    /* margin-top: 125px; */
+    margin-top: 150px;
 }
 
 }
