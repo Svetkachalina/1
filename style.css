@@ -3880,12 +3880,9 @@ margin-top: 10px;
 } 
 @media (max-width: 512px) {
   .text-hidden._1 {
-    /* margin-top: 125px; */
-    margin-top: 150px;
+    margin-top: 125px;
 }
-
 }
-
 @media (max-width: 505px) {
   .services-title {
     font-size: 36px;
@@ -4091,7 +4088,7 @@ input[type="radio"]:checked+label::after {
   display: block;
 }
 }
-@media (max-width: 305px) {
+@media (max-width: 235px) {
   .text-hidden._1 {
     margin-top: 150px;
   }
