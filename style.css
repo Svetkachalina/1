@@ -3920,6 +3920,12 @@ margin-top: 10px;
     margin-top: 116px;
 }
 }
+@media (max-width: 425px) {
+  .text-hidden._1 {
+    margin-top: 150px;
+}
+}
+
 @media (max-width: 420px) {
   .card-item._serv {
     max-width: 297px;
