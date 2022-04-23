@@ -4089,3 +4089,9 @@ input[type="radio"]:checked+label::after {
   display: block;
 }
 }
+@media (max-width: 320px) {
+  .text-hidden._1 {
+    margin-top: 138px;
+  }
+}
+
