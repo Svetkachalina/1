@@ -4088,7 +4088,7 @@ input[type="radio"]:checked+label::after {
   display: block;
 }
 }
-@media (max-width: 235px) {
+@media (max-width: 234px) {
   .text-hidden._1 {
     margin-top: 150px;
   }
