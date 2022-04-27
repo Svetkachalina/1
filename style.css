@@ -3923,6 +3923,7 @@ margin-top: 10px;
 }
 .card-item {
   grid-template-columns: 110px 50%;
+  grid-template-rows: 208px auto;
 }
 }
 
