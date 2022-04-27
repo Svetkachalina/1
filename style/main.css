@@ -1614,6 +1614,13 @@ legend {
   left: -1%;
   }
 }
+@media (max-width: 460px) {
+  .online-reg-confirm {
+    top: 15%;
+    left: 55%;
+  }
+}
+
 @media (max-width: 440px) {
   .discount-15 {
     top: 196px;

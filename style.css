@@ -3925,6 +3925,10 @@ margin-top: 10px;
   grid-template-columns: 110px 50%;
   grid-template-rows: 208px auto;
 }
+.online-reg {
+  padding-top: 40px;
+}
+
 }
 
 @media (max-width: 420px) {
