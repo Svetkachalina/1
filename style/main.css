@@ -1750,9 +1750,7 @@ legend {
     flex-basis: 100%;
     text-align: center;
   }
-  .card-item._serv {
-    max-width: 220px;
-}
+
   .title-hero {
     font-size: 30px;
   }
@@ -1771,5 +1769,36 @@ legend {
   .online-reg-confirm {
     top: 10%;
     font-size: 9px;
+}
+}
+@media (max-width: 306px) {
+  .online-reg-btn {
+    padding: 10px 14px;
+  }
+  .btn-flex {
+    justify-content: center;
+  }
+}
+@media (max-width: 278px) {
+  .online-reg-form {
+    max-width: 90%;
+}
+.reg-left-wrapper {
+  padding-right: 0;
+}
+}
+@media (max-width: 275px) {
+  .online-reg-title {
+    font-size: 20px;
+  }
+  .online-reg-confirm {
+    left: 48%;
+}
+.form-input {
+  font-size: 10px;
+}
+input[type="radio"] + label {
+  font-size: 0.55rem;
+  
 }
 }
