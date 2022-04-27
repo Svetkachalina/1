@@ -1656,6 +1656,9 @@ legend {
   .online-reg-confirm {
     left: 55%;
   }
+  .footer {
+    padding-top: 0;
+  }
 }
 @media (max-width: 375px) {
   .swiper-button-next {
@@ -1737,6 +1740,19 @@ legend {
 }
 }
 @media (max-width: 320px) {
+  .btn-phone-green-black {
+    top: 1550%;
+}
+.reg-left-wrapper {
+  padding: 32px 20px 38px 20px;
+}
+  .services-title {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .card-item._serv {
+    max-width: 220px;
+}
   .title-hero {
     font-size: 30px;
   }
@@ -1753,7 +1769,7 @@ legend {
     font-size: 16px;
   }
   .online-reg-confirm {
-    top: 83%;
+    top: 10%;
     font-size: 9px;
 }
 }

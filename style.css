@@ -3672,6 +3672,9 @@ input[type="radio"] + label::after {
 }
 
 @media (max-width: 567px) {
+  .search-btn_contain {
+    display: none;
+  }
   .menu-select._mob {
     display: block;
   }
@@ -3979,8 +3982,12 @@ margin-top: 10px;
   .time-price {
     font-size: 11px;
 }
+
 .footer-social {
   margin-left: 0;
+}
+.social {
+  font-size: 12px;
 }
 .card-item {
   grid-template-columns: 110px 54%;
@@ -4086,6 +4093,29 @@ input[type="radio"]:checked+label::after {
 }
 .card-desсription._facial {
   display: block;
+}
+}
+@media (max-width: 320px) {
+  .text-hidden._1 {
+    margin-top: 131px;
+}
+
+.social {
+  font-size: 10px;
+}
+}
+@media (max-width: 287px) {
+  .text-hidden._1 {
+    margin-top: 131px;
+  }
+  .card-item._serv {
+    max-width: 185px;
+}
+}
+@media (max-width: 272px) {
+ 
+  .card-item._serv {
+    max-width: 175px;
 }
 }
 @media (max-width: 234px) {
