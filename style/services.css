@@ -36,15 +36,34 @@
       gap: 0;
     }
       }
-      @media (max-width: 768px) {
+  @media (max-width: 768px) {
         .card-item._serv  {
           max-width: 661px; 
       }
       .cards-list-box {
         max-width: 550px;
     }
-     
         }
+  @media (max-width: 737px) {
+    .online-reg-right {
+      display: none;
+  }
+  .online-reg-left {
+    flex-basis: 100%;
+    border-radius: 10px;
+}
+.online-reg-confirm {
+  top: 10%;
+  left: 34%;
+  max-width: 123px;
+  padding-left: 20px;
+}
+}
+@media (max-width: 500px) {
+  .online-reg-confirm {
+    left: 54%;
+}
+}
   @media (max-width: 567px) {
     .card-item-pic-vhiddn {
       display: none;
