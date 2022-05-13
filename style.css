@@ -194,10 +194,10 @@ legend {
   top: 30px;
 } */
 .menu-select._index {
-  margin-left: 10px;
+  margin-left: 7px;
   border: none;
   color: #fff;
-  width: 156px;
+  width: 150px;
   font-family: "Noto Sans";
   font-weight: 400;
   font-size: 13px;
@@ -209,7 +209,7 @@ legend {
   background-position: 100% center;
   appearance: none;
   position: relative;
-  border-bottom: 2px solid #d4d626;
+  border-bottom: 1px solid #9E9D52;
 }
 .menu-select._desk {
   margin-left: 10px;
@@ -2339,7 +2339,9 @@ input {
   outline: 0;
   background-color: transparent;
 }
-
+.switch-on-off {
+  padding: 0;
+}
 .radio-button__input {
   opacity: 0;
   position: absolute;
