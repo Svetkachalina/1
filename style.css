@@ -895,14 +895,18 @@ font-size: 10px;
 }
 
 .swiper-title._all::after {
-  content: '';
+  opacity: 0;
+}
+.arrow-serv {
   display: block;
-  position: absolute;
   background: url('./img/arrow-serv.svg');
   background-repeat: no-repeat;
-  top: 60%;
-  left: 50%;
-  
+  background-position: center center;
+  width: 25px;
+  height: 19px;
+  position: absolute;
+  bottom: 4.5%;
+  right: 50%;
 
 }
 .slider-link {
