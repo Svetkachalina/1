@@ -379,9 +379,9 @@ legend {
   font-family: 'Raleway';
   font-weight: 500;
   font-size: 20px;
-  line-height: 136.8%;
-  color: #9E9D52;
-  line-height: 187.5%;
+  line-height: 1;
+  color: #fff;
+ 
   position: absolute;
   float: left;
   width: 18.6rem;
@@ -2766,7 +2766,7 @@ input {
         max-width: 1170px;
       }
       .services-title {
-        max-width: 295px;
+        max-width: 400px;
       }
       .services-descriprion {
         margin-left: 5%;
@@ -2867,12 +2867,7 @@ input {
   .card-title {
     font-size: 24px;
   }
-  .card-text {
-    font-size: 11px;
-  }
-  .show-more-text {
-    font-size: 11px;
-  }
+ 
   .text-hidden._1 {
     margin-top: -64px;
 }
@@ -2929,9 +2924,9 @@ input {
   .btn-text_services {
     top: -56px;
 }
-.cards-list-grid {
+/* .cards-list-grid {
   column-gap: 20px;
-}
+} */
 .text-hidden._1 {
   margin-top: -57px;
 }
@@ -2972,12 +2967,7 @@ input {
     font-size: 11px;
     line-height: 200%; 
 }
-  .card-text {
-    font-size: 10px;
-}
-.show-more-text {
-  font-size: 10px;
-}
+
 .text-hidden._1 {
   margin-top: -74px;
 }
@@ -3082,11 +3072,11 @@ input {
     column-gap: 20px;
 }
 .card-item._serv {
-  max-width: 290px;
+  max-width: 340px;
 }
-.card-item-pic img {
+/* .card-item-pic img {
   width: 90%;
-}
+} */
 .card-text {
   margin-top: 10px;
 
@@ -3173,7 +3163,13 @@ input[type="radio"] + label {
   }
   .services-title {
     
-    flex-basis: 32%;
+    flex-basis: 50%;
+}
+.card-item-pic img{
+  width: 90%;
+}
+.card-item._serv {
+  max-width: 309px;
 }
 }
 @media (max-width: 768px) {
@@ -3702,7 +3698,7 @@ input[type="radio"] + label::after {
     display: block;
   }
   .small-bg {
-    background: #E5E5E5;
+    background: #F9F8F6;
   }
   .small-bg::after {
     display: none;
