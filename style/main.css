@@ -961,21 +961,7 @@ legend {
     margin: 0;
     padding: 32px 29px;
   }
-
-  .form-input {
-    font-size: 12px;
-    padding-bottom: 3px;
-  }
-
-  .form-input-email {
-    padding-top: 0;
-    margin-top: 2px;
-  }
-
-  .form-input-name {
-    font-size: 12px;
-    padding-bottom: 0px;
-  }
+ 
   legend {
     font-size: 7px;
   }
@@ -1081,9 +1067,7 @@ legend {
     max-width: 123px;
     padding-left: 20px;
   }
-  .reg-left-wrapper {
-    padding-right: 16px;
-}
+
 }
 @media (max-width: 635px) {
   .main-bg {
@@ -1476,9 +1460,7 @@ legend {
   .reg-left-wrapper {
     /* padding-right: 36px; */
   } 
-  .online-reg-form._white .form-input-name {
-    padding: 1px 0 4px;
-}
+
 .online-reg-form {
   max-width: 96%;
 }
@@ -1492,9 +1474,7 @@ legend {
 .online-reg-btn {
   padding: 10px 30px;
 }
-.form-input {
-  padding-bottom: 5px;
-}
+
   .contact {
     background: #fff;
     margin-top: 21px;
