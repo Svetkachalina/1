@@ -3149,22 +3149,16 @@ input {
    padding-bottom: 70px;
  }
  .online-reg-form._white .form-input-name {
-  padding: 0;
+  padding-top: 0;
 }
 .form-input {
   font-size: 0.75rem;
 }
-.online-reg-form._white .form-input-email {
-  padding: 0;
- 
-}
+
 .online-reg-form._white .form-input-email._serv {
   padding-top: 25px;
 }
-.online-reg-form._white .form-input-phone {
-  
-  padding-bottom: 0;
-}
+
 .online-reg-form._white .form-input-text {
   margin-top: 19px;
 }
@@ -3194,6 +3188,9 @@ input[type="radio"] + label {
 @media (max-width: 812px) {
   .categories {
     column-gap: 60px;
+}
+.form-input:focus + .form-label, .form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-2.6em) scale(.8);
 }
 }
 @media (max-width: 790px) {
@@ -3376,9 +3373,7 @@ input[type="radio"] + label {
 .online-reg-form._white .form-input-text {
   padding-bottom: 0;
 }
-.form-input-text {
-  margin-bottom: 16px;
-}
+
 input[type="radio"] + label::before {
   width: 13px;
 }
@@ -3529,6 +3524,13 @@ input[type="radio"] + label::after {
 
 }
 @media (max-width: 678px) {
+  .online-reg {
+    display: block;
+    border-radius: 10px;
+  }
+  .online-reg-right {
+    display: none;
+}
   .services-title {
     font-size: 45px;
     flex-basis: 45%;
@@ -3668,9 +3670,7 @@ input[type="radio"] + label::after {
    bottom: 0;
    padding-bottom: 60px;
 }
-.form-input-email {
-   display: none;
-}
+
 .form-input-email-small {
   display: inline;
   padding-top: 27px;
@@ -3690,14 +3690,14 @@ input[type="radio"] + label::after {
  }
 .form-input {
     font-size: 12px;
-    padding-bottom: 5px;
+   
 }
-.online-reg-form._white .form-input-text {
+/* .online-reg-form._white .form-input-text {
   margin-top: 30px;
 }
 .online-reg-form._white .form-input-phone {
   padding: 27px 0 7px;
-}
+} */
 .footer-flex {
   gap: 0;
   flex-direction: column;
