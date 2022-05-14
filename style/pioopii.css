@@ -1,0 +1,43 @@
+в serv-menu-mob.css
+===================================================
+добавить в конец перед медиа!!!!!
+.vizibl {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+  .arrow-active {
+    transform: rotate(180deg);
+    top: 6px;
+  }
+=================================================
+ !!!!!!! удалить строчку
+  .menu__list > li:hover .sub-menu__list {
+    display: block;
+  }
+================
+  тут изменить ниже
+  .sub-menu__list {
+    /* display: none; */
+    /* min-width: 160px; */
+    ...
+    background-color: #fff; тут добавить фон выпадашки
+   
+}
+  .sub-menu__list {
+    display: none;   !!!!!! удалить эту строчку
+    /* min-width: 160px; */
+    ...                    !!!! а это добавить
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+  }
+
+  .arrow {
+    /* position: absolute; */
+    ...
+    /* border-left: 6px solid transparent; */
+    !!!!! это добавить для плавности
+    transition: .3s ease-in-out;
+}
+  custom-select.js !!!! отключить совсем
