@@ -2,13 +2,13 @@
 
 .drop-down-categories {
     margin-top: 25px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     transition: 0.3s ease-out;
     padding: 10px 30px;
     transition: 0.3s ease-out;
@@ -38,7 +38,7 @@
     display: block;
 } */
 .sub-menu__list {
-    margin-top: 50px;
+    margin-top: 38px;
     padding-bottom: 50px;
     background-color: #F9F8F6; 
     position: absolute;
@@ -81,7 +81,7 @@
     opacity: 1;
     visibility: visible;
     display: block;
-   
+    z-index: 1;
   }
   .arrow-active {
     transform: rotate(180deg);
