@@ -2010,10 +2010,22 @@ li {
   box-shadow: none;
   border-radius: 0;
   width: 100%;
-  transition: all .5s;
+  transition: all .3s;
+  padding: 5px;
 }
-.form-input::placeholder {
-  color: red;
+.form-input:focus {
+  box-shadow: none;
+  outline: none;
+  /* border: red; */
+
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-3.5em) scale(.8);
+}
+.form-group:focus-within {
+  transform: scale(1.05, 1.05);
 }
 
 
