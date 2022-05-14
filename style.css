@@ -2011,7 +2011,7 @@ li {
   border-radius: 0;
   width: 100%;
   transition: all .3s;
-  padding: 5px;
+  padding: 15px 5px 5px 0;
 }
 .form-input:focus {
   box-shadow: none;
@@ -2111,18 +2111,13 @@ input:-moz-placeholder {
   color: transparent;
   text-transform: uppercase;
 }
-.online-reg-form._white .form-input-name {
-  padding: 25px 0 14px;
-}
-.online-reg-form._white .form-input-email {
-  padding: 25px 0 14px;
-}
+
 .online-reg-form._white .form-input-phone::placeholder{
   color: transparent;
 }
-.online-reg-form._white .form-input-phone {
+.online-reg-form._white {
   color: #fff;
-  padding: 23px 0 14px;
+  padding: 14px 0 14px;
 }
 .online-reg-form._white .form-input-text::placeholder{
   color: transparent;
@@ -2140,21 +2135,13 @@ textarea {
 .certificate-form .form-input {
   border-bottom: 1px solid #000;
 }
-/* .online-reg-form .form-input-name {
-  padding: 8px 0 8px;
-} */
-.online-reg-form .form-input-name {
-  padding: 21px 0 13px;
-}
-.online-reg-form .form-input-email {
-  padding: 29px 0 13px;
-}
+
+
+
 .online-reg-form._enroll-white .form-input-email {
   text-transform: uppercase;
 }
-.online-reg-form .form-input-phone {
-  padding: 6px 0 16px;
-}
+
 .online-reg-form .form-input-name::placeholder{
   color: #000;
 }
