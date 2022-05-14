@@ -503,6 +503,15 @@ img {
   .title-extra-large {
     font-size: 42px;
     line-height: .8;
+    margin-left: 0;
+  }
+ 
+  .enroll-online-wrapper {
+    margin-bottom: 70px;
+    flex-direction: column;
+  }
+  .enroll-online-action {
+    margin-top: 60px;
   }
 }
 
@@ -512,7 +521,7 @@ img {
   }
 
   .enroll-online-btn {
-    position: inherit;
+    /* position: inherit; */
     margin: 0 auto;
     width: 80.15px;
     height: 82.26px;

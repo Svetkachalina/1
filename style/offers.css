@@ -752,7 +752,7 @@ input {
 }
 @media (max-width: 375px) {
   .offers__image {
-    height: 275px;
+    height: 311px;
   }
   .offers-card-title {
     padding-left: 7%;
