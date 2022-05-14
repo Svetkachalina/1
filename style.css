@@ -91,7 +91,7 @@ legend {
   width: 86px;
   height: 86px;
   position: absolute;
-  top: 120%;
+  top: 2000%;
   right: 4%;
   transition: 0.4s ease;
   transform: scale(1);
