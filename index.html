@@ -358,11 +358,17 @@
                   <div class="online-reg-left">
                     <div class="reg-left-wrapper">
                       <h2 class="online-reg-title">Запись онлайн</h2>
-                      <form class="online-reg-form _white">
-                        <input type="text" class="form-input form-input-name" placeholder="ваше имя" required>
-                        <legend>почта</legend>
-                        <input type="email" class="form-input form-input-email" placeholder="pochtamail@gmail.com" required>
-                        <input type="email" class="form-input form-input-email-small" placeholder="почта" required>
+                      <form class="online-reg-form _white" action="" method="POST" class="form">
+                        <div class="form-group">
+                          <input type="text" class="form-input form-input-name" placeholder="ваше имя" name="name" required>
+                          <label for="name" class="form-label">ваше имя</label>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="email" class="form-input form-input-email" name="email" placeholder="jane@firefly.com" required>
+                          <label for="email" class="form-label">почта</label>
+                        </div>
+
                         <input type="tel" class="form-input form-input-phone" placeholder="телефон">
                         <textarea class="form-input form-input-text" name="text" rows="2" placeholder="сообщение"></textarea>
                         <div class="form_radio">
