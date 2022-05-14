@@ -2093,10 +2093,10 @@ input:-moz-placeholder {
   margin-top: 2px;
 }
 .online-reg-form._white .form-input-name::placeholder{
-  color: #fff;
+  color: transparent;
 }
 .online-reg-form._white .form-input-email::placeholder{
-  color: #fff;
+  color: transparent;
   text-transform: uppercase;
 }
 .online-reg-form._white .form-input-name {
@@ -2106,21 +2106,21 @@ input:-moz-placeholder {
   padding: 25px 0 14px;
 }
 .online-reg-form._white .form-input-phone::placeholder{
-  color: #fff;
+  color: transparent;
 }
 .online-reg-form._white .form-input-phone {
   color: #fff;
   padding: 23px 0 14px;
 }
 .online-reg-form._white .form-input-text::placeholder{
-  color: #fff;
+  color: transparent;
 }
 .online-reg-form._white .form-input-text {
   margin-top: 20px;
   padding-bottom: 5px;
 }
 .online-reg-form._enroll-white textarea::placeholder{
-  color: #fff;
+  color: transparent;
 }
 textarea {
   resize: none;
