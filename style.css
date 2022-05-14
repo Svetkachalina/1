@@ -1518,7 +1518,7 @@ opacity: 1;
   border-bottom: 1px solid #d4d626;
 }
 .form-input-text {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* RADIO Button */
