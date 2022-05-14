@@ -529,14 +529,9 @@ legend {
   margin-bottom: 48px;
 }
 
-.form-input-email {
-  text-transform: none;
-  padding-top: 3px;
-}
 
 .form-input-phone {
-  /* margin-top: 24px; */
-  /* margin-bottom: 26px; */
+  
   opacity: 1;
 
 }
