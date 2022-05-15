@@ -1405,6 +1405,7 @@ opacity: 0;
     font-family: inherit;
     font-size: 1rem;
 }
+
 .form-input-name_black {
     color: #000;
     font-size: 1rem;
@@ -1460,7 +1461,7 @@ opacity: 1;
 
 
 .online-reg-left {
-  flex-basis: 50%;
+  flex-basis: 55%;
   height: 100%;
   background-color: #9e9d52;
   border-radius: 10px 0 0 10px;
@@ -1468,6 +1469,7 @@ opacity: 1;
 
 .reg-left-wrapper {
   margin-left: 60px;
+  margin-right: 60px;
   margin-top: 65px;
 }
 
@@ -1504,7 +1506,7 @@ opacity: 1;
 }
 .online-reg-pic._border {
   /* border-radius: 0 10px 10px 0; */
-  flex-basis: 58%;
+  flex-basis: 45%;
   width: 100%;
   height: auto;
   max-width: 685px;
@@ -1572,7 +1574,7 @@ input[type="radio"] + label::after {
   transition: all 0.3s;
 }
 
-input[type="radio"]:checked+label::after {
+input[type="radio"]:checked + label::after {
         opacity: 1;
 }
 input[type="radio1"] + label {
@@ -2029,7 +2031,7 @@ li {
 
 /* ONLINE-REGISTRATION FORM */
 .form-group {
-  /* margin-bottom: 1em; */
+  margin-bottom: 1em;
   transition: all .3s;
 
 }
@@ -2043,7 +2045,7 @@ li {
   transition: all .3s;
 }
 .form-label._black {
-  color: transparent;
+  color: #000;
 }
 .form-input {
   box-shadow: none;
@@ -2053,8 +2055,11 @@ li {
   padding: 15px 5px 5px 0;
 }
 .form-input._black {
-  padding: 15px 5px 13px 0;
+  padding: 6px 5px 13px 0;
   color: #000;
+}
+.form-input._black::placeholder {
+  color: red;
 }
 .form-input:focus {
   box-shadow: none;
