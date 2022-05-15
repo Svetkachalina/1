@@ -1519,6 +1519,9 @@ legend {
   background: #fff;
   order: 10;
 }
+.footer._gray {
+  background: #F9F8F6;
+}
   .footer-flex {
     flex-direction: column;
   }

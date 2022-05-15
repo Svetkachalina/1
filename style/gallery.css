@@ -141,6 +141,16 @@ img {
   display: none;
 }
 
+.form_radio._black label {
+color: #000;
+}
+.online-reg-btn._black {
+color: #000;
+border: 1px solid #000;
+}
+.online-reg-confirm._black {
+color: #000;
+}
 @media (max-width: 1360px) {
   .container {
     padding: 0 40px;
@@ -178,7 +188,9 @@ img {
     font-size: 8.8vw;
     line-height: 87%;
   }
-
+  .online-reg-form._black {
+    max-width: 32vw;
+  }
   .enroll-online-wrapper {
     position: relative;
     margin-left: 8%;
@@ -189,6 +201,7 @@ img {
     right: 4.2%;
     top: 0;
   }
+
 
   .footer-line {
     width: 100%;
