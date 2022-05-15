@@ -14,7 +14,7 @@
   .col-right {
     display: flex;
   }
-
+  
   @media (max-width: 1250px) {
 
   .cards-list-box {

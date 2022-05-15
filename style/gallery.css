@@ -151,6 +151,13 @@ border: 1px solid #000;
 .online-reg-confirm._black {
 color: #000;
 }
+.online-reg-form._black {
+  max-width: 38vw;
+}
+
+.form-input._black::placeholder {
+  color: transparent;
+}
 @media (max-width: 1360px) {
   .container {
     padding: 0 40px;
@@ -189,7 +196,7 @@ color: #000;
     line-height: 87%;
   }
   .online-reg-form._black {
-    max-width: 32vw;
+    max-width: 38vw;
   }
   .enroll-online-wrapper {
     position: relative;
