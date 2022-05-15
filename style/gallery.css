@@ -258,6 +258,15 @@ color: #000;
   .select-big {
     margin-right: 0;
   }
+  .online-reg-form._black {
+    max-width: 41vw;
+}
+.reg-left-wrapper {
+   margin-right: 40px;
+ }
+ .btn-flex {
+   gap: 25px;
+ }
 }
 
 @media (max-width: 900px) {
@@ -280,6 +289,21 @@ color: #000;
   .search-box {
     display: block;
   }
+  .reg-left-wrapper {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.form-group {
+  margin-bottom: 0;
+}
+.form-input._black {
+  padding: 10px 0 7px 0;
+  color: #000;
+}
+.online-reg-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 }
 
 @media (max-width: 768px) {
@@ -396,7 +420,15 @@ color: #000;
   }
 
 }
-
+@media(max-width: 678px) {
+  .online-reg-form._black {
+    max-width: 71vw;
+  }
+  .reg-left-wrapper {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+}
 @media (max-width: 570px) {
   .footer-line {
     display: none;
