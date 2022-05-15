@@ -164,26 +164,44 @@
           <div class="online-reg-left">
              <div class="reg-left-wrapper">
                   <h2 class="online-reg-title">Запись онлайн</h2>
-                  <form class="online-enroll-form">
-                      <input type="text" class="form-input form-input-name_black" placeholder="ваше имя" required>
-                      <input type="email" class="form-input form-input-email_black" placeholder="почта" required>
-                      <input type="tel" class="form-input form-input-phone_black" placeholder="телефон">
-                      <textarea type="text" class="form-input form-input-text_black" name="" rows="2" placeholder="сообщение"></textarea>
-                      <div class="certificate-form_radio">
-                        <label class="radio-button">
-                            <input type="radio" class="radio-button__input" id="choice-agree" name="choice-agree">
-                            <span class="radio-button__control"></span>
-                            <span class="radio-button__label">Даю согласие на обработку персональных данных</span>
-                          </label>
-                          <label class="radio-button">
-                            <input type="radio" class="radio-button__input">
-                          </label>
-                          <div class="btn-flex _gallery">
-                            <button class="online-reg-btn" type="submit">Отправить&nbsp;сообщение</button>
-                            <p class="online-reg-confirm">Наш оператор перезвонит вам в&nbsp;течение часа</p>
-                          </div>
-                        
-                      </div>
+                  <form class="online-reg-form _black" action="" method="POST" class="form">
+                    <div class="form-group">
+                      <input type="text" class="form-input _black form-input-name" placeholder="ваше имя" name="name" required>
+                      <label for="name" class="form-label _black">ваше имя</label>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="email" class="form-input _black form-input-email" name="email" placeholder="jane@firefly.com" required>
+                      <label for="email" class="form-label _black">почта</label>
+                    </div>
+
+                   <div class="form-group">
+                    <input type="tel" class="form-input _black form-input-phone" placeholder="телефон">
+                    <label for="phone" class="form-label _black">телефон</label>
+                   </div>
+
+                   <div class="form-group">
+                    <textarea class="form-input _black form-input-text" name="text" rows="2" placeholder="сообщение"></textarea>
+                    <label for="message" class="form-label _black">сообщение</label>
+                   </div>
+
+
+                   <div class="certificate-form_radio">
+                    <label class="radio-button">
+                      <input type="checkbox" class="radio-button__input" id="choice-agree" name="choice-agree">
+                      <span class="radio-button__control"></span>
+                      <span class="radio-button__label">Даю согласие на обработку персональных данных</span>
+                    </label>
+                    <!-- </label> -->
+                    <label class="radio-button">
+                      <input type="radio" class="radio-button__input">
+                    </label>
+  
+                    <div class="btn-flex">
+                      <button class="online-reg-btn _black" type="submit">Отправить&nbsp;сообщение</button>
+                      <p class="online-reg-confirm _black">Наш оператор перезвонит вам в&nbsp;течение часа</p>
+                    </div>
+                  </div>
                   </form>
              </div>
           </div>

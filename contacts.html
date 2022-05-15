@@ -157,61 +157,55 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe> -->
       </div>
-      <section class="registration-contacts">
-        <div class="container">
-          <div class="online-reg">
-            <div class="online-reg-left">
-              <div class="reg-left-wrapper">
-                <h2 class="online-reg-title element-animation">Запись онлайн</h2>
-                <form class="online-reg-form _enroll-white">
-                  <input
-                    type="text"
-                    class="form-input form-input-name"
-                    placeholder="ваше имя"
-                    required
-                  />
-                  <input
-                    type="email"
-                    class="form-input form-input-email"
-                    placeholder="почта"
-                    required
-                  />
-                  <div class="form-input-box">
-                    <input
-                      type="tel"
-                      class="form-input form-input-phone"
-                      placeholder="телефон"
-                    />
-                  </div>
-                  <div class="form-input-text-box">
-                    <textarea
-                      type="text"
-                      class="form-input form-input-text"
-                      name=""
-                      rows="2"
-                      placeholder="сообщение"
-                    ></textarea>
-                  </div>
+      <section class="enroll-form _contact">
+        <div class="container _form">
+          <div class="wraps_box">
+            <div class="registration">
+              <div class="online-reg">
+                <div class="online-reg-left">
+                  <div class="reg-left-wrapper">
+                    <h2 class="online-reg-title">Запись онлайн</h2>
+                    <form class="online-reg-form _white" action="" method="POST" class="form">
+                      <div class="form-group">
+                        <input type="text" class="form-input form-input-name" placeholder="ваше имя" name="name" required>
+                        <label for="name" class="form-label">ваше имя</label>
+                      </div>
 
-                  <div class="form_radio">
-                    <input type="radio" id="male" name="gender" />
-                    <label for="male"
-                      >Даю согласие на обработку персональных данных</label
-                    >
+                      <div class="form-group">
+                        <input type="email" class="form-input form-input-email" name="email" placeholder="jane@firefly.com" required>
+                        <label for="email" class="form-label">почта</label>
+                      </div>
+
+                     <div class="form-group">
+                      <input type="tel" class="form-input form-input-phone" placeholder="телефон">
+                      <label for="phone" class="form-label">телефон</label>
+                     </div>
+
+                     <!-- <div class="form-group">
+                      <textarea class="form-input form-input-text" name="text" rows="2" placeholder="сообщение"></textarea>
+                      <label for="message" class="form-label">сообщение</label>
+                     </div> -->
+
+                      <div class="form_radio">
+                        <input type="radio" id="male" name="gender">
+                        <label class="agree-text" for="male">Даю согласие на обработку персональных данных</label>
+                      </div>
+                      <div class="btn-flex">
+                        <button class="online-reg-btn" type="submit">
+                          Отправить&nbsp;сообщение
+                        </button>
+                        <p class="online-reg-confirm">
+                          Наш оператор перезвонит вам в&nbsp;течение часа
+                        </p>
+                      </div>
+                    </form>
                   </div>
-                  <div class="btn-flex">
-                    <button class="online-reg-btn _contact" type="submit">
-                      Отправить&nbsp;сообщение
-                    </button>
-                    <p class="online-reg-confirm">
-                      Наш оператор перезвонит вам в&nbsp;течение часа
-                    </p>
-                  </div>
-                </form>
+                </div>
+                <div class="online-reg-right">
+                  <img src="./img/registration.png" alt="Запись" class="online-reg-pic">
+                </div>
+               
               </div>
-            </div>
-            <div class="online-reg-right">
-              <img src="./img/registration.png" class="online-reg-pic" />
             </div>
           </div>
         </div>

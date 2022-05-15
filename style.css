@@ -91,7 +91,7 @@ legend {
   width: 86px;
   height: 86px;
   position: absolute;
-  top: 2500%;
+  top: 100%;
   right: 4%;
   transition: 0.4s ease;
   transform: scale(1);
@@ -1422,6 +1422,7 @@ opacity: 0;
 }
 .registration-contacts._gallery .form-input {
   border-bottom: 1px solid #000;
+  overflow: hidden;
 }
 
 .registration-contacts._gallery .online-reg-left {
@@ -1499,6 +1500,7 @@ opacity: 1;
   width: 100%;
   max-width: 667px;
   height: 100%;
+  object-fit: cover;
 }
 .online-reg-pic._border {
   /* border-radius: 0 10px 10px 0; */
@@ -1572,8 +1574,41 @@ input[type="radio"] + label::after {
 
 input[type="radio"]:checked+label::after {
         opacity: 1;
-    }
-
+}
+input[type="radio1"] + label {
+  color: #000;
+}
+input[type="radio1"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  aspect-ratio: 1;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: all 0.3s;
+  
+}
+input[type="radio1"] + label::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  aspect-ratio: 1;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.3s;
+  color: #000;
+  border: 1px solid #000;
+}
 .btn-flex {
   display: flex;
   justify-content: space-between;
@@ -1791,6 +1826,7 @@ li {
   grid-template-columns: 50% 50%;
   /* grid-template-rows: repeat(4, 311px); */
   row-gap: 90px;
+  margin-bottom: 60px;
 }
 
 .card-item {
@@ -2006,12 +2042,19 @@ li {
   transform-origin: 0 0;
   transition: all .3s;
 }
+.form-label._black {
+  color: transparent;
+}
 .form-input {
   box-shadow: none;
   border-radius: 0;
   width: 100%;
   transition: all .3s;
   padding: 15px 5px 5px 0;
+}
+.form-input._black {
+  padding: 15px 5px 13px 0;
+  color: #000;
 }
 .form-input:focus {
   box-shadow: none;
@@ -2125,6 +2168,7 @@ input:-moz-placeholder {
 .online-reg-form._white .form-input-text {
   margin-top: 20px;
   padding-bottom: 5px;
+  overflow: hidden;
 }
 .online-reg-form._enroll-white textarea::placeholder{
   color: transparent;
@@ -3658,7 +3702,7 @@ input[type="radio"] + label::after {
     top: 75%;
 }
 .container._form {
-    background: #fff;
+    background: #F9F8F6;
 }
 .enroll-form {
   order: 2;
