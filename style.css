@@ -91,10 +91,11 @@ legend {
   width: 86px;
   height: 86px;
   position: absolute;
-  top: 100%;
+  top: 1550%;
   right: 4%;
   transition: 0.4s ease;
   transform: scale(1);
+  z-index: 10;
 }
 .btn-phone-green-black._mobile {
   display: none;
@@ -2036,13 +2037,26 @@ li {
 
 }
 .form-label {
+  height: 100%;
+  position: absolute;
+  left: 4.5%;
   color: #fff;
   text-transform: uppercase;
   display: block;
-  opacity: 1;
-  transform: translateY(-2.2em);
-  transform-origin: 0 0;
+  cursor: text;
   transition: all .3s;
+}
+.form-label._name {
+  top: 38%;
+}
+.form-label._email {
+  top: 47%;
+}
+.form-label._phone {
+  top: 55%;
+}
+.form-label._message {
+  top: 65%;
 }
 .form-label._black {
   color: #000;
@@ -2051,6 +2065,7 @@ li {
   box-shadow: none;
   border-radius: 0;
   width: 100%;
+  background: transparent;
   transition: all .3s;
   padding: 15px 5px 5px 0;
 }
@@ -2058,23 +2073,8 @@ li {
   padding: 6px 5px 13px 0;
   color: #000;
 }
-.form-input._black::placeholder {
-  color: red;
-}
-.form-input:focus {
-  box-shadow: none;
-  outline: none;
-  /* border: red; */
 
-}
 
-.form-input:focus + .form-label,
-.form-input:not(:placeholder-shown) + .form-label {
-  transform: translateY(-3.5em) scale(.8);
-}
-.form-group:focus-within {
-  transform: scale(1.05, 1.05);
-}
 
 
 input::-webkit-input-placeholder {
@@ -3002,6 +3002,9 @@ input {
         max-width: 6.5rem;
     
     }
+    .arrow-serv {
+      right: 45%;
+    }
 }
 @media (max-width: 1000px) {
   .reg-SPA {
@@ -3147,6 +3150,10 @@ input {
   .category-item {
     font-size: 11px;
   }
+  .arrow-serv {
+    
+    transform: scale(0.7);
+  }    
 }
 @media (max-width: 850px) {
   .reg-SPA {
@@ -3608,6 +3615,9 @@ input[type="radio"] + label::after {
 .card-item._spa {
   max-width: 256px;
 }
+.arrow-serv {
+  right: 35%;
+}
 }
 @media (max-width: 660px) {
   .categories {
@@ -3645,6 +3655,10 @@ input[type="radio"] + label::after {
 }
 
 @media (max-width: 570px) {
+  .arrow-serv {
+    right: 0;
+    bottom: 2%;
+}
 
   .service-flex {
     padding-bottom: 0;
@@ -4291,4 +4305,3 @@ input[type="radio"]:checked+label::after {
     margin-top: 150px;
   }
 }
-
