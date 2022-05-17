@@ -297,9 +297,6 @@ input {
     padding-left: 40px;
   }
 
-  .header-nav_link {
-    font-size: 13px;
-  }
 
   .header-nav {
     margin-right: 10px;
@@ -362,13 +359,7 @@ input {
 }
 
 @media (max-width: 1130px) {
-  .header-nav {
-    display: none;
-  }
-
-  .burger-btn {
-    display: block;
-  }
+ 
 
   .burger-btn {
     margin-left: 0;
@@ -409,6 +400,10 @@ input {
 
 
 @media (max-width: 1040px) {
+  
+  .header-nav_link {
+    font-size: 11px;
+  }
   .current-offers_grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -453,6 +448,13 @@ input {
 }
 
 @media (max-width: 900px) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger-btn {
+    display: block;
+  }
   .service-flex {
     gap: 14.4vw;
   }

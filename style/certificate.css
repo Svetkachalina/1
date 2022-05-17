@@ -262,13 +262,6 @@ textarea {
 }
 
 @media (max-width: 1056px) {
-  .header-nav {
-    display: none;
-  }
-
-  .burger-btn {
-    display: block;
-  }
 
   .burger-btn {
     margin-left: 0;
@@ -322,6 +315,16 @@ textarea {
   }
 
 }
+@media (max-width: 900px) {
+  .header-nav {
+    display: none;
+  }
+  
+  .burger-btn {
+    display: block;
+  }
+}
+
 
 @media (max-width: 768px) {
   .service-flex {
