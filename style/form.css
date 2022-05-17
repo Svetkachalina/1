@@ -1,15 +1,28 @@
 .online-reg-form {
 }
-._white {
-}
+
 .form-group {
     position: relative;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     transition: all .3s;
 }
+
 .form-input {
-    position: absolute;
+  position: absolute;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  background: transparent;
+  transition: all .3s;
+  padding: 15px 5px 5px 0;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+  /* border-bottom: 1px solid #d4d626; */
 }
+
 .form-input-name {
 }
 .form-input-email {
@@ -19,6 +32,8 @@
 }
 
 .form-input-text {
+  resize: none;
+  overflow: hidden;
 }
 .form-label {
     height: 100%;
