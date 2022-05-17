@@ -360,27 +360,28 @@
                 <div class="online-reg-left">
                   <div class="reg-left-wrapper">
                     <h2 class="online-reg-title">Запись онлайн</h2>
-                    <form class="online-reg-form _white" action="" method="POST" class="form">
+                    <form class="online-reg-form _white" action="#" method="POST" enctype="miltipart/form-data" class="form">
                       <div class="form-group">
-                        <input type="name" class="form-input form-input-name" placeholder="ваше имя" name="name"
-                          required>
+                        <input type="text" class="form-input form-input-name" name="name" value=""
+                          placeholder=" " required>
                         <label for="name" class="form-label _name">ваше имя</label>
                       </div>
 
                       <div class="form-group">
-                        <input type="email" class="form-input form-input-email" name="email"
-                          placeholder="jane@firefly.com" required>
+                        <input type="email" name="email" class="form-input form-input-email" 
+                          placeholder=" " required>
                         <label for="email" class="form-label _email">почта</label>
                       </div>
 
                       <div class="form-group">
-                        <input type="tel" class="form-input form-input-phone" placeholder="телефон">
+                        <input type="tel" name="tel" class="form-input form-input-phone" 
+                        placeholder=" ">
                         <label for="tel" class="form-label _phone">телефон</label>
                       </div>
 
                       <div class="form-group">
-                        <textarea type="message" class="form-input form-input-text" name="text" rows="2"
-                          placeholder="сообщение"></textarea>
+                        <textarea type="text" class="form-input form-input-text" name="message" rows="2"
+                          placeholder=" "></textarea>
                         <label for="message" class="form-label _message">сообщение</label>
                       </div>
 

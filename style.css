@@ -2017,33 +2017,8 @@ li {
 
 
 /* ONLINE-REGISTRATION FORM */
-.form-group {
-  margin-bottom: 1em;
-  transition: all .3s;
 
-}
-.form-label {
-  height: 100%;
-  position: absolute;
-  left: 4.5%;
-  color: #fff;
-  text-transform: uppercase;
-  display: block;
-  cursor: text;
-  transition: all .3s;
-}
-.form-label._name {
-  top: 38%;
-}
-.form-label._email {
-  top: 47%;
-}
-.form-label._phone {
-  top: 55%;
-}
-.form-label._message {
-  top: 65%;
-}
+
 .form-label._black {
   color: #000;
 }
@@ -2239,7 +2214,7 @@ input[type="checkbox"] {
   padding: 0;
 }
 
-input {
+/* input {
   font-size: 1rem;
   line-height: 1.5;
   padding: 11px 23px;
@@ -2247,7 +2222,7 @@ input {
   border-radius: 0;
   outline: 0;
   background-color: #000;
-}
+} */
 
 .checkbox-button__input {
   opacity: 0;

@@ -3,8 +3,8 @@
 
 .form-group {
     position: relative;
-    /* margin-bottom: 1em; */
     transition: all .3s;
+    cursor: text;
 }
 
 .form-input {
@@ -13,49 +13,90 @@
   border-radius: 0;
   width: 100%;
   background: transparent;
-  transition: all .3s;
-  padding: 15px 5px 5px 0;
+  transition: .2s ease-out;
   font-weight: 400;
   font-size: 1rem;
   outline: 0;
   border: 0;
   text-transform: uppercase;
-  /* border-bottom: 1px solid #d4d626; */
+  cursor: text;
 }
 
 .form-input-name {
+  top: 0;
 }
 .form-input-email {
+  top: 60px;
 }
 
 .form-input-phone {
+  top: 120px;
 }
 
 .form-input-text {
+  top: 184px;
   resize: none;
   overflow: hidden;
 }
+.form-input::placeholder {
+  border-bottom: 1px solid #d4d626;
+  padding-bottom: 5px;
+  cursor: text;
+}
+
 .form-label {
-    height: 100%;
+    
     position: absolute;
-    left: 4.5%;
+    left: 0;
     color: #fff;
     text-transform: uppercase;
     display: block;
     cursor: text;
     transition: all .3s;
-    border-bottom: 1px solid #d4d626;
+    /* border-bottom: 1px solid #d4d626; */
     width: 100%;
-}
+    height: 100%;
+    
+   }
+/* .form-label::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #d4d626;
+  width: 100%;
+  margin-top: 7px;
+} */
   .form-label._name {
-    top: 38%;
+   top: 9px;
   }
   .form-label._email {
-    top: 47%;
+    top: 70px;
   }
   .form-label._phone {
-    top: 55%;
+    top: 130px;
   }
   .form-label._message {
-    top: 65%;
+   top: 194px;
   }
+.form_radio {
+  margin-top: 245px;
+}
+
+.form-input-name:focus~.form-label._name,
+.form-input-name:valid~.form-label._name {
+  transform: translateY(-30px);
+    
+}
+.form-input-email:focus~.form-label._email,
+.form-input-email:valid~.form-label._email {
+    transform: translateY(-30px);
+    
+}
+/* .form-input-phone:focus~.form-label._phone,
+.form-input-phone:valid~.form-label._phone {
+  transform: translateY(-30px);
+    
+}
+.form-input-text:focus~.form-label._message,
+.form-input-text:valid~.form-label._message {
+  transform: translateY(-30px);
+} */
