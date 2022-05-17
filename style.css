@@ -2213,7 +2213,15 @@ input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
-
+input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  
+}
 /* input {
   font-size: 1rem;
   line-height: 1.5;

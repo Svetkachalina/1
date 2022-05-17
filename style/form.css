@@ -9,6 +9,7 @@
 
 .form-input {
   position: absolute;
+  display: inline-block;
   box-shadow: none;
   border-radius: 0;
   width: 100%;
@@ -20,8 +21,20 @@
   border: 0;
   text-transform: uppercase;
   cursor: text;
+  /* pointer-events: none; */
+  border-bottom: 1px solid #d4d626;
+  padding: 8px 0 6px 0;
 }
-
+.form-input:focus::placeholder {
+  color: transparent;
+}
+.form-input::placeholder {
+  /* border-bottom: 1px solid #d4d626; */
+  
+  padding-bottom: 5px;
+  cursor: text;
+  color: transparent;
+}
 .form-input-name {
   top: 0;
 }
@@ -38,33 +51,26 @@
   resize: none;
   overflow: hidden;
 }
-.form-input::placeholder {
-  border-bottom: 1px solid #d4d626;
-  padding-bottom: 5px;
-  cursor: text;
-}
+
 
 .form-label {
-    
     position: absolute;
     left: 0;
     color: #fff;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
     cursor: text;
-    transition: all .3s;
-    /* border-bottom: 1px solid #d4d626; */
+    transition: .2s ease-out;
+    pointer-events: none;
     width: 100%;
     height: 100%;
-    
    }
-/* .form-label::after {
-  content: "";
-  display: block;
-  border-bottom: 1px solid #d4d626;
-  width: 100%;
-  margin-top: 7px;
-} */
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-32px) translateX(-50px) scale(0.8);
+ 
+}
+
   .form-label._name {
    top: 9px;
   }
@@ -81,22 +87,3 @@
   margin-top: 245px;
 }
 
-.form-input-name:focus~.form-label._name,
-.form-input-name:valid~.form-label._name {
-  transform: translateY(-30px);
-    
-}
-.form-input-email:focus~.form-label._email,
-.form-input-email:valid~.form-label._email {
-    transform: translateY(-30px);
-    
-}
-/* .form-input-phone:focus~.form-label._phone,
-.form-input-phone:valid~.form-label._phone {
-  transform: translateY(-30px);
-    
-}
-.form-input-text:focus~.form-label._message,
-.form-input-text:valid~.form-label._message {
-  transform: translateY(-30px);
-} */
