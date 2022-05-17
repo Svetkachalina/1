@@ -109,6 +109,12 @@ input[type="radio"]:checked + label::after {
   padding-left: 20px;
 }
 }
+@media (max-width: 570px) {
+  .container._form {
+    background: #F9F8F6;
+}
+}
+
 @media (max-width: 500px) {
   .online-reg-confirm {
     left: 54%;

@@ -1467,7 +1467,7 @@ opacity: 1;
 
 .reg-left-wrapper {
   margin-left: 60px;
-  margin-right: 60px;
+  margin-right: 20px;
   margin-top: 65px;
 }
 
@@ -3587,7 +3587,10 @@ input[type="radio"] + label::after {
     top: 75%;
 }
 .container._form {
-    background: #fff;
+    background: #F9F8F6;
+}
+.container._form._white {
+  background: #fff;
 }
 .enroll-form {
   order: 2;
