@@ -57,17 +57,13 @@ textarea {
 }
 
 legend {
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
   margin-top: 14px;
 }
 
-.form-input {
-  font-weight: 400;
-  font-size: 1rem;
-}
 .gray-bg {
   background-color: #F9F8F6;
 }
@@ -430,7 +426,7 @@ legend {
   position: relative;
   width: 58px;
   height: 58px;
-  
+  transition: .3s ease-in-out;
 }
 .search-btn_contain:hover {
   border: 1px solid #fff;
@@ -1516,17 +1512,6 @@ opacity: 1;
   object-fit: cover;
 }
 
-.form-input {
-  background: transparent;
-  outline: 0;
-  border: 0;
-  text-transform: uppercase;
-  border-bottom: 1px solid #d4d626;
-}
-.form-input-text {
-  /* margin-bottom: 20px; */
-}
-
 /* RADIO Button */
 
 input[type="radio"] {
@@ -2062,14 +2047,7 @@ li {
 .form-label._black {
   color: #000;
 }
-.form-input {
-  box-shadow: none;
-  border-radius: 0;
-  width: 100%;
-  background: transparent;
-  transition: all .3s;
-  padding: 15px 5px 5px 0;
-}
+
 .form-input._black {
   padding: 6px 5px 13px 0;
   color: #000;
@@ -2124,94 +2102,7 @@ input:-moz-placeholder {
   overflow: hidden;
 }
 
-.online-reg-form {
-  display: flex;
-  flex-direction: column;
-}
-.online-reg-form._enroll-white .form-input-name::placeholder{
-  color: #fff;
-}
-.online-reg-form._enroll-white .form-input-email::placeholder{
-  color: #fff;
-}
-.online-reg-form._enroll-white .form-input-phone::placeholder{
-  color: #fff;
-}
-.certificate-form.online-reg-title {
-  color: #000;
-}
 
-.online-enroll-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 469px;
-}
-
-.certificate-form_radio {
-  color: #000;
-}
-.online-reg-form .certificate-form_radio {
-  margin-top: 2px;
-}
-.online-reg-form._white .form-input-name::placeholder{
-  color: transparent;
-}
-.online-reg-form._white .form-input-email::placeholder{
-  color: transparent;
-  text-transform: uppercase;
-}
-
-.online-reg-form._white .form-input-phone::placeholder{
-  color: transparent;
-}
-.online-reg-form._white {
-  color: #fff;
-  padding: 14px 0 14px;
-}
-.online-reg-form._white .form-input-text::placeholder{
-  color: transparent;
-}
-.online-reg-form._white .form-input-text {
-  margin-top: 20px;
-  padding-bottom: 5px;
-  overflow: hidden;
-}
-.online-reg-form._enroll-white textarea::placeholder{
-  color: transparent;
-}
-textarea {
-  resize: none;
-}
-.certificate-form .form-input {
-  border-bottom: 1px solid #000;
-}
-
-
-
-.online-reg-form._enroll-white .form-input-email {
-  text-transform: uppercase;
-}
-
-.online-reg-form .form-input-name::placeholder{
-  color: #000;
-}
-.online-reg-form .form-input-email::placeholder{
-  color: #000;
-}
-.online-reg-form .form-input-phone::placeholder{
-  color: #000;
-}
-.online-reg-form .form-input-text::placeholder{
-  color: #000;
-}
-.certificate-form .online-reg-btn {
-  color: #000;
-  border: 1px solid #000;
-}
-
-.certificate-form .online-reg-confirm {
-  color: #000;
-}
 
 .gallery-label {
   color: #000;
@@ -2422,15 +2313,7 @@ input[type=radio] {
     display: none;
 }
 
-input {
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 11px 23px;
-  border: 1px solid #000;
-  border-radius: 0;
-  outline: 0;
-  background-color: transparent;
-}
+
 .switch-on-off {
   padding: 0;
 }
@@ -2779,9 +2662,10 @@ input {
   border-radius: 100%;
  
 }
-
-
-
+.cross2 {
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
 /* END of ENROLL_ONLINE PAGE */
 
 /* MEDIA  */
