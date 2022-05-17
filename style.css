@@ -669,7 +669,7 @@ font-size: 10px;
 }
 .mySwiperText {
   min-height: 0;
-  max-height: 300px;
+  max-height: 140px;
   flex: 1;
 }
 .swiper-horizontal > .swiper-pagination-progressbar,
