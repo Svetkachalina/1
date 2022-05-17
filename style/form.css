@@ -1,0 +1,46 @@
+.online-reg-form {
+}
+._white {
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1em;
+    transition: all .3s;
+}
+.form-input {
+    position: absolute;
+}
+.form-input-name {
+}
+.form-input-email {
+}
+
+.form-input-phone {
+}
+
+.form-input-text {
+}
+.form-label {
+    height: 100%;
+    position: absolute;
+    left: 4.5%;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    cursor: text;
+    transition: all .3s;
+    border-bottom: 1px solid #d4d626;
+    width: 100%;
+}
+  .form-label._name {
+    top: 38%;
+  }
+  .form-label._email {
+    top: 47%;
+  }
+  .form-label._phone {
+    top: 55%;
+  }
+  .form-label._message {
+    top: 65%;
+  }

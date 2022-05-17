@@ -817,7 +817,7 @@ legend {
     
     margin-left: 8%;
     pointer-events: none;
-    max-height: 100px;
+    max-height: 115px;
   }
 
   .swipers_box {
@@ -1191,11 +1191,6 @@ legend {
 
   .hero-text {
     margin-top: 30px;
-  }
-  .mySwiperText {
-    pointer-events: none;
-    max-height: 100px;
-    margin-left: 0;
   }
 
   .hero-heading {
