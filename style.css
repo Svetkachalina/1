@@ -3584,7 +3584,7 @@ input[type="radio"] + label::after {
     top: 75%;
 }
 .container._form {
-    background: #F9F8F6;
+    background: #fff;
 }
 .enroll-form {
   order: 2;

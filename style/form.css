@@ -91,4 +91,41 @@
     top: 8px;
   }
 }
+@media (max-width: 737px) {
+  .form-input:focus ~ .form-label,
+  .form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-22px) translateX(-5.2vw) scale(0.75);
+}
+.form_radio {
+  margin-top: 252px;
+}
+}
+@media (max-width: 679px) {
+  .form-input:focus ~ .form-label,
+  .form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-22px) translateX(-9.5vw) scale(0.75);
+}
+.online-reg-right {
+  display: none;
+}
 
+.online-reg-confirm {
+    
+    padding-left: 39px;
+   
+    max-width: 249px;
+}
+}
+@media (max-width: 567px) {
+  .form-input:focus ~ .form-label,
+  .form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-22px) translateX(-9vw) scale(0.75);
+}
+}
+@media (max-width: 470px) {
+  .form-input:focus ~ .form-label,
+  .form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-20px) translateX(-8vw) scale(0.75);
+}
+
+}
