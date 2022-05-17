@@ -67,8 +67,7 @@
    }
 .form-input:focus ~ .form-label,
 .form-input:not(:placeholder-shown) ~ .form-label  {
-  transform: translateY(-32px) translateX(-50px) scale(0.8);
- 
+  transform: translateY(-25px) translateX(-3.45vw) scale(0.8);
 }
 
   .form-label._name {
@@ -85,5 +84,11 @@
   }
 .form_radio {
   margin-top: 245px;
+}
+
+@media (max-width: 830px) {
+  .form-input-name {
+    top: 8px;
+  }
 }
 
