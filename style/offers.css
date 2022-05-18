@@ -210,21 +210,8 @@ justify-content: center;
   justify-content: space-between;
   overflow: hidden;
   background: #D4D626;
-  box-shadow: inset 0px 0 0 1px #000;
-  /* -webkit-transform: translate(40%, 0);
-  transform: translate(40%, 0);
--webkit-transition: all 3s ease;
-transition: all 3s ease;
-opacity: 0;
--webkit-animation-name: anim;
-animation-name: anim; */
-overflow: hidden;
+  overflow: hidden;
 }
-/* .online-reg_box._active {
--webkit-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-opacity: 1;
-} */
 
 .reg-left_wrapper {
   padding: 64px 4% 54px 4%;
@@ -272,9 +259,7 @@ opacity: 1;
   color: #000;
 }
 .online-reg_image {
-  flex-grow: 1;
-  max-height: 100%;
-  
+  flex-basis: 48%;
 }
 .form-group {
   position: relative;
@@ -349,6 +334,14 @@ opacity: 1;
 }
 
 @media (max-width: 1200px) {
+  .form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label  {
+  transform: translateY(-20px) translateX(-0.7vw) scale(0.8);
+}
+.form-input:focus ~ .form-label._sum,
+.form-input:not(:placeholder-shown) ~ .form-label._sum  {
+  transform: translateY(-20px) translateX(-2vw) scale(0.8);
+}
   .current-offers_grid {
     margin: 0 auto;
     gap: 70px 0;
@@ -401,16 +394,8 @@ opacity: 1;
 }
 
 @media (max-width: 1056px) {
-  .online-reg-form .form-input-name {
-    padding: 0;
-  }
-  .online-reg-form .form-input-email {
-    padding: 0;
-    margin-top: 25px;
-  }
-  .checkbox-square {
-    margin-top: 25px;
-  }
+ 
+ 
   .online-reg-form .form-input-phone {
     padding: 0;
   }
