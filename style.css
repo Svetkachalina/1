@@ -1362,80 +1362,6 @@ opacity: 0;
   padding-bottom: 55px;
 }
 
-.registration-contacts._gallery {
-  padding-top: 140px;
-}
-
-.registration-contacts._gallery .online-reg {
-  border: 1px solid #000;
-  border-radius: 10px;
-  max-width: 1360px;
-}
-.form-input-email-small {
-  display: none;
-}
-.registration-contacts._gallery .online-reg-title {
-  color: #000;
-}
-.form-input-name_black {
-    padding: 8px 0 14px;
-}
-.form-input-email_black {
-    padding: 26px 0 14px;
-}
-.form-input-phone_black {
-    padding: 26px 0 16px;
-}
-.form-input-text_black {
-    margin-top: 26px;
-    padding-bottom: 10px;
-}
-.form-input-name_black {
-  color: #000;
-  font-size: 1rem;
-}
-.online-enroll-form textarea::placeholder{
-    color: #000;
-    font-size: 1rem;
-}
-.online-enroll-form input::placeholder{
-    color: #000;
-    font-family: inherit;
-    font-size: 1rem;
-}
-
-.form-input-name_black {
-    color: #000;
-    font-size: 1rem;
-}
-.form-input-email_black {
-    color: #000;
-    font-size: 1rem;
-}
-.form-input-phone_black {
-    color: #000;
-    font-size: 1rem;
-}
-.form-input-text_black {
-    color: #000;
-}
-.registration-contacts._gallery .form-input {
-  border-bottom: 1px solid #000;
-  overflow: hidden;
-}
-
-.registration-contacts._gallery .online-reg-left {
-  background-color: #F9F8F6;
-}
-
-.btn-flex._gallery .online-reg-btn {
-  color: #000;
-  border: 1px solid #000;
-}
-
-.btn-flex._gallery .online-reg-confirm {
-  color: #000;
-}
 
 .online-reg {
   display: flex;
@@ -1467,7 +1393,7 @@ opacity: 1;
 
 .reg-left-wrapper {
   margin-left: 60px;
-  margin-right: 20px;
+  margin-right: 60px;
   margin-top: 65px;
 }
 
@@ -2020,15 +1946,6 @@ li {
 
 /* ONLINE-REGISTRATION FORM */
 
-
-.form-label._black {
-  color: #000;
-}
-
-.form-input._black {
-  padding: 6px 5px 13px 0;
-  color: #000;
-}
 
 
 
