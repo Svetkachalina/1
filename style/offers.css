@@ -364,10 +364,10 @@ input {
   .burger-btn {
     margin-left: 0;
   }
-
+/* 
   .search-btn_contain {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 1056px) {

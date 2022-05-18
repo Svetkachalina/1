@@ -270,6 +270,12 @@ color: #000;
 }
 
 @media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .burger-btn {
+    display: block;
+}
   .enroll-online-wrapper {
     margin-left: 3%;
   }
@@ -286,9 +292,7 @@ color: #000;
     max-width: 90%;
   }
 
-  .search-box {
-    display: block;
-  }
+ 
   .reg-left-wrapper {
     margin-left: 40px;
     margin-top: 40px;
