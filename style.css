@@ -1414,7 +1414,7 @@ opacity: 1;
   line-height: 113%;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 32px;
+  margin-bottom: 60px;
 }
 
 .online-reg-title_cert {
@@ -1673,14 +1673,17 @@ li {
   font-family: "Raleway";
   font-weight: 500;
   font-size: 14px;
-  line-height: 195%;
+  line-height: 1.95;
   text-align: right;
   letter-spacing: 0.02em;
   text-decoration-line: underline;
   color: #000;
-  transition: 0.3s ease;
+  transition: 0.3s ease-out;
+  transform: scale(1);
 }
-
+.social:hover {
+  transform: scale(1.2);
+}
 /* Services and Prices Page */
 
 .service-flex {
