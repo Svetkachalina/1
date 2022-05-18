@@ -525,10 +525,18 @@ img {
 @media(max-width: 678px) {
   .online-reg-form._black {
     max-width: 71vw;
+    
   }
+  .online-reg-confirm._black {
+    left: 75%;
+}
   .reg-left-wrapper {
     margin-left: 50px;
     margin-top: 50px;
+}
+.registration-contacts._gallery .online-reg-left {
+ 
+  border-radius: 10px;
 }
 }
 @media (max-width: 570px) {
@@ -611,18 +619,19 @@ img {
     margin-top: 6px;
   }
   .burger-btn {
-    /* background: url('../img/burger_menu-black.svg');
-    background-size: auto;
-    background-size: auto;
+    background: url('../img/burger_menu-black.svg');
+   
     background-size: cover;
     width: 24px;
     height: 9.5px;
     position: absolute;
     right: 6%;
-    top: 12px; */
+    top: 12px;
 
   }
-
+  .online-reg-confirm._black {
+    left: 65%;
+}
   .small-bg {
     height: auto;
   }
@@ -670,6 +679,13 @@ img {
 }
 
 @media (max-width: 420px) {
+  .reg-left-wrapper {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.form-group._black .form-label {
+  font-size: 15px;
+}
   .enroll-online-wrapper {
     flex-direction: column;
   }
@@ -699,4 +715,19 @@ img {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+}
+@media (max-width: 375px) {
+  .online-reg-confirm._black {
+    font-size: 10px;
+  }
+
+.registration-contacts._gallery .online-reg-title {
+    font-size: 1.5rem;
+}
+.form-group._black .form-label {
+  font-size: 11px;
+}
+.radio-button__label {
+  font-size: 10px;
+}
 }

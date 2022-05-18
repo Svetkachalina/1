@@ -89,6 +89,15 @@
   .form-input-name {
     top: 8px;
   }
+  .online-reg-confirm {
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    max-width: 100px;
+  }
+  .online-reg-title {
+    max-width: 200px;
+  }
 }
 @media (max-width: 737px) {
   .form-input:focus ~ .form-label,
@@ -107,7 +116,10 @@
 .online-reg-right {
   display: none;
 }
-
+.online-reg-left {
+  flex-basis: 100%;
+  border-radius: 10px;
+}
 .online-reg-confirm {
     
     padding-left: 23px;

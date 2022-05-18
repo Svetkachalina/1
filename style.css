@@ -2547,16 +2547,16 @@ input[type=radio] {
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 129.84px;
-  height: 133.26px;
-  transition: 0.1s ease-out;
-  
+  width: 100%;
+  max-width: 125px;
+  height: 130px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
 }
 
 .enroll-online-btn:hover {
   background-color: #d4d626;
-  width: 129.84px;
-  height: 133.26px;
+  transform: scale(1.1);
   border-radius: 100%;
  
 }
