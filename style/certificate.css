@@ -443,7 +443,47 @@ textarea {
     font-size: 15px;
   }
 }
+@media (max-width: 626px) {
 
+.form-input-email {
+  top: 93px;
+}
+.form-label._email {
+  top: 93px;
+}
+.checkbox-square {
+  margin-top: 145px;
+}
+.reg-left_wrapper {
+ 
+  padding-bottom: 75px;
+}
+.btn-flex {
+ 
+  top: 78%;
+}
+}
+@media (max-width: 610px) {
+  .online-reg_image {
+    display: none;
+  }
+  .reg-left_wrapper {
+    padding: 64px 8% 64px 8%;
+    flex-basis: 100%;
+    margin-right: 0;
+}
+.btn-flex {
+  top: 80%;
+}
+}
+@media (max-width: 600px) {
+  .sertificat-title {
+    margin: 0.67em auto;
+  }
+  .services-descriprion {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 567px) {
   .container {
     padding-right: 25px;
