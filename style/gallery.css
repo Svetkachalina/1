@@ -336,7 +336,7 @@ img {
 }
 
 @media (max-width: 900px) {
-  .navbar {
+  .header-nav {
     display: none;
   }
   .burger-btn {
