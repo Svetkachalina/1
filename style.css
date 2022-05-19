@@ -3619,6 +3619,7 @@ input[type="radio"] + label::after {
   position: absolute;
   top: 5%;
   right: 5%;
+  display: block;
 }
 .contacts {
   position: relative;

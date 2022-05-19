@@ -43,13 +43,13 @@ input {
 }
 
 .online-reg_image {
-  flex-grow: 1;
+  flex-basis: 49%;
   max-height: 100%;
 }
 
 .reg-left_wrapper {
   padding: 64px 4% 54px 4%;
-  flex-grow: 1;
+  flex-basis: 49%;
   margin-right: 8vw;
   position: relative;
 }
@@ -66,7 +66,35 @@ input {
 .online-reg_input {
   max-width: 466px;
 }
-
+.form-group {
+  position: relative;
+    transition: all .3s;
+    cursor: text;
+}
+.form-input {
+  cursor: text;
+  
+  position: absolute;
+  display: inline-block;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  background: transparent;
+  transition: .2s ease-out;
+}
+.form-label {
+  cursor: text;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: text;
+  transition: .2s ease-out;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
 .certificate-form .online-reg-title {
   margin-bottom: 31px;
 }
@@ -104,7 +132,7 @@ input {
   top: 105px;
 }
 .certificate-form .form-input-sum {
-  top: 30px;
+  top: 40px;
   color: #000;
 }
 .form-label._name {
@@ -114,7 +142,7 @@ input {
  top: 105px;
 }
 .form-label._sum {
-  top: 30px;
+  top: 40px;
 }
 .radio-button {
   margin-top: 90px;
@@ -126,11 +154,11 @@ input {
 }
 .form-input:focus ~ .form-label,
 .form-input:not(:placeholder-shown) ~ .form-label  {
-  transform: translateY(-20px) translateX(-0.6vw) scale(0.8);
+  transform: translateY(-20px) translateX(-3.5vw) scale(0.8);
 }
 .form-input:focus ~ .form-label._sum,
 .form-input:not(:placeholder-shown) ~ .form-label._sum  {
-  transform: translateY(-20px) translateX(-1.5vw) scale(0.8);
+  transform: translateY(-20px) translateX(-3.6vw) scale(0.8);
 }
 .checkbox-square {
   margin-top: 180px;
@@ -226,6 +254,8 @@ textarea {
   gap: 2px;
   justify-content: flex-start;
   margin: 0;
+  position: absolute;
+  top: 83%;
 }
 
 .online-reg-confirm {
@@ -243,10 +273,17 @@ textarea {
 }
 
 @media (max-width: 1360px) {
+  .form-input:focus ~ .form-label._sum,
+.form-input:not(:placeholder-shown) ~ .form-label._sum  {
+  transform: translateY(-20px) translateX(-2vw) scale(0.8);
+}
+.form-input:focus ~ .form-label._sum,
+.form-input:not(:placeholder-shown) ~ .form-label._sum  {
+  transform: translateY(-20px) translateX(-3.6vw) scale(0.8);
+}
   .header {
     padding: 40px 0 0;
   }
-
   .reg-left_wrapper {
     margin-right: 0;
   }
@@ -286,11 +323,6 @@ textarea {
     font-size: 2.8rem;
   }
 
-  .reg-left_wrapper {
-    padding: 40px 4%;
-    /* margin-right: 6vw; */
-  }
-
 }
 
 @media (max-width: 1056px) {
@@ -306,26 +338,13 @@ textarea {
   .sertificat-title {
     font-size: 58px;
   }
-
-  .online-reg-form._white .form-input-name {
-    padding: 0;
-  }
-
-  .online-reg-form .form-input-name {
-    padding: 0;
-  }
-
-  .online-reg-form .form-input-email {
-    padding: 0;
-    margin-top: 25px;
-  }
+  .form-input:focus ~ .form-label._sum, 
+  .form-input:not(:placeholder-shown) ~ .form-label._sum {
+    transform: translateY(-20px) translateX(-2.5vw) scale(0.8);
+}
 
   .checkbox-square {
-    margin-top: 25px;
-  }
-
-  .online-reg-form .form-input-phone {
-    padding: 0;
+    margin-top: 165px;
   }
 
   .btn-flex {
@@ -373,7 +392,9 @@ textarea {
   .online-reg-title {
     font-size: 30px;
   }
-
+  .certificate-form .online-reg-title {
+    margin-bottom: 0;
+  }
   .checkbox-button__label1 {
     margin-right: 30px;
     font-size: 13px;
@@ -384,18 +405,44 @@ textarea {
   }
 
   .btn-flex {
-    margin-top: 34px;
+    margin-top: 0px;
   }
-
-  .online-reg-form .form-input-phone {
-    margin-top: 10px;
-  }
+  .form-label._sum {
+    top: 30px;
+}
+.certificate-form .form-input-sum {
+  top: 30px;
+ }
 
   .reg-left_wrapper {
-    padding: 30px 4%;
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+  .btn-flex {
+   
+    gap: 15px;
+    top: 83%;
+}
+.radio-button {
+  margin-top: 70px;
+}
+.radio-button__label {
+  font-size: 11px;
+}
+.form-input:focus ~ .form-label._name,
+.form-input:not(:placeholder-shown) ~ .form-label._name  {
+  transform: translateY(-20px) translateX(-1.3vw) scale(0.8);
+}
+.form-input:focus ~ .form-label._sum,
+.form-input:not(:placeholder-shown) ~ .form-label._sum  {
+  transform: translateY(-20px) translateX(-3vw) scale(0.8);
+}
+}
+@media (max-width: 660px) {
+  .form-label {
+    font-size: 15px;
   }
 }
-
 
 @media (max-width: 567px) {
   .container {

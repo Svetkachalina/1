@@ -618,7 +618,7 @@ img {
   .drop-down {
     margin-top: 6px;
   }
-  .burger-btn {
+  /* .burger-btn {
     background: url('../img/burger_menu-black.svg');
    
     background-size: cover;
@@ -628,7 +628,7 @@ img {
     right: 6%;
     top: 12px;
 
-  }
+  } */
   .online-reg-confirm._black {
     left: 65%;
 }
