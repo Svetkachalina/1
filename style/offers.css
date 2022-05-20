@@ -263,6 +263,8 @@ justify-content: center;
 }
 .form-group {
   position: relative;
+  cursor: text;
+  transition: .3s ease-in-out;
 }
 .form-input {
   position: absolute;
@@ -284,6 +286,8 @@ justify-content: center;
   text-transform: uppercase;
   position: absolute;
   transition: .3s ease-in-out;
+  cursor: text;
+  pointer-events: none;
 }
 .form-label._name {
   top: 10px;

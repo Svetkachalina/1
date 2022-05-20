@@ -183,6 +183,8 @@ img {
   position: absolute;
   text-transform: uppercase;
   transition: 0.3s ease-out;
+  cursor: text;
+  pointer-events: none;
 }
 .form-group._black textarea {
   background: transparent;

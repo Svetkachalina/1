@@ -393,9 +393,7 @@ legend {
   bottom: 14px;
   right: 78px;
 }
-.search-txt input {
-  color: red;
-}
+
 .search-btn {
   display: block;
   border: none;
@@ -1440,9 +1438,9 @@ opacity: 1;
 
 /* RADIO Button */
 
-input[type="radio"] {
+/* input[type="radio"] {
   appearance: none;
-}
+} */
 
 input[type="radio"] + label {
   cursor: pointer;
@@ -1951,18 +1949,6 @@ li {
 
 
 
-
-
-input::-webkit-input-placeholder {
-  /* color:red; */
-}
-input:-moz-placeholder {
-  /* color:red; */
-}
-
-
-
-
 .certificate-form {
   padding-top: 40px;
   margin: 0 auto;
@@ -2199,9 +2185,9 @@ input {
 .radio-button__label_white {
     color: #fff;
     font-family: "Raleway";
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.4;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.4;
 }
 
 .radio-button {
@@ -2216,13 +2202,15 @@ input {
   padding: 0;
 }
 .radio-button__input {
-  /* opacity: 0; */
+ 
   -webkit-appearance: none;
   appearance: none;
   position: absolute;
 }
 .radio-button__input_white {
-  /* opacity: 0; */
+ 
+  -webkit-appearance: none;
+  appearance: none;
   position: absolute;
 }
 .radio-button__control {
