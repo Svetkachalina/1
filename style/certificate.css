@@ -145,6 +145,7 @@ input {
   top: 40px;
 }
 .radio-button {
+  
   margin-top: 90px;
 }
 .certificate-form .form-input {
@@ -271,6 +272,9 @@ textarea {
 .form-input-phone {
   color: #000;
 }
+
+
+
 
 @media (max-width: 1360px) {
   .form-input:focus ~ .form-label._sum,
@@ -425,6 +429,7 @@ textarea {
 }
 .radio-button {
   margin-top: 70px;
+  
 }
 .radio-button__label {
   font-size: 11px;
