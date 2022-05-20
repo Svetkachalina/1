@@ -19,9 +19,7 @@
   font-size: 1rem;
   outline: 0;
   border: 0;
-  text-transform: uppercase;
   cursor: text;
-  /* pointer-events: none; */
   border-bottom: 1px solid #d4d626;
   padding: 8px 0 6px 0;
 }
@@ -29,7 +27,6 @@
   color: transparent;
 }
 .form-input::placeholder {
-  /* border-bottom: 1px solid #d4d626; */
   
   padding-bottom: 5px;
   cursor: text;
@@ -52,7 +49,6 @@
   overflow: hidden;
 }
 
-
 .form-label {
     position: absolute;
     left: 0;
@@ -69,7 +65,6 @@
 .form-input:not(:placeholder-shown) ~ .form-label  {
   transform: translateY(-25px) translateX(-3.45vw) scale(0.8);
 }
-
   .form-label._name {
    top: 9px;
   }
@@ -84,6 +79,15 @@
   }
 .form_radio {
   margin-top: 245px;
+}
+
+@media (max-width: 1400px) {
+
+  .form-input:focus ~ .form-label,
+  .form-input:not(:placeholder-shown) ~ .form-label  {
+    transform: translateY(-25px) translateX(-4vw) scale(0.8);
+  }
+
 }
 @media (max-width: 830px) {
   .form-input-name {
@@ -121,9 +125,14 @@
   border-radius: 10px;
 }
 .online-reg-confirm {
-    
-    padding-left: 23px;
-    max-width: 170px;
+  padding-left: 138px;
+  max-width: 300px;
+}
+}
+@media (max-width: 600px) {
+  .online-reg-confirm {
+   
+    max-width: 284px;
 }
 }
 @media (max-width: 567px) {
@@ -137,5 +146,22 @@
   .form-input:not(:placeholder-shown) ~ .form-label  {
   transform: translateY(-20px) translateX(-8vw) scale(0.75);
 }
-
+.online-reg-confirm {
+  padding-left: 112px;
+  font-size: 11px;
 }
+}
+@media (max-width: 400px) {
+  
+.online-reg-confirm {
+  padding-left: 100px;
+  font-size: 10px;
+}
+}
+@media (max-width: 370px) {
+  
+  .online-reg-confirm {
+    padding-left: 70px;
+   
+  }
+  }
