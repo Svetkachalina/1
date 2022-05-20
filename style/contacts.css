@@ -240,9 +240,12 @@
   .header {
     padding-top: 5px;
   }
-
-
-
+  .online-reg-btn {
+ 
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+  }
   .contacts {
     font-size: 18px;
   }
@@ -291,7 +294,7 @@
   .online-reg-title {
     max-width: 165px;
     font-size: 30px;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
   }
 
   .online-reg-form._white .form-input-email._serv {
@@ -301,19 +304,19 @@
   .online-reg-form .form-input-name {
     padding: 21px 0 2px;
   }
-
+/* 
   .online-reg-form .form-input-email {
     padding: 7px 0 2px;
     margin-top: 12px;
-  }
+  } */
 
   .form-input-box {
     margin-top: 16px;
   }
-
+/* 
   .online-reg-form .form-input-phone {
     padding: 6px 0 0px;
-  }
+  } */
 
   .online-reg-btn._contact {
     font-size: 11px;
@@ -550,4 +553,9 @@
   .footer {
     padding: 60px 0;
   }
+}
+@media (max-width: 550px) {
+  .online-reg-confirm {
+    max-width: 276px;
+}
 }
