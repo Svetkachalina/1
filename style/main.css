@@ -1057,10 +1057,10 @@ legend {
     padding-top: 45px;
     padding-bottom: 45px;
   }
- 
+
 }
 @media (max-width: 737px) {
- .swiper-title::after {
+.swiper-title::after {
     max-width: 160px;
 }
   .btn-services {
@@ -1120,7 +1120,7 @@ legend {
 }
 
 @media (max-width: 570px) {
- 
+
   .header {
     padding-top: 12px;
   }
